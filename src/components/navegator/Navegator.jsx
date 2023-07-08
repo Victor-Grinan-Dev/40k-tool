@@ -1,0 +1,28 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../../assets/hotw_icon.png";
+
+const Navegator = () => {
+  return (
+    <div className="navegator">
+      <Link className="navegator__nav-link" to={"/"}>
+        <img className="navegator__logo" src={logo} alt="logo" />
+      </Link>
+
+      <ul className="navegator__list">
+        <li>
+          <Link className="navegator__nav-link" to={"/"}>
+            Home
+          </Link>
+        </li>
+        <li className="navegator__item">
+          <Link className="navegator__nav-link" to={"about"}>
+            About
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export default Navegator;

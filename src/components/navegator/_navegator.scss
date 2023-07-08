@@ -1,0 +1,26 @@
+.navegator {
+  min-height: 7vh;
+  margin-right: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    height: 4rem;
+    width: 4rem;
+    animation: spin linear 5s infinite;
+    margin: 1rem;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+
+  &__nav-link {
+    padding: 0 1rem;
+    text-decoration: none;
+  }
+}
