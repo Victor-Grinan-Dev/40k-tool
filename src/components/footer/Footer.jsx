@@ -1,8 +1,8 @@
 import React from "react";
-import facebook from "../../assets/facebook-color.png";
-import twitter from "../../assets/twitter-trasparen-border.png";
-import youtube from "../../assets/youtube-color.png";
-import instagram from "../../assets/instagram-color-lined.png";
+import facebook from "../../assets/icon-package/facebook-color.png";
+import twitter from "../../assets/icon-package/twitter-trasparen-border.png";
+import youtube from "../../assets/icon-package/youtube-color.png";
+import instagram from "../../assets/icon-package/instagram-color-lined.png";
 
 const Footer = () => {
   return (
