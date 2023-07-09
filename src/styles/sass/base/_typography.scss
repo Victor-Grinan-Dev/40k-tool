@@ -13,3 +13,17 @@ body {
 .font-rules {
   font-size: 0.9rem;
 }
+
+.margin-10 {
+  margin-left: 1rem;
+}
+
+.general-rule {
+  color: $primary-3;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover {
+    color: $primary-4;
+    background-color: $primary-2;
+  }
+}

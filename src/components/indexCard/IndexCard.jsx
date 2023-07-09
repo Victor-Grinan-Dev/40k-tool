@@ -1,48 +1,12 @@
 import React from "react";
-import test from "../../assets/space_wolves/ArjacRockfist.png";
+import Header from "./subcomponents/_Header";
+import image from "../../assets/space_wolves/ArjacRockfist.png";
 const IndexCard = (props) => {
   const { melee, name } = props;
   return (
     <div className="indexCard">
-      <div className="indexCard__header">
-        <div className="indexCard__container-left">
-          <div className="indexCard__name">{name || "Model's name"}</div>
-          <div className="indexCard__stats-container">
-            <div className="indexCard__stat">
-              <p>M</p>
-              <div className="indexCard__stat-value">5"</div>
-            </div>
-            <div className="indexCard__stat">
-              <p>T</p>
-              <div className="indexCard__stat-value">4</div>
-            </div>
-            <div className="indexCard__stat">
-              <p>SV</p>
-              <div className="indexCard__stat-value">5+</div>
-            </div>
-            <div className="indexCard__stat">
-              <p>W</p>
-              <div className="indexCard__stat-value">10</div>
-            </div>
-            <div className="indexCard__stat">
-              <p>LD</p>
-              <div className="indexCard__stat-value">6+</div>
-            </div>
-            <div className="indexCard__stat">
-              <p>OC</p>
-              <div className="indexCard__stat-value">1</div>
-            </div>
-          </div>
-          <p className="indexCard__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            corrupti quasi aliquid impedit doloribus neque voluptas quod soluta
-            non architecto deleniti necessitatibus.
-          </p>
-        </div>
-        <div className="indexCard__image-container">
-          <img src={test} alt="model" className="indexCard__model-image" />
-        </div>
-      </div>
+      <Header name="The model's name" image={image} />
+
       <div className="indexCard__content">
         <div className="indexCard__content-left">
           <div className="indexCard__content-left--small">
@@ -105,7 +69,6 @@ const IndexCard = (props) => {
               </ul>
             </div>
           </div>
-          <div className="indexCard__divisor"></div>
         </div>
 
         <div className="indexCard__content-right">
@@ -120,21 +83,25 @@ const IndexCard = (props) => {
             FACTION: <span className="font-negrita">Oath of Moment</span>
           </span>
           <div className="indexCard__divisor"></div>
-
           {/* unique */}
           <p className="font-rules">
             <span className="font-negrita">Pelt of the Doppegangrel:</span>
             While this model is leading a unit, each time an attack targets that
             unit, subtract 1 from the Hit roll.
           </p>
+          <p className="font-rules">
+            <span className="font-negrita">Lord of the Wolfkin:</span>
+            While this model is leading a unit, each time that unit makes a
+            Charge move, until the end of the turn, crushing teeth and claws
+            equipped by models in that unit have the{" "}
+            <span className="general-rule">[DEVASTATING WOUNDS]</span> ability.
+          </p>
           <div className="indexCard__divisor"></div>
-
           {/* invulnerable */}
           <div className="indexCard__invulnerable">
             invulnerable{" "}
             <div className="indexCard__invulnerable-shield">4+</div>
           </div>
-
           {/* unit-composition */}
           <div className="indexCard__unit-composition">unit composition</div>
           <ul className="indexCard__unit-composition-list">
@@ -146,12 +113,35 @@ const IndexCard = (props) => {
             bolt pistol; bolt rifle; close combat weapon.
           </p>
           <div className="indexCard__divisor"></div>
-
           {/*  */}
           <div className="indexCard__leader">leader</div>
+          <p className="font-rules">
+            This model can be attached to the following units:
+          </p>
+          <ul>
+            <li className="font-rules font-negrita margin-10">Blood Claws</li>
+            <li className="font-rules font-negrita margin-10">Grey Hunters</li>
+            <li className="font-rules font-negrita margin-10">Long Fangs</li>
+            <li className="font-rules font-negrita margin-10">Wolf Guard</li>
+          </ul>
           <div className="indexCard__leader">wargear hability</div>
+          <p className="font-rules">
+            <span className="font-negrita">Relic Shield:</span> The bearer has a
+            Wounds characteristic of 6.
+          </p>
           <div className="indexCard__unique">{name || "Model's name"}</div>
-          <div className="indexCard__attached-unit">lead unit?</div>
+          <p className="font-rules">
+            Your army cannot contain both{" "}
+            <span className="font-negrita"> Logan Grimnar</span> and{" "}
+            <span className="font-negrita">Logan Grimnar on Stormrider</span>
+          </p>
+          <div className="indexCard__attached-unit">Attached unit</div>
+          <p className="font-rules">
+            If a <span className="font-negrita">Character</span> unit from your
+            army with the Leader ability can be attached to a{" "}
+            <span className="font-negrita">Devastator Squad</span>, it can instead be
+            attached to this unit
+          </p>
         </div>
       </div>
 
