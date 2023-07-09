@@ -1,12 +1,12 @@
 import React from "react";
 import test from "../../assets/space_wolves/ArjacRockfist.png";
 const IndexCard = (props) => {
-  const { melee } = props;
+  const { melee, name } = props;
   return (
     <div className="indexCard">
       <div className="indexCard__header">
         <div className="indexCard__container-left">
-          <div className="indexCard__name">The Name Model</div>
+          <div className="indexCard__name">{name || "Model's name"}</div>
           <div className="indexCard__stats-container">
             <div className="indexCard__stat">
               <p>M</p>
@@ -78,11 +78,40 @@ const IndexCard = (props) => {
           </div>
         </div>
         <div className="indexCard__content-right">
-          <div className="indexCard__habilities"></div>
-          <div className="indexCard__invulnerable"></div>
-          <div className="indexCard__unit-composition"></div>
-          <div className="indexCard__leader"></div>
-          <div className="indexCard__unique"></div>
+          <div className="indexCard__habilities">habilities</div>
+          <span className="indexCard__model-rule">
+            <span className="indexCard__model-rule--type">core:</span> Leader
+          </span>
+          <div className="indexCard__divisor"></div>
+          <span className="indexCard__model-rule">faction: Oath of Moment</span>
+          <div className="indexCard__divisor"></div>
+          <p className="indexCard__model-rule-entry">
+            Pelt of the Doppegangrel: While this model is leading a unit, each
+            time an attack targets that unit, subtract 1 from the Hit roll.
+          </p>
+          <div className="indexCard__invulnerable">
+            invulnerable{" "}
+            <div className="indexCard__invulnerable-shield">4+</div>
+          </div>
+          <div className="indexCard__unit-composition">unit composition</div>
+          <div className="indexCard__leader">leader</div>
+          <div className="indexCard__leader">wargear hability</div>
+          <div className="indexCard__unique">{name || "Model's name"}</div>
+          <div className="indexCard__attached-unit">
+            {name || "Model's name"}
+          </div>
+        </div>
+      </div>
+      <div className="indexCard__footer">
+        <div className="indexCard__footer-left">
+          keywords: Infantry, Character, Epic Hero, Imperium, Terminator, Arjac
+          Rockfist
+        </div>
+        <div className="indexCard__footer-image-container">
+          <img src="#" alt="faction" className="indexCard__footer-image" />
+        </div>
+        <div className="indexCard__footer-right">
+          faction keywords: Adeptus Astartes, Space Wolves
         </div>
       </div>
     </div>

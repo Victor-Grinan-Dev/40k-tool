@@ -185,12 +185,53 @@
     border-color: $primary-2;
     margin-left: auto;
   }
-}
+  &__content-right {
+    display: flex;
+    flex-direction: column;
+  }
 
-.shield {
-  height: 5rem;
-  width: 5rem;
-  border: 10px solid $primary-3;
-  border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
-  background-color: $primary-0;
+  &__habilities,
+  &__invulnerable,
+  &__unit-composition,
+  &__leader,
+  &__unique,
+  &__attached-unit,
+  &__model-rules-group {
+    background-color: $primary-3;
+    color: $primary-0;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 0.2rem;
+    text-transform: uppercase;
+    margin: 0.1rem 0;
+    font-size: 0.8rem;
+  }
+  &__model-rule-entry {
+    font-size: 8px;
+  }
+  &__invulnerable {
+    position: relative;
+    &-shield {
+      background-color: $primary-0;
+      color: $primary-3;
+      height: 1.8rem;
+      width: 1.8rem;
+      border: 2px solid $primary-3;
+      border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
+      background-color: $primary-0;
+      position: absolute;
+      top: -0.2rem;
+      right: 0;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+  &__model-rule {
+    font-size: 8px;
+    &--type {
+      text-transform: uppercase;
+    }
+  }
 }
