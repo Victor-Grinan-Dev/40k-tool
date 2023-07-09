@@ -139,23 +139,24 @@ const IndexCard = (props) => {
           <p className="font-rules">
             If a <span className="font-negrita">Character</span> unit from your
             army with the Leader ability can be attached to a{" "}
-            <span className="font-negrita">Devastator Squad</span>, it can instead be
-            attached to this unit
+            <span className="font-negrita">Devastator Squad</span>, it can
+            instead be attached to this unit
           </p>
         </div>
       </div>
 
       {/* Footer */}
-      <div className="indexCard__footer">
+      <div className="indexCard__footer font-negrita font-rules">
         <div className="indexCard__footer-left">
-          keywords: Infantry, Character, Epic Hero, Imperium, Terminator, Arjac
-          Rockfist
+          <span className="font-slim-tall">keywords:</span> Infantry, Character,
+          Epic Hero, Imperium, Terminator, Arjac Rockfist
         </div>
         <div className="indexCard__footer-image-container">
           <img src="#" alt="faction" className="indexCard__footer-image" />
         </div>
-        <div className="indexCard__footer-right">
-          faction keywords: Adeptus Astartes, Space Wolves
+        <div className="indexCard__footer-right font-negrita font-rules">
+          <span className="font-slim-tall">faction keywords:</span> Adeptus
+          Astartes, Space Wolves
         </div>
       </div>
     </div>
