@@ -1,6 +1,6 @@
 .indexCard {
   background-color: $primary-0;
-  border-radius: 10px;
+  border-radius: 1rem;
   min-height: 50rem;
   min-width: 30rem;
   max-width: 60rem;
@@ -74,6 +74,7 @@
     min-width: 50%;
     // background-color: azure;
     overflow: hidden;
+    border-radius: 0 1rem 0 0;
   }
 
   &__model-image {
