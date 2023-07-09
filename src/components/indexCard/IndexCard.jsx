@@ -47,6 +47,7 @@ const IndexCard = (props) => {
         <div className="indexCard__content-left">
           <div className="indexCard__content-left--small">
             <div className="indexCard__content-table">
+              {/* weapon type */}
               <div className="indexCard__content-heading">
                 <div className="indexCard__content-heading-data-icon">XX</div>
                 <div className="indexCard__content-heading-data-name">
@@ -61,6 +62,8 @@ const IndexCard = (props) => {
                 <div className="indexCard__content-heading-data">ap</div>
                 <div className="indexCard__content-heading-data">d</div>
               </div>
+
+              {/* weapon entry */}
               <div className="indexCard__content-item">
                 <div className="indexCard__content-item-data-icon"></div>
                 <div className="indexCard__content-item-data-name">
@@ -73,35 +76,86 @@ const IndexCard = (props) => {
                 <div className="indexCard__content-item-data">-2</div>
                 <div className="indexCard__content-item-data">3</div>
               </div>
+              <div className="indexCard__divisor"></div>
             </div>
-            <div className="indexCard__divisor"></div>
+
+            {/* wargear options */}
+            <div className="indexCard__content-wargear font-rules">
+              <div className="indexCard__wargear-options">wargear options</div>
+
+              <ul className="list">
+                <li className="list-item">
+                  The Sergeant’s bolt rifle can be replaced with one of the
+                  following:
+                  <ul className="sublist">
+                    <li className="sublist-item">1 Astartes chainsword</li>
+                    <li className="sublist-item">1 hand flamer</li>
+                    <li className="sublist-item">1 plasma pisto</li>
+                    <li className="sublist-item">1 power weapon</li>
+                  </ul>
+                </li>
+                <li className="list-item">
+                  The Intercessor Sergeant’s close combat weapon can be replaced
+                  with one of the following
+                </li>
+                <li className="list-item">
+                  For every 5 models in this unit, 1 model equipped with a bolt
+                  rifle can be equipped with 1 Astartes grenade launcher
+                </li>
+              </ul>
+            </div>
           </div>
+          <div className="indexCard__divisor"></div>
         </div>
+
         <div className="indexCard__content-right">
+          {/* core & faction */}
           <div className="indexCard__habilities">habilities</div>
-          <span className="indexCard__model-rule">
-            <span className="indexCard__model-rule--type">core:</span> Leader
+          <p className="font-rules">
+            CORE:
+            <span className="font-negrita"> Leader</span>
+          </p>
+          <div className="indexCard__divisor"></div>
+          <span className="font-rules">
+            FACTION: <span className="font-negrita">Oath of Moment</span>
           </span>
           <div className="indexCard__divisor"></div>
-          <span className="indexCard__model-rule">faction: Oath of Moment</span>
-          <div className="indexCard__divisor"></div>
-          <p className="indexCard__model-rule-entry">
-            Pelt of the Doppegangrel: While this model is leading a unit, each
-            time an attack targets that unit, subtract 1 from the Hit roll.
+
+          {/* unique */}
+          <p className="font-rules">
+            <span className="font-negrita">Pelt of the Doppegangrel:</span>
+            While this model is leading a unit, each time an attack targets that
+            unit, subtract 1 from the Hit roll.
           </p>
+          <div className="indexCard__divisor"></div>
+
+          {/* invulnerable */}
           <div className="indexCard__invulnerable">
             invulnerable{" "}
             <div className="indexCard__invulnerable-shield">4+</div>
           </div>
+
+          {/* unit-composition */}
           <div className="indexCard__unit-composition">unit composition</div>
+          <ul className="indexCard__unit-composition-list">
+            <li className="font-negrita font-rules">1 Intercessor Sergeant</li>
+            <li className="font-negrita font-rules">4-9 Intercessors</li>
+          </ul>
+          <p className="font-rules">
+            <span className="font-negrita">Every model is equipped with:</span>
+            bolt pistol; bolt rifle; close combat weapon.
+          </p>
+          <div className="indexCard__divisor"></div>
+
+          {/*  */}
           <div className="indexCard__leader">leader</div>
           <div className="indexCard__leader">wargear hability</div>
           <div className="indexCard__unique">{name || "Model's name"}</div>
-          <div className="indexCard__attached-unit">
-            {name || "Model's name"}
-          </div>
+          <div className="indexCard__attached-unit">lead unit?</div>
         </div>
       </div>
+
+      {/* Footer */}
       <div className="indexCard__footer">
         <div className="indexCard__footer-left">
           keywords: Infantry, Character, Epic Hero, Imperium, Terminator, Arjac
