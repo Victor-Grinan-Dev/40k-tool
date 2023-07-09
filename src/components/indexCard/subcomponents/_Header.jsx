@@ -1,16 +1,16 @@
 import React from "react";
-import test from "../../../assets/space_wolves/ArjacRockfist.png";
 
 const _Header = (props) => {
-  const { name, image } = props;
+  const { name, points, image, movement } = props;
   return (
     <div className="indexCard__header">
       <div className="indexCard__container-left">
+        <div className="indexCard__point-cost">{points}pts</div>
         <div className="indexCard__name">{name || "Model's name"}</div>
         <div className="indexCard__stats-container">
           <div className="indexCard__stat">
             <p>M</p>
-            <div className="indexCard__stat-value">5"</div>
+            <div className="indexCard__stat-value">{movement}"</div>
           </div>
           <div className="indexCard__stat">
             <p>T</p>
@@ -40,7 +40,7 @@ const _Header = (props) => {
         </p>
       </div>
       <div className="indexCard__image-container">
-        <img src={test} alt="model" className="indexCard__model-image" />
+        <img src={image} alt="model" className="indexCard__model-image" />
       </div>
     </div>
   );
