@@ -1,0 +1,195 @@
+.indexCard {
+  background-color: $primary-0;
+  border-radius: 10px;
+  min-height: 50rem;
+  min-width: 30rem;
+  max-width: 60rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    height: 15rem;
+    background-color: $primary-4;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    display: flex;
+  }
+
+  //   &__container-left {
+  //     // background-color: rgb(95, 102, 102);
+  //   }
+
+  &__name {
+    color: white;
+    background-color: $primary-3;
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+    padding-left: 2rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__stats-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 2rem;
+    top: 5rem;
+    width: 80%;
+  }
+  &__stat {
+    width: 2.5rem;
+    height: 3rem;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__stat-value {
+    background-color: rgb(243, 241, 239);
+    color: $primary-3;
+    font-weight: 600;
+    font-size: 14px;
+    border: $primary-5;
+    border-width: 10px;
+    border-radius: 3px 0 3px 0;
+    padding: 0.1rem 0;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__description {
+    font-size: 12px;
+    padding-left: 2rem;
+    position: relative;
+    top: 5.5rem;
+  }
+
+  &__image-container {
+    position: relative;
+    min-width: 50%;
+    // background-color: azure;
+    overflow: hidden;
+  }
+
+  &__model-image {
+    height: 40rem;
+    position: relative;
+    object-fit: contain;
+    top: -10rem;
+
+    @media screen {
+      left: -2rem;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex: 1;
+    position: relative;
+  }
+  &__content-left {
+    position: relative;
+    display: flex;
+    width: 60%;
+    color: $primary-3;
+    background-color: $primary-3;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
+    clip-path: polygon(0 0, 0 95%, 5% 100%, 100% 100%, 100% 0);
+  }
+
+  &__content-left--small {
+    position: relative;
+    color: $primary-5;
+    width: 100%;
+    background-color: $primary-0;
+    clip-path: polygon(1% 0%, 1% 94%, 6% 99%, 99% 99%, 99% 0);
+
+    display: flex;
+    flex-direction: column;
+  }
+  &__content-right {
+    display: flex;
+    width: 40%;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    color: $primary-5;
+    border-color: $primary-3;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+
+    padding: 1rem;
+  }
+
+  /*Table*/
+
+  &__content-table {
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+  }
+  &__content-heading {
+    background-color: $primary-3;
+    color: $primary-0;
+    font-weight: 500;
+    font-size: 8px;
+    padding: 0.1rem 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__content-heading-data-icon,
+  &__content-item-data-icon {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  &__content-heading-data-name {
+    flex: 1;
+    justify-self: flex-start;
+  }
+  &__content-item-data,
+  &__content-heading-data {
+    padding: 0 0.4rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  /*table body*/
+  &__content-item {
+    display: flex;
+    font-weight: 500;
+    font-size: 8px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__content-item-data-name {
+    flex: 1;
+    justify-self: flex-start;
+  }
+
+  &__divisor {
+    width: 95%;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: $primary-2;
+    margin-left: auto;
+  }
+}
+
+.shield {
+  height: 5rem;
+  width: 5rem;
+  border: 10px solid $primary-3;
+  border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
+  background-color: $primary-0;
+}

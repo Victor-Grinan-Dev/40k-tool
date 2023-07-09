@@ -20,6 +20,11 @@ const Navegator = () => {
             About
           </Link>
         </li>
+        <li className="navegator__item">
+          <Link className="navegator__nav-link" to={"card"}>
+            Card
+          </Link>
+        </li>
       </ul>
     </div>
   );
