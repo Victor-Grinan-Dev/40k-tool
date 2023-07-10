@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/icon-package/meLogo-white-border.png";
+import Menu from "./menu/Menu";
 
 const Navegator = () => {
   return (
@@ -22,19 +23,10 @@ const Navegator = () => {
         </li>
         <li className="navegator__item">
           <Link className="navegator__nav-link" to={"card"}>
-            Grapharmy
+            Card
           </Link>
         </li>
-        <li className="navegator__item">
-          <Link className="navegator__nav-link" to={"card"}>
-            Chance
-          </Link>
-        </li>
-        <li className="navegator__item">
-          <Link className="navegator__nav-link" to={"card"}>
-            Dice
-          </Link>
-        </li>
+        <Menu />
       </ul>
     </div>
   );
