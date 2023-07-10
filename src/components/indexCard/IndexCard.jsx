@@ -24,12 +24,31 @@ const IndexCard = (props) => {
       <div className="indexCard__content">
         <div className="indexCard__content-left">
           <div className="indexCard__content-left--small">
+            {/* table */}
             <div className="indexCard__content-table">
               <WeaponsRanged />
               <WeaponsMelee />
             </div>
 
             <WargearOptions />
+
+            {/* display in phones */}
+            <div className="indexCard__content-bottom">
+              {/* Habilities: core, faction & unique */}
+              <Habilities />
+              {/* invulnerable */}
+              <Invulnerable />
+              {/* unit-composition */}
+              <UnitComposition />
+              {/* leader */}
+              <Leader />
+              {/* wargear hability */}
+              <WargearHability />
+              {/* unique character rules */}
+              <UniqueCharacter name={""} />
+              {/* attached unit */}
+              <AttachedUnit />
+            </div>
           </div>
         </div>
 

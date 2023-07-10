@@ -8,6 +8,13 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__items">
+        <a
+          className="footer__compnay-link"
+          href="https://victor-grinan-dev.github.io/Portfolio/"
+          target="blank"
+        >
+          Author
+        </a>
         <div className="footer__some">
           <a target="blank" href="https://www.instagram.com/">
             <img className="footer__some-icon" src={instagram} alt="twitter" />
@@ -25,13 +32,6 @@ const Footer = () => {
         <p className="footer__copy-rights">
           Copyright ⓒ {new Date().getFullYear()}
         </p>
-        <a
-          className="footer__compnay-link"
-          href="https://victor-grinan-dev.github.io/Portfolio/"
-          target="blank"
-        >
-          Author
-        </a>
       </div>
     </div>
   );
