@@ -8,7 +8,7 @@
   &__logo {
     height: 4rem;
     width: 4rem;
-    animation: spin linear 5s infinite;
+    // animation: spin linear 5s infinite;
     margin: 1rem;
   }
 
@@ -22,5 +22,12 @@
   &__nav-link {
     padding: 0 1rem;
     text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+
+    &:hover {
+      color: rgb(222, 246, 249);
+      text-shadow: 0 0 15px rgb(191, 242, 250);
+    }
   }
 }

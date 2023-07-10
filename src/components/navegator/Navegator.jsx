@@ -10,11 +10,11 @@ const Navegator = () => {
       </Link>
 
       <ul className="navegator__list">
-        <li>
+        {/* <li>
           <Link className="navegator__nav-link" to={"/"}>
             Home
           </Link>
-        </li>
+        </li> */}
         <li className="navegator__item">
           <Link className="navegator__nav-link" to={"about"}>
             About
@@ -22,7 +22,17 @@ const Navegator = () => {
         </li>
         <li className="navegator__item">
           <Link className="navegator__nav-link" to={"card"}>
-            Card
+            Grapharmy
+          </Link>
+        </li>
+        <li className="navegator__item">
+          <Link className="navegator__nav-link" to={"card"}>
+            Chance
+          </Link>
+        </li>
+        <li className="navegator__item">
+          <Link className="navegator__nav-link" to={"card"}>
+            Dice
           </Link>
         </li>
       </ul>
