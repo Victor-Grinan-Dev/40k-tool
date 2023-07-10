@@ -1,6 +1,6 @@
 import React from "react";
 // import { useSelector } from "react-redux";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/40k_toolkit_logo.png";
 
 const Home = () => {
   // const data = useSelector((state) => state.app.data);
@@ -15,16 +15,15 @@ const Home = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>40K Toolkit</h1>
+        <p>We make your board-gaming life easier.</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Victor-Grinan-Dev/40k-tool"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Coolaborate
         </a>
       </header>
     </div>
