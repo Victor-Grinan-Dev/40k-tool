@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/space_wolves/loganGrimnar.png";
+import image from "../../assets/space_wolves/ArjacRockfist.png";
 const Card = (props) => {
   // const { name, movement, points, image } = props;
   const name = "thunderwolves ";
