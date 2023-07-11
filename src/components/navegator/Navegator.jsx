@@ -27,8 +27,8 @@ const Navegator = () => {
           </Link>
         </li>
         <li className="navegator__item">
-          <Link className="navegator__nav-link" to={"card"}>
-            M-Card
+          <Link className="navegator__nav-link" to={"grapharmy"}>
+            Grapharmy
           </Link>
         </li>
         <Menu />

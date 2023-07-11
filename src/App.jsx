@@ -3,8 +3,8 @@ import Layout from "./pages/layout/Layout";
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import IndexCard from "./components/indexCard/IndexCard";
-import Card from "./components/card/Card";
-
+// import Card from "./components/card/Card";
+import Grapharmy from "./pages/grapharmy/Grapharmy";
 function App() {
   return (
     <BrowserRouter>
@@ -13,7 +13,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/icard" element={<IndexCard />} />
-          <Route path="/card" element={<Card />} />
+          <Route path="grapharmy" element={<Grapharmy />} />
         </Route>
       </Routes>
     </BrowserRouter>
