@@ -16,14 +16,19 @@ const Navegator = () => {
             Home
           </Link>
         </li> */}
-        <li className="navegator__item">
+        {/* <li className="navegator__item">
           <Link className="navegator__nav-link" to={"about"}>
             About
+          </Link>
+        </li> */}
+        <li className="navegator__item">
+          <Link className="navegator__nav-link" to={"icard"}>
+            I-Card
           </Link>
         </li>
         <li className="navegator__item">
           <Link className="navegator__nav-link" to={"card"}>
-            Card
+            M-Card
           </Link>
         </li>
         <Menu />
