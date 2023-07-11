@@ -1,0 +1,102 @@
+// .card {
+//   background-color: $primary-0;
+//   border-radius: 1rem;
+//   min-height: 50rem;
+//   min-width: 30rem;
+//   max-width: 60rem;
+//   position: relative;
+//   display: flex;
+//   flex-direction: column;
+
+//   &__header {
+//     height: 15rem;
+//     // max-height: 18rem;
+//     background-color: $primary-4;
+//     border-radius: 10px 10px 0 0;
+//     position: relative;
+//     display: flex;
+//   }
+
+//   //   &__container-left {
+//   //     // background-color: rgb(95, 102, 102);
+//   //   }
+//   &__point-cost {
+//     position: absolute;
+//     font-size: 14px;
+
+//     background-color: $primary-3;
+//     width: 100%;
+//     padding: 0.2rem 6rem;
+//     font-size: 14px;
+//     font-weight: 700;
+//     bottom: 2rem;
+//   }
+//   &__name {
+//     color: white;
+//     background-color: $primary-3;
+//     position: absolute;
+//     width: 100%;
+//     top: 2rem;
+//     padding-left: 2rem;
+//     font-size: 18px;
+//     font-weight: 700;
+//   }
+
+//   &__stats-container {
+//     display: flex;
+//     justify-content: space-around;
+//     position: relative;
+//     left: 2rem;
+//     top: 6rem;
+//     // width: 80%;
+//   }
+//   &__stat {
+//     width: 2.5rem;
+//     height: 3rem;
+//     font-size: 8px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+//   &__stat-value {
+//     background-color: rgb(243, 241, 239);
+//     color: $primary-3;
+//     font-weight: 600;
+//     font-size: 14px;
+//     border: $primary-5;
+//     border-width: 10px;
+//     border-radius: 3px 0 3px 0;
+//     padding: 0.1rem 0;
+//     width: 2rem;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+
+//   &__description {
+//     font-size: 11px;
+//     padding-left: 2rem;
+//     position: relative;
+//     top: 3.5rem;
+//   }
+
+//   &__image-container {
+//     position: relative;
+//     min-width: 50%;
+//     // background-color: azure;
+//     overflow: hidden;
+//     border-radius: 0 1rem 0 0;
+//     left: 12rem;
+//   }
+
+//   &__model-image {
+//     height: 40rem;
+//     position: relative;
+//     object-fit: contain;
+//     top: -10rem;
+
+//     @media screen {
+//       left: -2rem;
+//     }
+//   }
+// }
