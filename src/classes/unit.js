@@ -1,4 +1,5 @@
 export class Unit {
+  name = "";
   stats = {
     movement: 6,
     toughness: 4,
@@ -6,49 +7,52 @@ export class Unit {
     wounds: 5,
     leadership: 6,
     objective_control: 1,
-    point_cost: 100,
   };
+  point_cost = [
+    {
+      models: 5,
+      cost: 100,
+    },
+    {
+      models: 10,
+      cost: 200,
+    },
+    {
+      models: 15,
+      cost: 300,
+    },
+  ];
 
-  rules = {
-    core: "Leader",
-    faction: "Oath of Moment",
+  abilities = {
+    core: "",
+    faction: "",
     other: [
       {
-        title: "test rule title",
-        rule: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum corrupti quasi aliquid impedit doloribus neque voluptas quod soluta non architecto deleniti necessitatibus.",
+        title: "",
+        rule: ``,
       },
       {
-        title: "rule includes global rules",
-        rule: "While this model is leading a unit, each time that unit makes a Charge move, until the end of the turn, crushing teeth and claws equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+        title: "",
+        rule: ``,
       },
     ],
   };
 
   invulnerable = null;
-
-  unit_composition = ["1 Intercessor Sergeant", "4-9 Intercessors"];
-
-  equiped = "";
-  wargear_options = "???";
-  leader = ["Blood Claws", "Grey Hunters", "Long Fangs", "Wolf Guard"];
+  unit_composition = [];
+  equiped = [];
+  wargear_options = "";
+  leader = [];
   wargear_hability = "";
   specific =
     "Your army cannot contain both <Logan Grimnar> and <Logan Grimnar on Stormrider>";
-  attached_unit =
-    "If a <Character> unit from your army with the Leader ability can be attached to a <Devastator Squad>, it can instead be attached to this unit";
+  attached_unit = "If a <Character> ";
 
-  keywords = [
-    "Infantry",
-    "Character",
-    "Epic Hero",
-    "Imperium",
-    "Terminator",
-    "Arjac Rockfist",
-  ];
+  keywords = [];
   faction_keywords = ["Adeptus Astartes", "Space Wolves"];
 
-  descriptions = "";
-  contructor(name) {
+  lore = ``;
+  constructor(name) {
     this.name = name;
   }
 }
