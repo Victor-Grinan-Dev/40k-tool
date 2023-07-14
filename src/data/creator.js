@@ -4,6 +4,7 @@ export const unitsObjs = [];
 const unitsNames = [
   {
     name: "Arjac Rockfist",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -78,6 +79,7 @@ const unitsNames = [
   },
   {
     name: "Bjorn the Fell-Handed",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -123,13 +125,27 @@ const unitsNames = [
     specific: null,
     attached_unit: "",
 
-    keywords: [],
+    keywords: [
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Epic Hero",
+      "Smoke",
+      "Imperium",
+      "Dreadnought",
+      "Bjorn the Fell-Handed",
+    ],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-    lore: ``,
+    lore: `Most ancient of all Space Marines and last of the Company of Russ,
+    Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s
+    sarcophagus. The Space Wolves revere Bjorn as a living link to their
+    deepest past, waking him only in times of dire need, and he still fights
+    as furiously as he did at Russ’ side.`,
   },
   {
     name: "Blood Claws",
+    imgName: "",
     point_cost: [
       {
         amount: 10,
@@ -140,9 +156,62 @@ const unitsNames = [
         cost: 210,
       },
     ],
+    stats: {
+      movement: 6,
+      toughness: 4,
+      armor_save: 3,
+      wounds: 2,
+      leadership: 6,
+      objective_control: 2,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Berserk Charge",
+          rule: `Each time this unit makes a Charge move,
+          until the end of the turn, add 1 to the Attacks and Strength
+          characteristics of melee weapons equipped by models in
+          this unit.`,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: ["1 Blood Claw Pack Leader", "9-14 Blood Claws"],
+    equiped: ["bolt pistol", "Astartes chainsword"],
+    wargear_options: `■ The Blood Claw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.
+    ■ The Blood Claw Pack Leader’s Astartes chainsword can be replaced with one of the following:
+    ◦ 1 power fist
+    ◦ 1 power weapon
+    ■ Up to 2 Blood Claws can each have their Astartes chainsword replaced with one of the following:
+    ◦ 1 flamer and 1 close combat weapon
+    ◦ 1 grav-gun and 1 close combat weapon
+    ◦ 1 meltagun and 1 close combat weapon
+    ◦ 1 plasma gun and 1 close combat weapon`,
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: `If a Character unit from your army with the Leader ability
+    can be attached to an Assault Squad, it can instead be
+    attached to this unit.`,
+
+    keywords: ["Infantry", "Battleline", "Grenades", "Imperium", "Blood Claws"],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Most ancient of all Space Marines and last of the Company of Russ,
+    Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s
+    sarcophagus. The Space Wolves revere Bjorn as a living link to their
+    deepest past, waking him only in times of dire need, and he still fights
+    as furiously as he did at Russ’ side.`,
   },
   {
     name: "Canis Wolfborn ",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -152,6 +221,7 @@ const unitsNames = [
   },
   {
     name: "Cyberwolf",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -161,6 +231,7 @@ const unitsNames = [
   },
   {
     name: "Fenrisian Wolves",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -174,6 +245,7 @@ const unitsNames = [
   },
   {
     name: "Grey Hunters",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -187,6 +259,7 @@ const unitsNames = [
   },
   {
     name: "Harald Deathwolf",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -196,6 +269,7 @@ const unitsNames = [
   },
   {
     name: "Hounds of Morkai",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -209,6 +283,7 @@ const unitsNames = [
   },
   {
     name: "Iron Priest",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -218,6 +293,7 @@ const unitsNames = [
   },
   {
     name: "Krom Dragongaze",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -227,6 +303,7 @@ const unitsNames = [
   },
   {
     name: "Logan Grimnar",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -236,6 +313,7 @@ const unitsNames = [
   },
   {
     name: "Logan Grimnar on Stormrider",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -245,6 +323,7 @@ const unitsNames = [
   },
   {
     name: "Long Fangs",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -258,6 +337,7 @@ const unitsNames = [
   },
   {
     name: "Lukas the Trickster",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -267,6 +347,7 @@ const unitsNames = [
   },
   {
     name: "Murderfang",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -276,6 +357,7 @@ const unitsNames = [
   },
   {
     name: "Njal Stormcaller",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -285,6 +367,7 @@ const unitsNames = [
   },
   {
     name: "Ragnar Blackmane",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -294,6 +377,7 @@ const unitsNames = [
   },
   {
     name: "Skyclaws",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -311,6 +395,7 @@ const unitsNames = [
   },
   {
     name: "Venerable Dreadnought",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -320,6 +405,7 @@ const unitsNames = [
   },
   {
     name: "Stormfang",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -329,6 +415,7 @@ const unitsNames = [
   },
   {
     name: "Stormwolf",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -338,6 +425,7 @@ const unitsNames = [
   },
   {
     name: "Thunderwolf Cavalry",
+    imgName: "",
     point_cost: [
       {
         amount: 3,
@@ -351,6 +439,7 @@ const unitsNames = [
   },
   {
     name: "Ulrik the Slayer",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -360,6 +449,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guards",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -373,6 +463,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Battle Leader in Terminator Armour",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -382,6 +473,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Battle Leader on Thunderwolf",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -391,6 +483,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Pack Leader",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -400,6 +493,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Pack Leader in Terminator Armour",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -409,6 +503,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Pack Leader with Jump Pack",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -418,6 +513,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Terminators",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -431,6 +527,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Lord on Thunderwolf",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -440,6 +537,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Scouts",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -453,6 +551,7 @@ const unitsNames = [
   },
   {
     name: "Wulfen",
+    imgName: "",
     point_cost: [
       {
         amount: 5,
@@ -466,6 +565,7 @@ const unitsNames = [
   },
   {
     name: "Wulfen Dreadnought",
+    imgName: "",
     point_cost: [
       {
         amount: 1,
@@ -477,8 +577,9 @@ const unitsNames = [
 
 for (let item of unitsNames) {
   const newUnit = new Unit(item.name);
+
   newUnit.point_cost = item.point_cost;
   unitsObjs.push(newUnit);
 }
 
-console.log(unitsObjs);
+// console.log(unitsObjs);

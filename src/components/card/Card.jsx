@@ -1,11 +1,22 @@
 import React from "react";
-import image from "../../assets/space_wolves/ArjacRockfist.png";
-const Card = (props) => {
-  // const { name, movement, points, image } = props;
-  const name = "thunderwolves ";
-  const movement = 10;
-  const points = 120;
-  const models = 6;
+// import image from "../../assets/space_wolves/ArjacRockfist.png";
+import Images from "../../data/Images";
+import arjac from "../../assets/space_wolves/ArjacRockfist.png";
+import bjorn from "../../assets/space_wolves/BjornFellhanded.png";
+import bloodClaws from "../../assets/space_wolves/BloodClaws.png";
+
+const imgs = {
+  arjac: arjac,
+  bjorn: bjorn,
+  bloodClaws: bloodClaws,
+};
+const Card = ({ data }) => {
+  const { name, movement, point_cost, imgName } = data;
+  console.log(imgName);
+  // const name = "thunderwolves ";
+  // const movement = 10;
+  // const points = 120;§
+  const models = point_cost[0].amount;
   return (
     <div className="modelCard__header">
       <div className="modelCard__container-left">
@@ -43,7 +54,7 @@ const Card = (props) => {
       corrupti quasi aliquid impedit doloribus neque voluptas quod soluta
       non architecto deleniti necessitatibus.
     </p> */}
-        <div className="modelCard__point-cost">{points}pts</div>
+        <div className="modelCard__point-cost">{point_cost[0].cost} pts</div>
         <div className="modelCard__wargear-container">
           <div className="modelCard__wargear-container--item">power sword</div>
           <div className="modelCard__wargear-container--item">
@@ -53,7 +64,11 @@ const Card = (props) => {
       </div>
 
       <div className="modelCard__image-container">
-        <img src={image} alt="model" className="modelCard__model-image" />
+        <img
+          src={imgs[imgName]}
+          alt={imgName}
+          className="modelCard__model-image"
+        />
       </div>
     </div>
   );
