@@ -5,11 +5,16 @@ import arjac from "../../assets/space_wolves/ArjacRockfist.png";
 import bjorn from "../../assets/space_wolves/BjornFellhanded.png";
 import bloodClaws from "../../assets/space_wolves/BloodClaws.png";
 import cyberwolf from "../../assets/space_wolves/cyberwolf.png";
+import fenrisianWolf from "../../assets/space_wolves/fenrisianWolf.png";
+import canis_wolfborn from "../../assets/space_wolves/canis_wolfborn.png";
+
 const images = {
   arjac: arjac,
   bjorn: bjorn,
   bloodClaws: bloodClaws,
   cyberwolf: cyberwolf,
+  fenrisianWolf: fenrisianWolf,
+  canis_wolfborn: canis_wolfborn,
 };
 const Card = ({ props }) => {
   const { name, stats, point_cost, image } = props;
