@@ -1,11 +1,30 @@
 import React from "react";
-import image from "../../assets/space_wolves/ArjacRockfist.png";
-const Card = (props) => {
-  // const { name, movement, points, image } = props;
-  const name = "thunderwolves ";
-  const movement = 10;
-  const points = 120;
-  const models = 6;
+// import image from "../../assets/space_wolves/ArjacRockfist.png";
+// import ModelImg from "../modelmg/ModelImg";
+import arjac from "../../assets/space_wolves/ArjacRockfist.png";
+import bjorn from "../../assets/space_wolves/BjornFellhanded.png";
+import bloodClaws from "../../assets/space_wolves/BloodClaws.png";
+const images = {
+  arjac: arjac,
+  bjorn: bjorn,
+  bloodClaws: bloodClaws,
+};
+const Card = ({ props }) => {
+  const { name, stats, point_cost, image } = props;
+  const {
+    armor_save,
+    balistic_skill,
+    leadership,
+    movement,
+    objective_control,
+    toughness,
+    weapon_skill,
+    wounds,
+  } = stats;
+  console.log(props);
+  // const name = "thunderwolves ";;
+  const points = point_cost[0].cost;
+  const models = point_cost[0].amount;
   return (
     <div className="modelCard__header">
       <div className="modelCard__container-left">
@@ -19,23 +38,23 @@ const Card = (props) => {
           </div>
           <div className="modelCard__stat">
             <p>T</p>
-            <div className="modelCard__stat-value">4</div>
+            <div className="modelCard__stat-value">{toughness}</div>
           </div>
           <div className="modelCard__stat">
             <p>SV</p>
-            <div className="modelCard__stat-value">3+</div>
+            <div className="modelCard__stat-value">{armor_save}+</div>
           </div>
           <div className="modelCard__stat">
             <p>W</p>
-            <div className="modelCard__stat-value">10</div>
+            <div className="modelCard__stat-value">{wounds}</div>
           </div>
           <div className="modelCard__stat">
             <p>LD</p>
-            <div className="modelCard__stat-value">6+</div>
+            <div className="modelCard__stat-value">{leadership}+</div>
           </div>
           <div className="modelCard__stat">
             <p>OC</p>
-            <div className="modelCard__stat-value">1</div>
+            <div className="modelCard__stat-value">{objective_control}</div>
           </div>
         </div>
         {/* <p className="modelCard__description">
@@ -45,15 +64,22 @@ const Card = (props) => {
     </p> */}
         <div className="modelCard__point-cost">{points}pts</div>
         <div className="modelCard__wargear-container">
-          <div className="modelCard__wargear-container--item">power sword</div>
           <div className="modelCard__wargear-container--item">
-            plasma pistol
+            power sword {balistic_skill}+
+          </div>
+          <div className="modelCard__wargear-container--item">
+            plasma pistol {weapon_skill}+
           </div>
         </div>
       </div>
 
       <div className="modelCard__image-container">
-        <img src={image} alt="model" className="modelCard__model-image" />
+        {/* <ModelImg imgName={image} /> */}
+        <img
+          src={images[image]}
+          alt={image}
+          className="modelCard__model-image"
+        />
       </div>
     </div>
   );

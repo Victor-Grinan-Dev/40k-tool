@@ -4,7 +4,7 @@ export const unitsObjs = [];
 const unitsNames = [
   {
     name: "Arjac Rockfist",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -79,7 +79,7 @@ const unitsNames = [
   },
   {
     name: "Bjorn the Fell-Handed",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -145,7 +145,7 @@ const unitsNames = [
   },
   {
     name: "Blood Claws",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 10,
@@ -159,7 +159,7 @@ const unitsNames = [
   },
   {
     name: "Canis Wolfborn ",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -169,7 +169,7 @@ const unitsNames = [
   },
   {
     name: "Cyberwolf",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -179,7 +179,7 @@ const unitsNames = [
   },
   {
     name: "Fenrisian Wolves",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -193,7 +193,7 @@ const unitsNames = [
   },
   {
     name: "Grey Hunters",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -207,7 +207,7 @@ const unitsNames = [
   },
   {
     name: "Harald Deathwolf",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -217,7 +217,7 @@ const unitsNames = [
   },
   {
     name: "Hounds of Morkai",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -231,7 +231,7 @@ const unitsNames = [
   },
   {
     name: "Iron Priest",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -241,7 +241,7 @@ const unitsNames = [
   },
   {
     name: "Krom Dragongaze",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -251,7 +251,7 @@ const unitsNames = [
   },
   {
     name: "Logan Grimnar",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -261,7 +261,7 @@ const unitsNames = [
   },
   {
     name: "Logan Grimnar on Stormrider",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -271,7 +271,7 @@ const unitsNames = [
   },
   {
     name: "Long Fangs",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -285,7 +285,7 @@ const unitsNames = [
   },
   {
     name: "Lukas the Trickster",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -295,7 +295,7 @@ const unitsNames = [
   },
   {
     name: "Murderfang",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -305,7 +305,7 @@ const unitsNames = [
   },
   {
     name: "Njal Stormcaller",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -315,7 +315,7 @@ const unitsNames = [
   },
   {
     name: "Ragnar Blackmane",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -325,7 +325,7 @@ const unitsNames = [
   },
   {
     name: "Skyclaws",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -343,7 +343,7 @@ const unitsNames = [
   },
   {
     name: "Venerable Dreadnought",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -353,7 +353,7 @@ const unitsNames = [
   },
   {
     name: "Stormfang",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -363,7 +363,7 @@ const unitsNames = [
   },
   {
     name: "Stormwolf",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -373,7 +373,7 @@ const unitsNames = [
   },
   {
     name: "Thunderwolf Cavalry",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 3,
@@ -387,7 +387,7 @@ const unitsNames = [
   },
   {
     name: "Ulrik the Slayer",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -397,7 +397,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guards",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -411,7 +411,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Battle Leader in Terminator Armour",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -421,7 +421,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Battle Leader on Thunderwolf",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -431,7 +431,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Pack Leader",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -441,7 +441,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Pack Leader in Terminator Armour",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -451,7 +451,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Pack Leader with Jump Pack",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -461,7 +461,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Guard Terminators",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -475,7 +475,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Lord on Thunderwolf",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -485,7 +485,7 @@ const unitsNames = [
   },
   {
     name: "Wolf Scouts",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -499,7 +499,7 @@ const unitsNames = [
   },
   {
     name: "Wulfen",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 5,
@@ -513,7 +513,7 @@ const unitsNames = [
   },
   {
     name: "Wulfen Dreadnought",
-    image:"",
+    image: "",
     point_cost: [
       {
         amount: 1,
@@ -525,10 +525,8 @@ const unitsNames = [
 
 for (let item of unitsNames) {
   const newUnit = new Unit(item.name);
-  image:"",newUnit.
-  image:"",point_cost = item.
-  point_cost;
+  newUnit.point_cost = item.point_cost;
   unitsObjs.push(newUnit);
 }
 
-console.log(unitsObjs);
+// console.log(unitsObjs);

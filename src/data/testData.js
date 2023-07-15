@@ -140,4 +140,60 @@ export const testData = [
         deepest past, waking him only in times of dire need, and he still fights
         as furiously as he did at Russ’ side.`,
   },
+  {
+    name: "Blood Claws",
+    image: "bloodClaws",
+    point_cost: [
+      {
+        amount: 10,
+        cost: 140,
+      },
+      {
+        amount: 15,
+        cost: 210,
+      },
+    ],
+    stats: {
+      movement: 6,
+      toughness: 4,
+      armor_save: 3,
+      wounds: 2,
+      leadership: 6,
+      objective_control: 2,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Berserk Charge",
+          rule: `Each time this unit makes a Charge move,
+          until the end of the turn, add 1 to the Attacks and Strength
+          characteristics of melee weapons equipped by models in
+          this unit.`,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: ["1 Blood Claw Pack Leader", "9-14 Blood Claws"],
+    equiped: ["bolt pistol", "Astartes chainsword"],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: ["Infantry", "Battleline", "Grenades", "Imperium", "Blood Claws"],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Young and fiery warriors full of belligerent enthusiasm, Blood
+    Claws hunger to prove themselves in savage battle. With relentless
+    exuberance they plunge headlong into the foe, straddling the line
+    between sheer heroism and recklessness. Many great sagas start
+    with the Blood Claws’ glory hunts.`,
+  },
 ];
