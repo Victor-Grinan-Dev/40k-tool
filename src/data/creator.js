@@ -156,6 +156,48 @@ const unitsNames = [
         cost: 210,
       },
     ],
+    stats: {
+      movement: 6,
+      toughness: 4,
+      armor_save: 3,
+      wounds: 2,
+      leadership: 6,
+      objective_control: 2,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Berserk Charge",
+          rule: `Each time this unit makes a Charge move,
+          until the end of the turn, add 1 to the Attacks and Strength
+          characteristics of melee weapons equipped by models in
+          this unit.`,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: ["1 Blood Claw Pack Leader", "9-14 Blood Claws"],
+    equiped: ["bolt pistol", "Astartes chainsword"],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: ["Infantry", "Battleline", "Grenades", "Imperium", "Blood Claws"],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Young and fiery warriors full of belligerent enthusiasm, Blood
+    Claws hunger to prove themselves in savage battle. With relentless
+    exuberance they plunge headlong into the foe, straddling the line
+    between sheer heroism and recklessness. Many great sagas start
+    with the Blood Claws’ glory hunts.`,
   },
   {
     name: "Canis Wolfborn ",
@@ -166,6 +208,41 @@ const unitsNames = [
         cost: 85,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Cyberwolf",
@@ -176,6 +253,41 @@ const unitsNames = [
         cost: 20,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Fenrisian Wolves",
@@ -190,6 +302,41 @@ const unitsNames = [
         cost: 60,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Grey Hunters",
@@ -204,6 +351,41 @@ const unitsNames = [
         cost: 180,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Harald Deathwolf",
@@ -214,6 +396,41 @@ const unitsNames = [
         cost: 95,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Hounds of Morkai",
@@ -228,6 +445,41 @@ const unitsNames = [
         cost: 190,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Iron Priest",
@@ -238,6 +490,41 @@ const unitsNames = [
         cost: 60,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Krom Dragongaze",
@@ -248,6 +535,41 @@ const unitsNames = [
         cost: 80,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Logan Grimnar",
@@ -258,6 +580,41 @@ const unitsNames = [
         cost: 145,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Logan Grimnar on Stormrider",
@@ -268,6 +625,41 @@ const unitsNames = [
         cost: 235,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Long Fangs",
@@ -282,6 +674,41 @@ const unitsNames = [
         cost: 180,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Lukas the Trickster",
@@ -292,6 +719,41 @@ const unitsNames = [
         cost: 55,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Murderfang",
@@ -302,6 +764,41 @@ const unitsNames = [
         cost: 190,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Njal Stormcaller",
@@ -312,6 +809,41 @@ const unitsNames = [
         cost: 95,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Ragnar Blackmane",
@@ -322,6 +854,41 @@ const unitsNames = [
         cost: 105,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Skyclaws",
@@ -340,6 +907,41 @@ const unitsNames = [
         cost: 285,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Venerable Dreadnought",
@@ -350,6 +952,41 @@ const unitsNames = [
         cost: 170,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Stormfang",
@@ -360,6 +997,41 @@ const unitsNames = [
         cost: 300,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Stormwolf",
@@ -370,6 +1042,41 @@ const unitsNames = [
         cost: 250,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Thunderwolf Cavalry",
@@ -384,6 +1091,41 @@ const unitsNames = [
         cost: 200,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Ulrik the Slayer",
@@ -394,6 +1136,41 @@ const unitsNames = [
         cost: 85,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Guards",
@@ -408,6 +1185,41 @@ const unitsNames = [
         cost: 190,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Guard Battle Leader in Terminator Armour",
@@ -418,6 +1230,41 @@ const unitsNames = [
         cost: 80,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Guard Battle Leader on Thunderwolf",
@@ -428,6 +1275,41 @@ const unitsNames = [
         cost: 95,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Guard Pack Leader",
@@ -438,6 +1320,41 @@ const unitsNames = [
         cost: 30,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Guard Pack Leader in Terminator Armour",
@@ -448,6 +1365,41 @@ const unitsNames = [
         cost: 45,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Guard Pack Leader with Jump Pack",
@@ -458,6 +1410,41 @@ const unitsNames = [
         cost: 40,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Guard Terminators",
@@ -472,6 +1459,41 @@ const unitsNames = [
         cost: 400,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Lord on Thunderwolf",
@@ -482,6 +1504,41 @@ const unitsNames = [
         cost: 100,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wolf Scouts",
@@ -496,6 +1553,41 @@ const unitsNames = [
         cost: 160,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wulfen",
@@ -510,6 +1602,41 @@ const unitsNames = [
         cost: 200,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+
+    lore: ``,
   },
   {
     name: "Wulfen Dreadnought",
@@ -520,6 +1647,40 @@ const unitsNames = [
         cost: 155,
       },
     ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: "",
+    leader: [],
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: [],
+    lore: ``,
   },
 ];
 

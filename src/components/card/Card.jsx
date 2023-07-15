@@ -4,10 +4,12 @@ import React from "react";
 import arjac from "../../assets/space_wolves/ArjacRockfist.png";
 import bjorn from "../../assets/space_wolves/BjornFellhanded.png";
 import bloodClaws from "../../assets/space_wolves/BloodClaws.png";
+import cyberwolf from "../../assets/space_wolves/cyberwolf.png";
 const images = {
   arjac: arjac,
   bjorn: bjorn,
   bloodClaws: bloodClaws,
+  cyberwolf: cyberwolf,
 };
 const Card = ({ props }) => {
   const { name, stats, point_cost, image } = props;

@@ -196,4 +196,1510 @@ export const testData = [
     between sheer heroism and recklessness. Many great sagas start
     with the Blood Claws’ glory hunts.`,
   },
+  {
+    name: "Cyberwolf",
+    image: "cyberwolf",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 20,
+      },
+    ],
+    stats: {
+      movement: 10,
+      toughness: 4,
+      armor_save: 6,
+      wounds: 2,
+      leadership: 7,
+      objective_control: 0,
+      weapon_skill: 0,
+      balistic_skill: 0,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Alpha Hunter:",
+          rule: `While this model is leading a unit, models in
+          that unit have the Scouts 6" ability`,
+        },
+        {
+          title: "Close In for the Kill",
+          rule: `Each time this model makes an attack
+          that targets an enemy unit that is Below Half-strength, add 1
+          to the Hit roll and add 1 to the Wound roll.`,
+        },
+      ],
+    },
+
+    invulnerable: 6,
+    unit_composition: ["■ Fenrisian Wolves"],
+    equiped: ["Teeth and claws"],
+    wargear_options: "",
+    leader: ["Fenrisian Wolves"],
+    secondLeader: `You must attach this model to the above unit, even if Canis
+    Wolfborn has been attached to it. If you do, and that
+    Bodyguard unit is destroyed, the Leader units attached to it
+    become separate units, with their original Starting Strengths.
+    If it is not possible to attach this model to a unit, it does not
+    take part in the battle and counts as having been destroyed.`,
+    wargear_hability: "",
+    specific: {
+      title: "wolfkin",
+      rule: `This model cannot be your Warlord and cannot be
+            given Enhancements.`,
+    },
+    attached_unit: "",
+
+    keywords: ["Beast", "Character", "Imperium", "Cyberwolf"],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: ``,
+  },
 ];
+
+/**
+
+      {
+        name: "Canis Wolfborn ",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 85,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      
+      {
+        name: "Fenrisian Wolves",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 30,
+          },
+          {
+            amount: 10,
+            cost: 60,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Grey Hunters",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 90,
+          },
+          {
+            amount: 10,
+            cost: 180,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Harald Deathwolf",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 95,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Hounds of Morkai",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 95,
+          },
+          {
+            amount: 10,
+            cost: 190,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Iron Priest",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 60,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Krom Dragongaze",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 80,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Logan Grimnar",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 145,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Logan Grimnar on Stormrider",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 235,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Long Fangs",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 150,
+          },
+          {
+            amount: 6,
+            cost: 180,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Lukas the Trickster",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 55,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Murderfang",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 190,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Njal Stormcaller",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 95,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Ragnar Blackmane",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 105,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Skyclaws",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 95,
+          },
+          {
+            amount: 10,
+            cost: 190,
+          },
+          {
+            amount: 15,
+            cost: 285,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Venerable Dreadnought",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 170,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Stormfang",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 300,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Stormwolf",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 250,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Thunderwolf Cavalry",
+        image: "",
+        point_cost: [
+          {
+            amount: 3,
+            cost: 100,
+          },
+          {
+            amount: 6,
+            cost: 200,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Ulrik the Slayer",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 85,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Guards",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 95,
+          },
+          {
+            amount: 10,
+            cost: 190,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Guard Battle Leader in Terminator Armour",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 80,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Guard Battle Leader on Thunderwolf",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 95,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Guard Pack Leader",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 30,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Guard Pack Leader in Terminator Armour",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 45,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Guard Pack Leader with Jump Pack",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 40,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Guard Terminators",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 200,
+          },
+          {
+            amount: 10,
+            cost: 400,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Lord on Thunderwolf",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 100,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wolf Scouts",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 80,
+          },
+          {
+            amount: 10,
+            cost: 160,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wulfen",
+        image: "",
+        point_cost: [
+          {
+            amount: 5,
+            cost: 100,
+          },
+          {
+            amount: 10,
+            cost: 200,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    
+        lore: ``,
+      },
+      {
+        name: "Wulfen Dreadnought",
+        image: "",
+        point_cost: [
+          {
+            amount: 1,
+            cost: 155,
+          },
+        ],
+        stats: {
+          movement: 8,
+          toughness: 9,
+          armor_save: 2,
+          wounds: 8,
+          leadership: 6,
+          objective_control: 3,
+          weapon_skill: 2,
+          balistic_skill: 2,
+        },
+    
+        abilities: {
+          core: [],
+          faction: "Oath of Moment",
+          other: [
+            {
+              title: "",
+              rule: ``,
+            },
+          ],
+        },
+    
+        invulnerable: null,
+        unit_composition: [],
+        equiped: [],
+        wargear_options: "",
+        leader: [],
+        wargear_hability: "",
+        specific: null,
+        attached_unit: "",
+    
+        keywords: [],
+        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+        lore: ``,
+      },
+    
+ */
