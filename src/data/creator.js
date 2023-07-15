@@ -123,10 +123,23 @@ const unitsNames = [
     specific: null,
     attached_unit: "",
 
-    keywords: [],
+    keywords: [
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Epic Hero",
+      "Smoke",
+      "Imperium",
+      "Dreadnought",
+      "Bjorn the Fell-Handed",
+    ],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-    lore: ``,
+    lore: `Most ancient of all Space Marines and last of the Company of Russ,
+    Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s
+    sarcophagus. The Space Wolves revere Bjorn as a living link to their
+    deepest past, waking him only in times of dire need, and he still fights
+    as furiously as he did at Russ’ side.`,
   },
   {
     name: "Blood Claws",
