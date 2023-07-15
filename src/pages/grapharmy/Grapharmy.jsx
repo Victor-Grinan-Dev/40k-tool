@@ -1,20 +1,10 @@
 import React from "react";
 import Card from "../../components/card/Card";
+import { testData } from "../../data/testData";
 const Grapharmy = () => {
   return (
     <div className="grapharmy">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      {testData && testData.map((data, i) => <Card props={data} key={i} />)}
     </div>
   );
 };

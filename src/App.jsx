@@ -5,7 +5,7 @@ import About from "./pages/about/About";
 import IndexCard from "./components/indexCard/IndexCard";
 // import Card from "./components/card/Card";
 import Grapharmy from "./pages/grapharmy/Grapharmy";
-import { creator } from "./data/creator";
+// import { creator } from "./data/creator";
 
 function App() {
   return (
