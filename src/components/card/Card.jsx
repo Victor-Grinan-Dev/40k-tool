@@ -16,7 +16,7 @@ import lanraider from "../../assets/space_wolves/lanraider.png";
 import liutenant from "../../assets/space_wolves/liutenant.png";
 import loganGrimnar from "../../assets/space_wolves/LoganGrimnar.png";
 import loganStormrider from "../../assets/space_wolves/LoganStormrider.png";
-import longFangs from "../../assets/space_wolves/longFangs.png";
+import longFangs from "../../assets/space_wolves/longfangs.png";
 import lucas from "../../assets/space_wolves/lucas.png";
 import murderfang from "../../assets/space_wolves/murderfang.png";
 import njal from "../../assets/space_wolves/njal.png";
