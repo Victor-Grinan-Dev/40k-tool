@@ -734,7 +734,7 @@ export const testData = [
   },
   {
     name: "Grimnar on Stormrider",
-    image: "stormrider",
+    image: "loganStormrider",
     point_cost: [
       {
         amount: 1,
@@ -804,7 +804,7 @@ export const testData = [
   },
   {
     name: "Long Fangs",
-    image: "",
+    image: "longFangs",
     point_cost: [
       {
         amount: 5,
@@ -958,7 +958,7 @@ export const testData = [
   },
   {
     name: "Murderfang",
-    image: "",
+    image: "murderfang",
     point_cost: [
       {
         amount: 1,
@@ -1160,7 +1160,7 @@ export const testData = [
   },
   {
     name: "Skyclaws",
-    image: "",
+    image: "skyclaws",
     point_cost: [
       {
         amount: 5,
@@ -1240,7 +1240,7 @@ export const testData = [
 
   {
     name: "Venerable Dreadnought",
-    image: "venDread",
+    image: "vendread",
     point_cost: [
       {
         amount: 1,
