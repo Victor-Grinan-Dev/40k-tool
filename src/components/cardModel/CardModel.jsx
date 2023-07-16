@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ModelsImages from "../modelsImages/ModelsImages";
 const CardModel = ({ props }) => {
   /** TODO: this is where the units will be created and displayed */
@@ -7,7 +7,7 @@ const CardModel = ({ props }) => {
     point_cost,
     name,
     image,
-    wargear_options,
+    // wargear_options,
   } = props;
   //   console.log(props);
   //   const {
@@ -23,9 +23,9 @@ const CardModel = ({ props }) => {
   const points = point_cost[0].cost;
   const models = point_cost[0].amount;
 
-  const [hiddeSetting, setHiddeSetting] = useState(true);
+  //   const [hiddeSetting, setHiddeSetting] = useState(true);
 
-  const isDisplay = hiddeSetting ? "none" : "flex";
+  //   const isDisplay = hiddeSetting ? "none" : "flex";
 
   //   const toggleSettings = () => {
   //     setHiddeSetting(!hiddeSetting);
