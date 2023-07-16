@@ -7,7 +7,8 @@
 
   &__header {
     height: 15rem;
-    width: 27rem;
+    width: 98vw;
+    max-width: 35rem;
     background-color: $primary-4;
     border-radius: 1rem;
     position: relative;
@@ -15,6 +16,8 @@
     overflow: hidden;
 
     margin: auto;
+
+    box-shadow: 0 0 10px rgb(78, 113, 121);
   }
 
   &__point-cost {
