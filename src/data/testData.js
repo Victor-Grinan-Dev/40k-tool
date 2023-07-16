@@ -116,7 +116,11 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Bjorn the Fell-Handed– Epic Hero"],
     equiped: ["assault cannon", "heavy flamer", "Trueclaw."],
-    wargear_options: "",
+    wargear_options: `■ This model’s assault cannon can be replaced with one of the following:
+    ◦ heavy plasma cannon
+    ◦ helfrost cannon
+    ◦ multi-melta
+    ◦ twin lascannon`,
     leader: [],
     wargear_hability: "",
     specific: null,

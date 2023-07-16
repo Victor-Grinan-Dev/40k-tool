@@ -21,9 +21,14 @@ const Navegator = () => {
             About
           </Link>
         </li> */}
-        <li className="navegator__item">
+        {/* <li className="navegator__item">
           <Link className="navegator__nav-link" to={"icard"}>
             I-Card
+          </Link>
+        </li> */}
+        <li className="navegator__item">
+          <Link className="navegator__nav-link" to={"mymodels"}>
+            My Models
           </Link>
         </li>
         <li className="navegator__item">
