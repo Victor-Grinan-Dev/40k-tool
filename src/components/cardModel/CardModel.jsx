@@ -1,7 +1,11 @@
 import React from "react";
 import ModelsImages from "../modelsImages/ModelsImages";
+
+/**this is mapped from army units array */
 const CardModel = ({ props }) => {
   /** TODO: this is where the units will be created and displayed */
+  /**todo: unit contains array of models object */
+  /** show image, name, points sum of both */
   const {
     //  stats,
     point_cost,
@@ -64,7 +68,7 @@ const CardModel = ({ props }) => {
           </select>
         )}
       </div> */}
-      <button>add</button>
+      <p className="model-card__name">select</p>
     </div>
   );
   //   return ;
