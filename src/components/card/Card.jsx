@@ -26,6 +26,7 @@ import razorback from "../../assets/space_wolves/razorback.png";
 import rhino from "../../assets/space_wolves/rhino.png";
 import runePriest from "../../assets/space_wolves/runePriest.png";
 import skyclaws from "../../assets/space_wolves/skyclaws.png";
+import stormfang from "../../assets/space_wolves/stormfang.png";
 import stromwolf from "../../assets/space_wolves/stromwolf.png";
 import terminators from "../../assets/space_wolves/terminators.png";
 import thunderwolfCavalry from "../../assets/space_wolves/ThunderwolfCavalry.png";
@@ -33,8 +34,15 @@ import ulrik from "../../assets/space_wolves/Ulrik.png";
 import vendread from "../../assets/space_wolves/vendread.png";
 import vindicator from "../../assets/space_wolves/vindicator.png";
 import whirlwind from "../../assets/space_wolves/whirlwind.png";
+import wolf_lord from "../../assets/space_wolves/wolf_lord.png";
+import wolfguard__terminator_hammer from "../../assets/space_wolves/wolfguard__terminator_hammer.png";
+import wolfguard_jumppack from "../../assets/space_wolves/wolfguard_jumppack.png";
+import wolfguard_terminator_claws from "../../assets/space_wolves/wolfguard__terminator_hammer.png";
+import wolfguard from "../../assets/space_wolves/wolfguard.png";
+import wolfguards_terminators from "../../assets/space_wolves/wolfguards_terminators.png";
+import wolfguards from "../../assets/space_wolves/wolfguards.png";
 import wolfguard_battle_leader_on_thunderwolf from "../../assets/space_wolves/wolfguard_battle_leader_on_thunderwolf.png";
-import wolflord from "../../assets/space_wolves/wolflord.png";
+import wolflord_thunderwolf from "../../assets/space_wolves/wolflord_thunderwolf.png";
 import wolfpriestJumpack from "../../assets/space_wolves/wolfpriest-jumppack.png";
 import wulfens from "../../assets/space_wolves/Wulfens.png";
 
@@ -71,9 +79,17 @@ const images = {
   vendread: vendread,
   vindicator: vindicator,
   whirlwind: whirlwind,
+  stormfang: stormfang,
+  wolf_lord: wolf_lord,
+  wolfguard__terminator_hammer: wolfguard__terminator_hammer,
+  wolfguard_jumppack: wolfguard_jumppack,
+  wolfguard_terminator_claws: wolfguard_terminator_claws,
+  wolfguard: wolfguard,
+  wolfguards_terminators: wolfguards_terminators,
+  wolfguards: wolfguards,
   wolfguard_battle_leader_on_thunderwolf:
     wolfguard_battle_leader_on_thunderwolf,
-  wolflord: wolflord,
+  wolflord_thunderwolf: wolflord_thunderwolf,
   wolfpriestJumpack: wolfpriestJumpack,
   wulfens: wulfens,
 };
