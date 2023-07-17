@@ -1,10 +1,9 @@
 import React from "react";
 import Header from "./subcomponents/_Header";
-import image from "../../assets/space_wolves/ArjacRockfist.png";
+// import image from "../../assets/space_wolves/ArjacRockfist.png";
 import WeaponsRanged from "./subcomponents/WeaponsRanged";
 import WeaponsMelee from "./subcomponents/WeaponsMelee";
 import WargearOptions from "./subcomponents/WargearOptions";
-
 import Invulnerable from "./subcomponents/Invulnerable";
 import UnitComposition from "./subcomponents/UnitComposition";
 import Leader from "./subcomponents/Leader";
@@ -15,11 +14,39 @@ import Habilities from "./subcomponents/Habilities";
 import FooterLeft from "./subcomponents/FooterLeft";
 import FooterRight from "./subcomponents/FooterRight";
 import FooterImage from "./subcomponents/FooterImage";
-const IndexCard = (props) => {
-  // const { name } = props;
+import { useLocation } from "react-router-dom";
+const IndexCard = () => {
+  const location = useLocation();
+  // useEffect(() => {
+  //   console.log(location.state);
+  // }, []);
+
+  const { name, stats, point_cost, image } = location.state;
+  const {
+    armor_save,
+    // balistic_skill,
+    leadership,
+    movement,
+    objective_control,
+    toughness,
+    // weapon_skill,
+    wounds,
+  } = stats;
+  const { cost, amount } = point_cost[0];
   return (
     <div className="indexCard">
-      <Header name="The model's name" image={image} points={100} movement={6} />
+      <Header
+        name={name}
+        image={image}
+        movement={movement}
+        armor_save={armor_save}
+        leadership={leadership}
+        objective_control={objective_control}
+        toughness={toughness}
+        wounds={wounds}
+        points={cost}
+        models={amount}
+      />
 
       <div className="indexCard__content">
         <div className="indexCard__content-left">

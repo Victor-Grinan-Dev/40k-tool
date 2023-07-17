@@ -2,7 +2,7 @@ import React from "react";
 import ModelsImages from "../modelsImages/ModelsImages";
 
 /**this is mapped from army units array */
-const CardModel = ({ props }) => {
+const CardModel = ({ props, fx }) => {
   /** TODO: this is where the units will be created and displayed */
   /**todo: unit contains array of models object */
   /** show image, name, points sum of both */
@@ -34,14 +34,15 @@ const CardModel = ({ props }) => {
   //   const toggleSettings = () => {
   //     setHiddeSetting(!hiddeSetting);
   //   };
+
   return (
-    <div className="model-card">
+    <div className="model-card" onClick={() => fx()}>
       <p className="model-card__name">{points}pts</p>
       <p className="model-card__name">
         {models > 1 ? `${models}x` : ""} {name}
       </p>
 
-      <ModelsImages imgName={image} type={"model"} />
+      <ModelsImages imgName={image} type={"unit"} />
       {/* {wargear_options || point_cost.length > 1 ? (
         <p className="model-card__name" onClick={toggleSettings}>
           settings

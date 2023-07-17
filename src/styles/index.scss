@@ -14,10 +14,10 @@
 /*Components*/
 @import "../components/navegator/navegator";
 @import "../components/footer/footer";
-@import "../components/indexCard/indexCard";
 @import "../components/card/card";
 @import "../components/cardModel/cardModel";
-@import "../components/myModels/myModels";
 
 /*pages*/
 @import "../pages/grapharmy/grapharmy";
+@import "../pages/myModels/myModels";
+@import "../pages/indexCard/indexCard";
