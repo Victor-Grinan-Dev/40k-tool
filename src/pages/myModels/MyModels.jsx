@@ -1,7 +1,11 @@
 import React from "react";
 import { testData } from "../../data/testData";
-import ModelsImages from "../modelsImages/ModelsImages";
+import ModelsImages from "../../components/modelsImages/ModelsImages";
+import { useDispatch } from "react-redux";
+import { addToArmy } from "../../app/appSlice";
+
 const MyModels = () => {
+  const dispatch = useDispatch();
   return (
     <div className="my-models">
       {testData &&
@@ -16,7 +20,7 @@ const MyModels = () => {
             </p>
 
             <ModelsImages imgName={data.image} type={"listedModel"} />
-            <button>add</button>
+            <button onClick={() => dispatch(addToArmy(data))}>add</button>
           </div>
         ))}
     </div>

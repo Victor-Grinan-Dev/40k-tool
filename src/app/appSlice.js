@@ -9,12 +9,9 @@ export const appSlice = createSlice({
     error: "",
     message: "",
     darkMode: false,
-    data: [
-      "1",
-      "2",
-      "3",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo fugit autem dolores laudantium voluptatem tempore ad repudiandae suscipit, tenetur, amet, nam molestias facilis sunt? Adipisci quia rem molestiae alias? Magni quo ipsam suscipit. Esse provident vel dolore numquam in hic a, accusamus corrupti ipsum unde quis, facilis architecto libero repellendus.",
-    ],
+
+    //army
+    army: [],
   },
 
   reducers: {
@@ -34,6 +31,14 @@ export const appSlice = createSlice({
     setDarkMode(state, action) {
       state.darkMode = action.payload;
     },
+
+    //army
+    addToArmy(state, action) {
+      state.army.push(action.payload);
+    },
+    delFromArmy(state, action) {
+      state.army = state.army.filter((item) => item !== action.payload);
+    },
   },
 });
 
@@ -45,6 +50,10 @@ export const {
   setMessage,
   setDarkMode,
   setImageUrl,
+
+  //army
+  addToArmy,
+  delFromArmy,
 } = appSlice.actions;
 
 export default appSlice.reducer;
