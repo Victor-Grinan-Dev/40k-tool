@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "./subcomponents/_Header";
 // import image from "../../assets/space_wolves/ArjacRockfist.png";
 import WeaponsRanged from "./subcomponents/WeaponsRanged";

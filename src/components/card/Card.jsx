@@ -73,7 +73,6 @@ const Card = ({ props }) => {
       </div>
 
       <div className="modelCard__image-container">
-        {console.log(image)}
         <ModelsImages imgName={image} type="selected" />
       </div>
 
