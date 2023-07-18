@@ -18,15 +18,19 @@ const Grapharmy = () => {
     //   {testData && testData.map((data, i) => <Card props={data} key={i} />)}
     // </div>
     <div className="grapharmy">
-      {data && <Card props={data} />}
-      {army &&
-        army.map((unit, i) => (
-          <CardModel
-            props={unit}
-            key={`${i}-${unit.name}`}
-            fx={() => selectModel(unit)}
-          /> //onClick={() => selectModel(unit)}
-        ))}
+      <div className="grapharmy__selected-container">
+        {data && <Card props={data} />}
+      </div>
+      <div className="grapharmy__units-container">
+        {army &&
+          army.map((unit, i) => (
+            <CardModel
+              props={unit}
+              key={`${i}-${unit.name}`}
+              fx={() => selectModel(unit)}
+            /> //onClick={() => selectModel(unit)}
+          ))}
+      </div>
     </div>
   );
 };
