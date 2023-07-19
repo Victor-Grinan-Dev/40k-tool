@@ -83,6 +83,7 @@ const Card = ({ props }) => {
 
         <div className="modelCard__menu-item">setting</div>
         <div className="modelCard__menu-item">lore</div>
+        {<div className="modelCard__menu-item">lead</div>}
       </div>
     </div>
   );
