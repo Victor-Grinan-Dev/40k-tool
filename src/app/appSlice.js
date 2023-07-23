@@ -12,6 +12,9 @@ export const appSlice = createSlice({
 
     //army
     army: [],
+
+    //indexCard'
+    indexCard: {}, //this is the single page of a model
   },
 
   reducers: {
@@ -39,6 +42,11 @@ export const appSlice = createSlice({
     delFromArmy(state, action) {
       state.army = state.army.filter((item) => item !== action.payload);
     },
+
+    //indexCard
+    setIndexCard(state, action) {
+      state.indexCard = action.payload;
+    },
   },
 });
 
@@ -54,6 +62,9 @@ export const {
   //army
   addToArmy,
   delFromArmy,
+
+  //indexCard
+  setIndexCard,
 } = appSlice.actions;
 
 export default appSlice.reducer;
