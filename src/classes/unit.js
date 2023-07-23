@@ -44,9 +44,8 @@ export class Unit {
   wargear_options = "";
   leader = [];
   wargear_hability = "";
-  specific =
-    "Your army cannot contain both <Logan Grimnar> and <Logan Grimnar on Stormrider>";
-  attached_unit = "If a <Character> ";
+  specific = "";
+  attached_unit = "";
 
   keywords = [];
   faction_keywords = ["Adeptus Astartes", "Space Wolves"];

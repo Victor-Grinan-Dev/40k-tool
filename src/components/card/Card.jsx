@@ -1,10 +1,12 @@
 import React from "react";
 import ModelsImages from "../modelsImages/ModelsImages";
 import { Link } from "react-router-dom";
+import { setIndexCard } from "../../app/appSlice";
+import { useDispatch } from "react-redux";
 
 const Card = ({ props }) => {
   const { name, stats, point_cost, image } = props;
-
+  const dispatch = useDispatch();
   // const {
   //   armor_save,
   //   balistic_skill,
@@ -78,11 +80,19 @@ const Card = ({ props }) => {
 
       <div className="modelCard__menu-container">
         <Link to={`${name}`} state={props}>
-          <div className="modelCard__menu-item">details</div>
+          <div
+            className="modelCard__menu-item"
+            onClick={() => {
+              dispatch(setIndexCard(props));
+            }}
+          >
+            details
+          </div>
         </Link>
 
         <div className="modelCard__menu-item">setting</div>
         <div className="modelCard__menu-item">lore</div>
+        {<div className="modelCard__menu-item">lead</div>}
       </div>
     </div>
   );

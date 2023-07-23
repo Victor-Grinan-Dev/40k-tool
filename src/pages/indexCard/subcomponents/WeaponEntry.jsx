@@ -1,12 +1,13 @@
 import React from "react";
 
-const WeaponEntry = () => {
+const WeaponEntry = (props) => {
+  const { weapon } = props;
   return (
     <div>
       {" "}
       <div className="indexCard__content-item">
         <div className="indexCard__content-item-data-icon"></div>
-        <div className="indexCard__content-item-data-name">power sword</div>
+        <div className="indexCard__content-item-data-name">{weapon}</div>
         <div className="indexCard__content-item-data">-</div>
         <div className="indexCard__content-item-data">10</div>
         <div className="indexCard__content-item-data">2+</div>
