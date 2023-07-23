@@ -1,18 +1,37 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
 const Habilities = () => {
+  const abilities = useSelector((state) => state.app.indexCard.abilities);
+  const { core, faction } = abilities;
   return (
     <div>
-      {" "}
-      <div className="indexCard__habilities">habilities</div>
-      <p className="font-rules">
-        CORE:
-        <span className="font-negrita"> Leader</span>
-      </p>
-      <div className="indexCard__divisor"></div>
-      <span className="font-rules">
-        FACTION: <span className="font-negrita">Oath of Moment</span>
-      </span>
+      <div className="indexCard__habilities">abilities</div>
+      {abilities && (
+        <>
+          <p className="font-rules">
+            CORE:
+            {core.map((ca, i) => (
+              <>
+                <span className="font-negrita" key={i}>
+                  {" "}
+                  {ca}
+                </span>
+                <span className="font-negrita">
+                  {console.log(i, core.length - 1)}
+                  {i !== core.length - 1 ? ", " : "."}
+                </span>
+              </>
+            ))}
+          </p>
+          <div className="indexCard__divisor"></div>
+        </>
+      )}
+      {abilities && (
+        <span className="font-rules">
+          FACTION: <span className="font-negrita">{abilities.faction}</span>
+        </span>
+      )}
       <div className="indexCard__divisor"></div>
       {/* unique */}
       <p className="font-rules">
