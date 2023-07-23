@@ -1,9 +1,9 @@
 import React from "react";
 import WeaponEntry from "./WeaponEntry";
+import { useSelector } from "react-redux";
 
-const WeaponsRanged = (props) => {
-  // const { profiles } = props;
-  const foo = [1, 2, 3];
+const WeaponsRanged = () => {
+  const weapons = useSelector((state) => state.app.indexCard.equiped);
   return (
     <div>
       <div className="indexCard__content-heading">
@@ -18,9 +18,7 @@ const WeaponsRanged = (props) => {
         <div className="indexCard__content-heading-data">ap</div>
         <div className="indexCard__content-heading-data">d</div>
       </div>
-      {foo.map((w, i) => (
-        <WeaponEntry data={w} key={i} />
-      ))}
+      {weapons && weapons.map((w, i) => <WeaponEntry weapon={w} key={i} />)}
     </div>
   );
 };

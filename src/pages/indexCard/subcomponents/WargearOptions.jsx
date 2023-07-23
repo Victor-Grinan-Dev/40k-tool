@@ -1,11 +1,12 @@
 import React from "react";
 
-const WargearOptions = () => {
+const WargearOptions = (props) => {
+  const { data } = props;
   return (
     <div className="indexCard__content-wargear font-rules">
       <div className="indexCard__wargear-options">wargear options</div>
-
-      <ul className="list">
+      {data}
+      {/* <ul className="list">
         <li className="list-item">
           The Sergeant’s bolt rifle can be replaced with one of the following:
           <ul className="sublist">
@@ -23,7 +24,7 @@ const WargearOptions = () => {
           For every 5 models in this unit, 1 model equipped with a bolt rifle
           can be equipped with 1 Astartes grenade launcher
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 };
