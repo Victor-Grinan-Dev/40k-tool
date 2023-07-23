@@ -23,14 +23,14 @@ export const testData = [
       faction: "Oath of Moment",
       other: [
         {
-          title: "Anvil of Endurance:",
+          title: "Anvil of Endurance",
           rule: `While this model is leading a unit, each
               time a model in that unit makes an attack, add 1 to the Hit
               roll if that unit is below its Starting Strength, and add 1 to the
               Wound roll as well if that unit is Below Half-strength`,
         },
         {
-          title: "Champion of the Kingsguard:",
+          title: "Champion of the Kingsguard",
           rule: `You can target this model with
               the Epic Challenge Stratagem for 0CP. In addition, each time
               this model makes a melee attack that targets a Character
@@ -100,12 +100,12 @@ export const testData = [
       faction: "Oath of Moment",
       other: [
         {
-          title: "Legendary Tenacity:",
+          title: "Legendary Tenacity",
           rule: `Each time an attack is allocated to this
               model, halve the Damage characteristic of that attack`,
         },
         {
-          title: "Ancient Tactician:",
+          title: "Ancient Tactician",
           rule: `Once per battle, after your opponent uses
               a Stratagem, this model can use this ability. If it does, until
               the end of the battle, increase that Stratagem’s cost to your
@@ -301,11 +301,11 @@ export const testData = [
     },
 
     abilities: {
-      core: [],
+      core: ["Leader"],
       faction: "Oath of Moment",
       other: [
         {
-          title: "Alpha Hunter:",
+          title: "Alpha Hunter",
           rule: `While this model is leading a unit, models in
           that unit have the Scouts 6" ability`,
         },
@@ -319,7 +319,7 @@ export const testData = [
     },
 
     invulnerable: 6,
-    unit_composition: ["■ Fenrisian Wolves"],
+    unit_composition: ["Fenrisian Wolves"],
     equiped: ["Teeth and claws"],
     wargear_options: "",
     leader: ["Fenrisian Wolves"],
@@ -373,7 +373,7 @@ export const testData = [
       faction: "Oath of Moment",
       other: [
         {
-          title: "Swift Hunters:",
+          title: "Swift Hunters",
           rule: `This unit is eligible to declare a charge in a turn
             in which it Advanced`,
         },
@@ -1088,7 +1088,7 @@ export const testData = [
           models in that unit have the Stealth ability`,
         },
         {
-          title: "Runic Armour:",
+          title: "Runic Armour",
           rule: `Each time a Psychic Attack targets this model’s
           unit, subtract 1 from the Wound roll`,
         },
@@ -1152,7 +1152,7 @@ export const testData = [
       faction: "Oath of Moment",
       other: [
         {
-          title: "War Howl:",
+          title: "War Howl",
           rule: `While this model is leading a unit, that unit is
           eligible to declare a charge in a turn in which it Advanced`,
         },
@@ -1234,7 +1234,7 @@ export const testData = [
       faction: "Oath of Moment",
       other: [
         {
-          title: "Headstrong:",
+          title: "Headstrong",
           rule: `You can re-roll Charge rolls made for this unit.
           Each time this unit makes a Charge move, until the end of the
           turn, each time a model in this unit makes a melee attack, add
@@ -1308,7 +1308,7 @@ export const testData = [
       faction: "Oath of Moment",
       other: [
         {
-          title: "Wisdom of the Ancients (Aura):",
+          title: "Wisdom of the Ancients (Aura)",
           rule: `While a friendly Adeptus
           Astartes Infantry unit is within 6" of this model, each time
           a model in that unit makes an attack, re-roll a Hit roll of 1 and
