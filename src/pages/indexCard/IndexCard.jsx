@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./subcomponents/_Header";
 // import image from "../../assets/space_wolves/ArjacRockfist.png";
 import WeaponsRanged from "./subcomponents/WeaponsRanged";
@@ -15,13 +15,29 @@ import FooterLeft from "./subcomponents/FooterLeft";
 import FooterRight from "./subcomponents/FooterRight";
 import FooterImage from "./subcomponents/FooterImage";
 import { useLocation } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { setIndexCard } from "../../app/appSlice";
+import Weapons from "./subcomponents/Weapons";
+// import { useSelector } from "react-redux";
 const IndexCard = () => {
   const location = useLocation();
-  // useEffect(() => {
-  //   console.log(location.state);
-  // }, []);
+  const dispatch = useDispatch();
 
-  const { name, stats, point_cost, image } = location.state;
+  // const indexCard = useSelector((state) => state.app.indexCard);
+  useEffect(() => {
+    dispatch(setIndexCard(location.state));
+    // eslint-disable-next-line
+  }, []);
+
+  const {
+    name,
+    stats,
+    point_cost,
+    image,
+    equiped,
+    wargear_options,
+    abilities,
+  } = location.state;
   const {
     armor_save,
     // balistic_skill,
@@ -33,6 +49,7 @@ const IndexCard = () => {
     wounds,
   } = stats;
   const { cost, amount } = point_cost[0];
+
   return (
     <div className="indexCard">
       <Header
@@ -53,16 +70,15 @@ const IndexCard = () => {
           <div className="indexCard__content-left--small">
             {/* table */}
             <div className="indexCard__content-table">
-              <WeaponsRanged />
-              <WeaponsMelee />
+              <Weapons />
             </div>
 
-            <WargearOptions />
+            {wargear_options && <WargearOptions data={wargear_options} />}
 
             {/* display in phones */}
             <div className="indexCard__content-bottom">
               {/* Habilities: core, faction & unique */}
-              <Habilities />
+              {<Habilities data={abilities} />}
               {/* invulnerable */}
               <Invulnerable />
               {/* unit-composition */}
