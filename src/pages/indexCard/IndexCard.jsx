@@ -1,8 +1,5 @@
 import React, { useEffect } from "react";
 import Header from "./subcomponents/_Header";
-// import image from "../../assets/space_wolves/ArjacRockfist.png";
-import WeaponsRanged from "./subcomponents/WeaponsRanged";
-import WeaponsMelee from "./subcomponents/WeaponsMelee";
 import WargearOptions from "./subcomponents/WargearOptions";
 import Invulnerable from "./subcomponents/Invulnerable";
 import UnitComposition from "./subcomponents/UnitComposition";
@@ -15,15 +12,14 @@ import FooterLeft from "./subcomponents/FooterLeft";
 import FooterRight from "./subcomponents/FooterRight";
 import FooterImage from "./subcomponents/FooterImage";
 import { useLocation } from "react-router-dom";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { setIndexCard } from "../../app/appSlice";
 import Weapons from "./subcomponents/Weapons";
-// import { useSelector } from "react-redux";
+
 const IndexCard = () => {
   const location = useLocation();
   const dispatch = useDispatch();
-
-  // const indexCard = useSelector((state) => state.app.indexCard);
+  const indexCard = useSelector((state) => state.app.indexCard);
   useEffect(() => {
     dispatch(setIndexCard(location.state));
     // eslint-disable-next-line
@@ -34,10 +30,11 @@ const IndexCard = () => {
     stats,
     point_cost,
     image,
-    equiped,
+    // equiped,
     wargear_options,
     abilities,
-  } = location.state;
+    invulnerable,
+  } = indexCard;
   const {
     armor_save,
     // balistic_skill,
@@ -80,7 +77,7 @@ const IndexCard = () => {
               {/* Habilities: core, faction & unique */}
               {<Habilities data={abilities} />}
               {/* invulnerable */}
-              <Invulnerable />
+              {invulnerable && <Invulnerable />}
               {/* unit-composition */}
               <UnitComposition />
               {/* leader */}
