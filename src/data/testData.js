@@ -19,7 +19,7 @@ export const testData = [
       balistic_skill: 2,
     },
     abilities: {
-      core: ["Deep Strike,", "Leader"],
+      core: ["Deep Strike", "Leader"],
       faction: "Oath of Moment",
       other: [
         {
@@ -27,7 +27,7 @@ export const testData = [
           rule: `While this model is leading a unit, each
               time a model in that unit makes an attack, add 1 to the Hit
               roll if that unit is below its Starting Strength, and add 1 to the
-              Wound roll as well if that unit is Below Half-strength.`,
+              Wound roll as well if that unit is Below Half-strength`,
         },
         {
           title: "Champion of the Kingsguard:",
@@ -35,7 +35,7 @@ export const testData = [
               the Epic Challenge Stratagem for 0CP. In addition, each time
               this model makes a melee attack that targets a Character
               unit, you can re-roll the Hit roll and you can re-roll the
-              Wound roll.`,
+              Wound roll`,
         },
       ],
     },
@@ -73,7 +73,7 @@ export const testData = [
         of endurance. Wielding the enormous Foehammer – recalling his
         former role as an Iron Priest of the forge – Arjac crushes his foes with
         pulverising strength. As personal champion of the Great Wolf, Arjac
-        upholds the honour of the Chapter.`,
+        upholds the honour of the Chapter`,
   },
   {
     name: "Bjorn the Fell-Handed",
@@ -102,21 +102,21 @@ export const testData = [
         {
           title: "Legendary Tenacity:",
           rule: `Each time an attack is allocated to this
-              model, halve the Damage characteristic of that attack.`,
+              model, halve the Damage characteristic of that attack`,
         },
         {
           title: "Ancient Tactician:",
           rule: `Once per battle, after your opponent uses
               a Stratagem, this model can use this ability. If it does, until
               the end of the battle, increase that Stratagem’s cost to your
-              opponent by 1CP.`,
+              opponent by 1CP`,
         },
       ],
     },
 
     invulnerable: null,
     unit_composition: ["1 Bjorn the Fell-Handed– Epic Hero"],
-    equiped: ["assault cannon", "heavy flamer", "Trueclaw."],
+    equiped: ["assault cannon", "heavy flamer", "Trueclaw"],
     wargear_options: `■ This model’s assault cannon can be replaced with one of the following:
     ◦ heavy plasma cannon
     ◦ helfrost cannon
@@ -145,7 +145,7 @@ export const testData = [
         Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s
         sarcophagus. The Space Wolves revere Bjorn as a living link to their
         deepest past, waking him only in times of dire need, and he still fights
-        as furiously as he did at Russ’ side.`,
+        as furiously as he did at Russ’ side`,
   },
   {
     name: "Blood Claws",
@@ -180,7 +180,7 @@ export const testData = [
           rule: `Each time this unit makes a Charge move,
           until the end of the turn, add 1 to the Attacks and Strength
           characteristics of melee weapons equipped by models in
-          this unit.`,
+          this unit`,
         },
       ],
     },
@@ -211,7 +211,7 @@ export const testData = [
     Claws hunger to prove themselves in savage battle. With relentless
     exuberance they plunge headlong into the foe, straddling the line
     between sheer heroism and recklessness. Many great sagas start
-    with the Blood Claws’ glory hunts.`,
+    with the Blood Claws’ glory hunts`,
   },
   {
     name: "Canis Wolfborn ",
@@ -241,7 +241,7 @@ export const testData = [
           title: "Born of Wolves",
           rule: `While this model is leading a unit, melee
           weapons equipped by models in that unit have the
-          [SUSTAINED HITS 1] ability.`,
+          [SUSTAINED HITS 1] ability`,
         },
         {
           title: "Alpha Predator",
@@ -249,7 +249,7 @@ export const testData = [
           select one enemy unit within Engagement Range of it and roll
           one D6: on a 2-3, that enemy unit suffers D3 mortal wounds;
           on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6,
-          that enemy units suffers D3+3 mortal wounds.`,
+          that enemy units suffers D3+3 mortal wounds`,
         },
       ],
     },
@@ -278,7 +278,7 @@ export const testData = [
     with animalistic assurance. Believed to have been raised by a
     she-wolf, Canis speaks to his brothers in snarls and growls, and on the
     battlefield his frenzied rages, slashing claws and Thunderwolf’s jaws
-    are all the communication he needs.`,
+    are all the communication he needs`,
   },
   {
     name: "Cyberwolf",
@@ -313,7 +313,7 @@ export const testData = [
           title: "Close In for the Kill",
           rule: `Each time this model makes an attack
           that targets an enemy unit that is Below Half-strength, add 1
-          to the Hit roll and add 1 to the Wound roll.`,
+          to the Hit roll and add 1 to the Wound roll`,
         },
       ],
     },
@@ -328,14 +328,14 @@ export const testData = [
     Bodyguard unit is destroyed, the Leader units attached to it
     become separate units, with their original Starting Strengths.
     If it is not possible to attach this model to a unit, it does not
-    take part in the battle and counts as having been destroyed.`,
+    take part in the battle and counts as having been destroyed`,
     second_leader: false,
     third_leader: false,
     wargear_hability: "",
     specific: {
       title: "wolfkin",
       rule: `This model cannot be your Warlord and cannot be
-            given Enhancements.`,
+            given Enhancements`,
     },
     attached_unit: "",
 
@@ -375,7 +375,7 @@ export const testData = [
         {
           title: "Swift Hunters:",
           rule: `This unit is eligible to declare a charge in a turn
-            in which it Advanced.`,
+            in which it Advanced`,
         },
       ],
     },
@@ -398,7 +398,7 @@ export const testData = [
     Fenrisian Wolves accompany the sons of Russ to battle, following
     them as the pack follows the alpha. Even the sleekest are as big
     as a Human, yet they prowl silently before pouncing in a swift and
-    coordinated flurry of razor-sharp teeth and claws.`,
+    coordinated flurry of razor-sharp teeth and claws`,
   },
   {
     name: "Grey Hunters",
@@ -431,7 +431,7 @@ export const testData = [
         {
           title: "Cunning Hunters",
           rule: `This unit is eligible to shoot in a turn in
-          which it Fell Back or Advanced.`,
+          which it Fell Back or Advanced`,
         },
       ],
     },
@@ -455,7 +455,7 @@ export const testData = [
     specific: null,
     attached_unit: `If a Character unit from your army with the Leader ability
     can be attached to a Tactical Squad, it can instead be
-    attached to this unit.`,
+    attached to this unit`,
 
     keywords: [
       "Infantry",
@@ -470,7 +470,7 @@ export const testData = [
     – by countless battlefield victories, Grey Hunters are patient, cunning
     and adaptable. Some packs take and hold ground, unleashing volleys
     of disciplined firepower, while others stalk the flanks. When the trap is
-    set, Grey Hunters leap in for the kill.`,
+    set, Grey Hunters leap in for the kill`,
   },
   {
     name: "Harald Deathwolf",
@@ -501,14 +501,14 @@ export const testData = [
           rule: `While this model is leading a unit, each
           time that unit makes a Charge move, until the end of the turn,
           crushing teeth and claws equipped by models in that unit
-          have the [DEVASTATING WOUNDS] ability.`,
+          have the [DEVASTATING WOUNDS] ability`,
         },
         {
           title: "Mantle of the Troll King",
           rule: `Once per phase, when resolving
           an attack made against this model, after you make a
           saving throw for this model, you can change the Damage
-          characteristic of that attack to 0.`,
+          characteristic of that attack to 0`,
         },
       ],
     },
@@ -539,7 +539,7 @@ export const testData = [
     others are. The lair of his Great Company resounds to their howls, and
     many of these wolves fight with his warriors. A peerless hunter, Harald
     tracks his prey with speed and stealth, launching his ferocious strikes
-    from atop his giant Thunderwolf, Icetooth.`,
+    from atop his giant Thunderwolf, Icetooth`,
   },
   {
     name: "Iron Priest",
@@ -578,14 +578,14 @@ export const testData = [
           3" of this model. That model regains up to D3 lost wounds and,
           until the start of your next Command phase, each time that
           Vehicle model makes an attack, add 1 to the Hit roll. Each
-          model can only be selected for this ability once per turn.`,
+          model can only be selected for this ability once per turn`,
         },
         {
           title: "Vengeance of the Omnissiah",
           rule: `If a friendly Adeptus Astartes
           Vehicle model is destroyed within 12" of this model, until
           the end of the battle, this model’s tempest hammer has an
-          Attacks characteristic of 6.`,
+          Attacks characteristic of 6`,
         },
       ],
     },
@@ -615,7 +615,7 @@ export const testData = [
     technological lore that they use to repair the Chapter’s damaged war
     engines and soothe their affronted machine spirits. Warriors of Fenris
     first and foremost, Iron Priests will not hesitate to bring their own
-    esoteric weapons to bear on the foe if needed.`,
+    esoteric weapons to bear on the foe if needed`,
   },
   {
     name: "Krom Dragongaze",
@@ -646,13 +646,13 @@ export const testData = [
           rule: `While this model is leading a unit,
           each time a model in that unit makes an attack, add 1 to the
           Hit roll if that unit is below its Starting Strength, and add 1 to
-          the Wound roll as well if that unit is Below Half-strength.`,
+          the Wound roll as well if that unit is Below Half-strength`,
         },
         {
           title: "The Fierce Eye",
           rule: `In your Shooting phase, you can select one
           enemy Infantry unit within 12" of and visible to this model.
-          That enemy unit must take a Battle-shock test.`,
+          That enemy unit must take a Battle-shock test`,
         },
       ],
     },
@@ -683,7 +683,7 @@ export const testData = [
     bloodthirsty tactics, Krom Dragongaze is notoriously short of temper.
     His fierce gaze is petrifying to lesser men, yet his critical eye seeks
     deeds of valour and his Great Company boasts many veteran Wolf
-    Guard. Wildly competitive, Krom refuses to accept defeat.`,
+    Guard. Wildly competitive, Krom refuses to accept defeat`,
   },
   // {
   //   name: "Logan Grimnar",
@@ -716,12 +716,12 @@ export const testData = [
   //         turn, you can re-roll Charge rolls made for Adeptus Astartes
   //         units from your army and, until the end of the turn, each time
   //         an Adeptus Astartes model from your army makes a melee
-  //         attack, you can re-roll the Hit roll.`,
+  //         attack, you can re-roll the Hit roll`,
   //       },
   //       {
   //         title: "The Great Wolf",
   //         rule: `Each time this model destroys an enemy unit,
-  //         you gain 1CP.`,
+  //         you gain 1CP`,
   //       },
   //     ],
   //   },
@@ -742,7 +742,7 @@ export const testData = [
   //   specific: {
   //     title: "Logan Grimnar",
   //     rule: `Your army cannot contain both Logan Grimnar and Logan
-  //       Grimnar on Stormrider.`,
+  //       Grimnar on Stormrider`,
   //   },
   //   attached_unit: "",
 
@@ -761,7 +761,7 @@ export const testData = [
   //   longest serving Chapter Masters. Waging war against any who
   //   threaten the Space Wolves or the Imperium, Grimnar’s charisma and
   //   centuries of heroic victories have immortalised him as one of the most
-  //   lauded warriors in the galaxy.`,
+  //   lauded warriors in the galaxy`,
   // },
   // {
   //   name: "Grimnar on Stormrider",
@@ -794,12 +794,12 @@ export const testData = [
   //           turn, you can re-roll Charge rolls made for Adeptus Astartes
   //           units from your army and, until the end of the turn, each time
   //           an Adeptus Astartes model from your army makes a melee
-  //           attack, you can re-roll the Hit roll.`,
+  //           attack, you can re-roll the Hit roll`,
   //       },
   //       {
   //         title: "The Great Wolf",
   //         rule: `Each time this model destroys an enemy unit,
-  //           you gain 1CP.`,
+  //           you gain 1CP`,
   //       },
   //     ],
   //   },
@@ -820,7 +820,7 @@ export const testData = [
   //   attached_unit: "",
 
   //   keywords: [
-  //     "Mounted,",
+  //     "Mounted",
   //     "Character",
   //     "Epic Hero",
   //     "Imperium",
@@ -833,7 +833,7 @@ export const testData = [
   //   Logan Grimnar is a destructive and swift tempest of war. Drawn by a
   //   pair of giant and ferocious Thunderwolves, Stormrider’s saga-inscribed
   //   hull bears the grizzled leader into the heart of the enemy, there to reap
-  //   a fell tally with the Axe Morkai.`,
+  //   a fell tally with the Axe Morkai`,
   // },
   {
     name: "Long Fangs",
@@ -869,13 +869,13 @@ export const testData = [
           includes a Long Fang Pack Leader, you can select one enemy
           unit that is visible to that model. Until the end of the turn, each
           time a model in this unit makes a ranged attack that targets
-          that enemy unit, re-roll a Hit roll of 1.`,
+          that enemy unit, re-roll a Hit roll of 1`,
         },
         {
           title: "Armorium Cherub",
           rule: `Once per battle, after making a Hit roll
           for a model in this unit, you can change that roll to an
-          unmodified 6.`,
+          unmodified 6`,
         },
       ],
     },
@@ -912,7 +912,7 @@ export const testData = [
     specific: null,
     attached_unit: `If a Character unit from your army with the Leader ability
     can be attached to a Devastator Squad, it can instead be
-    attached to this unit.`,
+    attached to this unit`,
 
     keywords: ["Infantry", "Grenades", "Imperium", "Long Fangs"],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
@@ -921,7 +921,7 @@ export const testData = [
     temperament, hoary with wisdom and literally long of fang. To these
     patient warriors are granted some of the Great Company’s most
     devastating ranged weapons. Keen of eye, Long Fangs hunt the
-    monstrous beasts and battle tanks of the foe.`,
+    monstrous beasts and battle tanks of the foe`,
   },
   {
     name: "Lukas the Trickster",
@@ -951,14 +951,14 @@ export const testData = [
           title: "Pelt of the Doppegangrel",
           rule: `While this model is leading a unit,
           each time an attack targets that unit, subtract 1 from the
-          Hit roll.`,
+          Hit roll`,
         },
         {
           title: "Last Laugh",
           rule: `If this model is destroyed by a melee attack, after
           the attacking unit has finished making its attacks, roll one
           D6: on a 4+, the attacking unit suffers D6 mortal wounds and
-          is Battle-shocked.`,
+          is Battle-shocked`,
         },
       ],
     },
@@ -991,7 +991,7 @@ export const testData = [
     his many detractors – is synonymous with the irreverence and spirit
     of youth. His inventive sabotages and murderous jests rank him as
     one of the most cunning in the Chapter. A dirty fighter, rebel and rogue,
-    Lukas’ skills are as deadly as they are mischievous.`,
+    Lukas’ skills are as deadly as they are mischievous`,
   },
   {
     name: "Murderfang",
@@ -1022,7 +1022,7 @@ export const testData = [
           rule: `Each time an enemy unit targets this
           model, after that unit has finished making its attacks, this
           model can either shoot as if it were your Shooting phase
-          or fight as if it were the Fight phase.`,
+          or fight as if it were the Fight phase`,
         },
       ],
     },
@@ -1037,7 +1037,7 @@ export const testData = [
     wargear_hability: "",
     specific: {
       title: "FORCE OF UNTAMED DESTRUCTION",
-      rule: `This model cannot be your Warlord.`,
+      rule: `This model cannot be your Warlord`,
     },
     attached_unit: "",
 
@@ -1056,7 +1056,7 @@ export const testData = [
     in times of need, its massively brutal claws tearing its foes limb from
     bloody limb. The Chapter names it Murderfang. Its true identity is
     unknown for its insensate snarling rages are bereft of speech; it is
-    known now only as a force of untamed destruction.`,
+    known now only as a force of untamed destruction`,
   },
   {
     name: "Njal Stormcaller",
@@ -1085,12 +1085,12 @@ export const testData = [
         {
           title: "Stormcaller (Psychic)",
           rule: `While this model is leading a unit,
-          models in that unit have the Stealth ability.`,
+          models in that unit have the Stealth ability`,
         },
         {
           title: "Runic Armour:",
           rule: `Each time a Psychic Attack targets this model’s
-          unit, subtract 1 from the Wound roll.`,
+          unit, subtract 1 from the Wound roll`,
         },
       ],
     },
@@ -1125,7 +1125,7 @@ export const testData = [
     lore: `Summoning ice-toothed blizzards to scatter his foes, Njal Stormcaller
     is an elemental focus of psychic fury. He is High Rune Priest of the
     Space Wolves and wields a crackling staff by which he nullifies
-    enemy sorceries.`,
+    enemy sorceries`,
   },
   {
     name: "Ragnar Blackmane",
@@ -1154,13 +1154,13 @@ export const testData = [
         {
           title: "War Howl:",
           rule: `While this model is leading a unit, that unit is
-          eligible to declare a charge in a turn in which it Advanced.`,
+          eligible to declare a charge in a turn in which it Advanced`,
         },
         {
           title: "Battle-lust",
           rule: `Each time this model ends a Charge move,
           until the end of the turn, add 2 to the Attacks and Strength
-          characteristics of this model’s Frostfang.`,
+          characteristics of this model’s Frostfang`,
         },
       ],
     },
@@ -1199,7 +1199,7 @@ export const testData = [
     Wolf Lord Ragnar Blackmane regularly leads his Great Company in
     devastating planetary invasions. No longer as headstrong as in his
     youth, Ragnar’s berserk rages are still furious hurricanes of violence,
-    and his terrifying howls freeze the blood of his foes.`,
+    and his terrifying howls freeze the blood of his foes`,
   },
   {
     name: "Skyclaws",
@@ -1238,7 +1238,7 @@ export const testData = [
           rule: `You can re-roll Charge rolls made for this unit.
           Each time this unit makes a Charge move, until the end of the
           turn, each time a model in this unit makes a melee attack, add
-          1 to the Hit roll.`,
+          1 to the Hit roll`,
         },
       ],
     },
@@ -1264,7 +1264,7 @@ export const testData = [
     specific: null,
     attached_unit: `If a Character unit from your army with the Leader ability
     can be attached to an Assault Squad with Jump Packs, it
-    can instead be attached to this unit.`,
+    can instead be attached to this unit`,
 
     keywords: [
       "Infantry",
@@ -1280,7 +1280,7 @@ export const testData = [
     wearing Skyclaw packs. Rebellious and free-spirited, Skyclaws seize
     any opportunity to push their luck. They rocket forward fearlessly in
     great loping bounds, chainswords roaring as they slay, plunging into
-    the enemy’s heart with reckless fury.`,
+    the enemy’s heart with reckless fury`,
   },
 
   {
@@ -1312,7 +1312,7 @@ export const testData = [
           rule: `While a friendly Adeptus
           Astartes Infantry unit is within 6" of this model, each time
           a model in that unit makes an attack, re-roll a Hit roll of 1 and
-          re-roll a Wound roll of 1.`,
+          re-roll a Wound roll of 1`,
         },
       ],
     },
@@ -1326,7 +1326,7 @@ export const testData = [
     third_leader: false,
     wargear_hability: {
       title: "Blizzard Shield",
-      rule: `The bearer has a 4+ invulnerable save.`,
+      rule: `The bearer has a 4+ invulnerable save`,
     },
     specific: null,
     attached_unit: "",
@@ -1344,7 +1344,7 @@ export const testData = [
     battle. The ancient warriors at the heart of each are living legends of
     the Space Wolves, with wisdom as deep as the ocean and intuition as
     sharp as krakens’ teeth. Awoken from dormancy, they fight as lords of
-    battle, seemingly stepping from the sagas to kill in the name of Russ.`,
+    battle, seemingly stepping from the sagas to kill in the name of Russ`,
   },
 ];
 
