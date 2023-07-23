@@ -30,7 +30,6 @@ const Habilities = () => {
       )}
       <div className="indexCard__divisor"></div>
       {/* unique */}
-      {console.log(other)}
       {other.map((oa, i) => (
         <p className="font-rules" key={i}>
           <span className="font-negrita">{oa.title}: </span>
