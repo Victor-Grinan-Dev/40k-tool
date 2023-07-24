@@ -4,7 +4,7 @@ import WeaponEntry from "./WeaponEntry";
 const WeaponsMelee = (props) => {
   const { weapons } = props;
   // const { profiles } = props;
-  const foo = [1, 2, 3];
+  // const foo = [1, 2, 3];
   return (
     <div>
       <div className="indexCard__content-heading">
