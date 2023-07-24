@@ -77,6 +77,7 @@ const IndexCard = () => {
               {/* Habilities: core, faction & unique */}
               {<Habilities data={abilities} />}
               {/* invulnerable */}
+
               {invulnerable && <Invulnerable />}
               {/* unit-composition */}
               <UnitComposition />
@@ -96,7 +97,7 @@ const IndexCard = () => {
           {/* Habilities: core, faction & unique */}
           <Habilities />
           {/* invulnerable */}
-          <Invulnerable />
+          {invulnerable && <Invulnerable />}
           {/* unit-composition */}
           <UnitComposition />
           {/* leader */}
