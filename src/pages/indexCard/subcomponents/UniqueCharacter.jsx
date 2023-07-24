@@ -1,14 +1,13 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
-const UniqueCharacter = ({ name }) => {
+const UniqueCharacter = () => {
+  const specific = useSelector((state) => state.app.specific);
+  const { title, rule } = specific;
   return (
     <div>
-      <div className="indexCard__unique">{name || "Model's name"}</div>
-      <p className="font-rules">
-        Your army cannot contain both{" "}
-        <span className="font-negrita"> Logan Grimnar</span> and{" "}
-        <span className="font-negrita">Logan Grimnar on Stormrider</span>
-      </p>
+      <div className="indexCard__unique">{title}</div>
+      <p className="font-rules">{rule}.</p>
     </div>
   );
 };
