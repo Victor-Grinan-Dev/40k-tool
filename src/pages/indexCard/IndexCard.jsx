@@ -36,6 +36,8 @@ const IndexCard = () => {
     invulnerable,
     leader,
     wargear_hability,
+    specific,
+    attached_unit,
   } = indexCard;
   const {
     armor_save,
@@ -88,9 +90,9 @@ const IndexCard = () => {
               {/* wargear hability */}
               {wargear_hability && <WargearHability />}
               {/* unique character rules */}
-              <UniqueCharacter name={""} />
+              {specific && <UniqueCharacter />}
               {/* attached unit */}
-              <AttachedUnit />
+              {attached_unit && <AttachedUnit />}
             </div>
           </div>
         </div>
@@ -106,12 +108,12 @@ const IndexCard = () => {
 
           {leader.length > 0 && <Leader />}
           {/* wargear hability */}
-          {console.log(leader)}
+
           {wargear_hability && <WargearHability />}
           {/* unique character rules */}
-          <UniqueCharacter name={""} />
+          {specific && <UniqueCharacter />}
           {/* attached unit */}
-          <AttachedUnit />
+          {attached_unit && <AttachedUnit />}
         </div>
       </div>
 
