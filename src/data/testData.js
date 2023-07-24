@@ -202,7 +202,9 @@ export const testData = [
     third_leader: false,
     wargear_hability: "",
     specific: null,
-    attached_unit: "",
+    attached_unit: `If a Character unit from your army with the Leader ability
+    can be attached to an Assault Squad, it can instead be
+    attached to this unit.`,
 
     keywords: ["Infantry", "Battleline", "Grenades", "Imperium", "Blood Claws"],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
