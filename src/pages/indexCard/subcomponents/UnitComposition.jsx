@@ -26,7 +26,7 @@ const UnitComposition = () => {
               </span>
             )}
             {equiped.map((e, i) => (
-              <span className="font-rules">
+              <span className="font-rules" key={i}>
                 {" "}
                 {e}
                 {i !== equiped.length - 1 ? ", " : "."}
@@ -36,10 +36,9 @@ const UnitComposition = () => {
           <div className="indexCard__divisor"></div>
         </div>
       ) : (
-        <div>{composition}</div>
+        <div className="font-rules">{composition}</div>
       )}
     </span>
-    // {composition.lenght > 1 &&   }
   );
 };
 
