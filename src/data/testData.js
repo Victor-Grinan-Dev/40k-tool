@@ -1407,7 +1407,7 @@ export const testData = [
 
   {
     name: "Stormfang Gunship",
-    image: "",
+    image: "stormfang",
     point_cost: [
       {
         amount: 1,
@@ -1500,7 +1500,7 @@ export const testData = [
   },
   {
     name: "Stormwolf",
-    image: "",
+    image: "stromwolf",
     point_cost: [
       {
         amount: 1,
@@ -1582,6 +1582,58 @@ export const testData = [
     attack, Stormwolves saturate the area with an array of heavy fire,
     before rising to hunt for yet more targets`,
   },
+  {
+    name: "Thunderwolf Cavalry",
+    image: "",
+    point_cost: [
+      {
+        amount: 3,
+        cost: 100,
+      },
+      {
+        amount: 6,
+        cost: 200,
+      },
+    ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 3,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "",
+          rule: ``,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: null,
+    unit_composition: [],
+    equiped: [],
+    wargear_options: [],
+    leader: [],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: "",
+    specific: null,
+    attached_unit: "",
+
+    keywords: [],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: ``,
+  },
 ];
 
 /**
@@ -1640,58 +1692,7 @@ export const testData = [
           
       
       
-      {
-        name: "Thunderwolf Cavalry",
-        image: "",
-        point_cost: [
-          {
-            amount: 3,
-            cost: 100,
-          },
-          {
-            amount: 6,
-            cost: 200,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
+      
       {
         name: "Ulrik the Slayer",
         image: "",
