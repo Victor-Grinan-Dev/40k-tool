@@ -40,7 +40,7 @@ export const testData = [
       ],
     },
     invulnerable: 4,
-    wargear_options: null,
+    wargear_options: [],
     unit_composition: ["1 Arjac Rockfist – Epic Hero"],
     equiped: ["Foehammer"],
     leader: [
@@ -117,11 +117,18 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Bjorn the Fell-Handed– Epic Hero"],
     equiped: ["assault cannon", "heavy flamer", "Trueclaw"],
-    wargear_options: `■ This model’s assault cannon can be replaced with one of the following:
-    ◦ heavy plasma cannon
-    ◦ helfrost cannon
-    ◦ multi-melta
-    ◦ twin lascannon`,
+    wargear_options: [
+      {
+        title:
+          "This model’s assault cannon can be replaced with one of the following",
+        options: [
+          "heavy plasma cannon",
+          "helfrost cannon",
+          "multi-melta",
+          "twin lascannon",
+        ],
+      },
+    ],
     leader: [],
     second_leader: false,
     third_leader: false,
@@ -188,15 +195,27 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Blood Claw Pack Leader", "9-14 Blood Claws"],
     equiped: ["bolt pistol", "Astartes chainsword"],
-    wargear_options: `■ The Blood Claw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.
-    ■ The Blood Claw Pack Leader’s Astartes chainsword can be replaced with one of the following:
-    ◦ 1 power fist
-    ◦ 1 power weapon
-    ■ Up to 2 Blood Claws can each have their Astartes chainsword replaced with one of the following:
-    ◦ 1 flamer and 1 close combat weapon
-    ◦ 1 grav-gun and 1 close combat weapon
-    ◦ 1 meltagun and 1 close combat weapon
-    ◦ 1 plasma gun and 1 close combat weapon`,
+    wargear_options: [
+      {
+        title:
+          "The Blood Claw Pack Leader’s Astartes chainsword can be replaced with one of the following",
+        options: ["1 power weapon", "1 power fist"],
+      },
+      {
+        title: "The Blood Claw Pack Leader’s bolt pistol can be replaced with",
+        options: ["1 plasma pistol"],
+      },
+      {
+        title:
+          "Up to 2 Blood Claws can each have their Astartes chainsword replaced with one of the following",
+        options: [
+          "1 flamer and 1 close combat weapon",
+          "1 grav-gun and 1 close combat weapon",
+          "1 meltagun and 1 close combat weapon",
+          "1 plasma gun and 1 close combat weapon",
+        ],
+      },
+    ],
     leader: [],
     second_leader: false,
     third_leader: false,
@@ -259,7 +278,7 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Canis Wolfborn – Epic Hero"],
     equiped: ["crushing teeth and jaws 4+", "Wolf claws"],
-    wargear_options: "",
+    wargear_options: [],
     leader: ["Fenrisian Wolves", "Thunderwolf Cavalry"],
     second_leader: false,
     third_leader: false,
@@ -323,7 +342,7 @@ export const testData = [
     invulnerable: 6,
     unit_composition: ["Fenrisian Wolves"],
     equiped: ["Teeth and claws"],
-    wargear_options: "",
+    wargear_options: [],
     leader: ["Fenrisian Wolves"],
     secondLeader: `You must attach this model to the above unit, even if Canis
     Wolfborn has been attached to it. If you do, and that
@@ -385,7 +404,7 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["5-10 Fenrisian Wolves"],
     equiped: ["Teeth and claws"],
-    wargear_options: ``,
+    wargear_options: [],
     leader: [],
     second_leader: false,
     third_leader: false,
@@ -441,15 +460,22 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Grey Hunter Pack Leader", "4-9 Grey Hunters"],
     equiped: ["bolt pistol", "boltgun", "combat weapon"],
-    wargear_options: `■ Any number of models can each be equipped with 1 Astartes chainsword.
-    ■ The Grey Hunter Pack Leader’s close combat weapon can be replaced with one of the following:
-    ◦ 1 power fist
-    ◦ 1 power weapon
-    ■ Up to 2 Grey Hunters can each have their boltgun replaced with one of the following:
-    ◦ 1 flamer
-    ◦ 1 grav-gun
-    ◦ 1 meltagun
-    ◦ 1 plasma gun`,
+    wargear_options: [
+      {
+        title: "Any number of models can each be equipped with",
+        options: ["1 Astartes chainsword"],
+      },
+      {
+        title:
+          "The Grey Hunter Pack Leader’s close combat weapon can be replaced with one of the following",
+        options: ["1 power fist", "1 power weapon"],
+      },
+      {
+        title:
+          "Up to 2 Grey Hunters can each have their boltgun replaced with one of the following",
+        options: ["1 flamer", "1 grav-gun", "1 meltagun", "1 plasma gun"],
+      },
+    ],
     leader: [],
     second_leader: false,
     third_leader: false,
@@ -518,7 +544,7 @@ export const testData = [
     invulnerable: 4,
     unit_composition: ["1 Harald Deathwolf – Epic Hero"],
     equiped: ["bolt pistol", "crushing teeth and claws", "Glacius"],
-    wargear_options: "",
+    wargear_options: [],
     leader: ["Thunderwolf Cavalry"],
     second_leader: false,
     third_leader: false,
@@ -595,7 +621,7 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Iron Priest"],
     equiped: ["helfrost pistol", "servo-arm", "tempest hammer"],
-    wargear_options: "",
+    wargear_options: [],
     leader: ["Astartes Servitors", "Blood Claws", "Grey Hunters", "Long Fangs"],
     second_leader: false,
     third_leader: false,
@@ -662,7 +688,7 @@ export const testData = [
     invulnerable: 4,
     unit_composition: ["1 Krom Dragongaze"],
     equiped: ["Wyrmclaw", "Bolt pistol"],
-    wargear_options: "",
+    wargear_options: [],
     leader: ["Blood Claws", "Grey Hunters", "Wolf Guard"],
     second_leader: false,
     third_leader: false,
@@ -731,7 +757,7 @@ export const testData = [
   //   invulnerable: 4,
   //   unit_composition: ["Logan Grimnar – Epic Hero"],
   //   equiped: ["Storm bolter", "The Axe Morkai"],
-  //   wargear_options: "",
+  //   wargear_options: [],
   //   leader: [
   //     "Relic Terminator Squad",
   //     "Terminator Assault Squad",
@@ -813,7 +839,7 @@ export const testData = [
   //     "the Axe of Morkai",
   //     "flurry of teeth and claws 4+",
   //   ],
-  //   wargear_options: "",
+  //   wargear_options: [],
   //   leader: ["Thunderwolf Cavalry"],
   //  second_leader: false,
   // third_leader: false,
@@ -885,28 +911,37 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Long Fang Pack Leader", "4-5 Long Fangs"],
     equiped: ["boltgun", "bolt pistol", "close combat weapon"],
-    wargear_options: `■ Any number of Long Fangs can each have their
-    boltgun replaced with one of the following:
-    ◦ 1 grav-cannon
-    ◦ 1 heavy bolter
-    ◦ 1 heavy flamer*
-    ◦ 1 lascannon
-    ◦ 1 missile launcher
-    ◦ 1 multi-melta
-    ◦ 1 plasma cannon
-    ■ The Long Fang Pack Leader’s close combat
-    weapon can be replaced with one of
-    the following:
-    ◦ 1 Astartes chainsword
-    ◦ 1 power fist
-    ◦ 1 power weapon
-    ■ The Long Fang Pack Leader’s boltgun can be
-    replace with one of the following:*
-    ◦ 1 flamer
-    ◦ 1 grav-gun
-    ◦ 1 meltagun
-    ◦ 1 plasma gun
-    ◦ 1 plasma pistol`,
+    wargear_options: [
+      {
+        title:
+          "Any number of Long Fangs can each have their boltgun replaced with one of the following",
+        options: [
+          "1 grav-cannon",
+          "1 heavy bolter",
+          "1 heavy flamer*",
+          "1 lascannon",
+          "1 missile launcher",
+          "1 multi-melta",
+          "1 plasma cannon",
+        ],
+      },
+      {
+        title:
+          "The Long Fang Pack Leader’s close combat weapon can be replaced with one of the following",
+        options: ["1 Astartes chainsword", "1 power fist", "1 power weapon"],
+      },
+      {
+        title:
+          "The Long Fang Pack Leader’s boltgun can be replace with one of the following",
+        options: [
+          "1 grav-gun",
+          "1 flamer",
+          "1 meltagun",
+          "1 plasma gun",
+          "1 plasma pistol",
+        ],
+      },
+    ],
     leader: [],
     second_leader: false,
     third_leader: false,
@@ -968,7 +1003,7 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Lukas the Trickster – Epic Hero"],
     equiped: ["plasma pistol", "Claw of the Jackalwolf"],
-    wargear_options: "",
+    wargear_options: [],
     leader: ["Blood Claws"],
     second_leader: false,
     third_leader: false,
@@ -1032,7 +1067,7 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["Murderfang – Epic Hero"],
     equiped: ["heavy flamer", "storm bolter", "the Murderclaws"],
-    wargear_options: "",
+    wargear_options: [],
     leader: [],
     second_leader: false,
     third_leader: false,
@@ -1100,7 +1135,7 @@ export const testData = [
     invulnerable: 4,
     unit_composition: ["1 Njal Stormcaller – Epic Hero"],
     equiped: ["bolt pistol", "Living Lightning", "Staff of the Stormcaller"],
-    wargear_options: "",
+    wargear_options: [],
     leader: [
       "Relic Terminator Squad",
       "Terminator Assault Squad",
@@ -1170,7 +1205,7 @@ export const testData = [
     invulnerable: 4,
     unit_composition: ["1 Ragnar Blackmane – Epic Hero"],
     equiped: ["bolt pistol", "Frostfang"],
-    wargear_options: "",
+    wargear_options: [],
     leader: [
       "Wolf Guard",
       "Blood Claws",
@@ -1322,7 +1357,7 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Space Wolves Venerable Dreadnought"],
     equiped: ["assault cannon", "storm bolter", "Dreadnought combat weapon"],
-    wargear_options: "",
+    wargear_options: [],
     leader: [],
     second_leader: false,
     third_leader: false,
@@ -1389,7 +1424,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1438,7 +1473,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1485,7 +1520,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1536,7 +1571,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1583,7 +1618,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1634,7 +1669,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1681,7 +1716,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1728,7 +1763,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1775,7 +1810,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1822,7 +1857,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1869,7 +1904,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1920,7 +1955,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -1967,7 +2002,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -2018,7 +2053,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -2069,7 +2104,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
@@ -2116,7 +2151,7 @@ export const testData = [
         invulnerable: null,
         unit_composition: [],
         equiped: [],
-        wargear_options: "",
+        wargear_options: [],
         leader: [],
         second_leader: false,
         third_leader: false,
