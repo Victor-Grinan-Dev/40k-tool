@@ -1498,6 +1498,90 @@ export const testData = [
     helfrost destructor that freezes its target; even monstrous flesh is
     ice-burned, and unyielding tank armour swiftly cracks and shatters`,
   },
+  {
+    name: "Stormwolf",
+    image: "",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 250,
+      },
+    ],
+    stats: {
+      movement: 20,
+      toughness: 10,
+      armor_save: 3,
+      wounds: 14,
+      leadership: 6,
+      objective_control: 0,
+      weapon_skill: 4,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: ["Deadly Demise D6", "Hover"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Into the Foe",
+          rule: `If a unit disembarks from this Transport before
+          it moves, until the end of the turn, that unit is eligible to
+          charge in a turn in which it Advanced.`,
+        },
+      ],
+    },
+
+    transport: {
+      rule: `This model has a transport capacity of 16 Adeptus Astartes
+      Infantry models. Each Jump Pack, Wulfen, Gravis or
+      Terminator model takes up the space of 2 models and each
+      Centurion model takes up the space of 3 models.`,
+      amount: 16,
+      allowed: [
+        "Adeptus Astartes Infantry",
+        "Jump Pack",
+        "Wulfen",
+        "Gravis",
+        "Terminator",
+        "Centurion",
+      ],
+    },
+    invulnerable: null,
+    unit_composition: ["1 Stormwolf"],
+    equiped: [
+      "twin helfrost cannon",
+      "2 skyhammer missile launchers",
+      "twin lascannon",
+      "armoured hull",
+    ],
+    wargear_options: [
+      {
+        title:
+          "This model’s 2 skyhammer missile launchers can be replaced with one of the following",
+        options: ["2 twin multi-meltas", "2 twin heavy bolters"],
+      },
+    ],
+    leader: [],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: "",
+    specific: {
+      title: "DAMAGED: 1-5 WOUNDS REMAINING",
+      rule: `While this model has 1-5 wounds remaining, each time this
+    model makes an attack, subtract 1 from the Hit roll`,
+    },
+
+    attached_unit: "",
+
+    keywords: ["Vehicle", "Aircraft", "Fly", "Transport", "Stormwolf"],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Stormwolves enable the sons of Russ to bring the fight to the enemy
+    wherever they hide. Within their wide hold, packs of warriors are borne
+    with incredible speed into the foe’s midst. As the packs leap out to
+    attack, Stormwolves saturate the area with an array of heavy fire,
+    before rising to hunt for yet more targets`,
+  },
 ];
 
 /**
@@ -1555,54 +1639,7 @@ export const testData = [
       },
           
       
-      {
-        name: "Stormwolf",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 250,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
+      
       {
         name: "Thunderwolf Cavalry",
         image: "",
