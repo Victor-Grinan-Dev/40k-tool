@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const UniqueCharacter = () => {
-  const specific = useSelector((state) => state.app.specific);
+  const specific = useSelector((state) => state.app.indexCard.specific);
   const { title, rule } = specific;
   return (
     <div>

@@ -39,6 +39,7 @@ export const testData = [
         },
       ],
     },
+    transport: ``,
     invulnerable: 4,
     wargear_options: [],
     unit_composition: ["1 Arjac Rockfist – Epic Hero"],
@@ -114,6 +115,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Bjorn the Fell-Handed– Epic Hero"],
     equiped: ["assault cannon", "heavy flamer", "Trueclaw"],
@@ -192,6 +194,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Blood Claw Pack Leader", "9-14 Blood Claws"],
     equiped: ["bolt pistol", "Astartes chainsword"],
@@ -275,6 +278,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Canis Wolfborn – Epic Hero"],
     equiped: ["crushing teeth and jaws 4+", "Wolf claws"],
@@ -339,6 +343,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: 6,
     unit_composition: ["Fenrisian Wolves"],
     equiped: ["Teeth and claws"],
@@ -401,6 +406,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["5-10 Fenrisian Wolves"],
     equiped: ["Teeth and claws"],
@@ -457,6 +463,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Grey Hunter Pack Leader", "4-9 Grey Hunters"],
     equiped: ["bolt pistol", "boltgun", "combat weapon"],
@@ -541,6 +548,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Harald Deathwolf – Epic Hero"],
     equiped: ["bolt pistol", "crushing teeth and claws", "Glacius"],
@@ -618,6 +626,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Iron Priest"],
     equiped: ["helfrost pistol", "servo-arm", "tempest hammer"],
@@ -685,6 +694,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Krom Dragongaze"],
     equiped: ["Wyrmclaw", "Bolt pistol"],
@@ -754,7 +764,8 @@ export const testData = [
   //     ],
   //   },
 
-  //   invulnerable: 4,
+  // transport:``,
+  //  invulnerable: 4,
   //   unit_composition: ["Logan Grimnar – Epic Hero"],
   //   equiped: ["Storm bolter", "The Axe Morkai"],
   //   wargear_options: [],
@@ -832,7 +843,8 @@ export const testData = [
   //     ],
   //   },
 
-  //   invulnerable: 4,
+  // transport:``,
+  // invulnerable: 4,
   //   unit_composition: ["1 Logan Grimnar on Stormrider – Epic Hero"],
   //   equiped: [
   //     "storm bolter",
@@ -908,6 +920,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Long Fang Pack Leader", "4-5 Long Fangs"],
     equiped: ["boltgun", "bolt pistol", "close combat weapon"],
@@ -1000,6 +1013,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Lukas the Trickster – Epic Hero"],
     equiped: ["plasma pistol", "Claw of the Jackalwolf"],
@@ -1064,6 +1078,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["Murderfang – Epic Hero"],
     equiped: ["heavy flamer", "storm bolter", "the Murderclaws"],
@@ -1132,6 +1147,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Njal Stormcaller – Epic Hero"],
     equiped: ["bolt pistol", "Living Lightning", "Staff of the Stormcaller"],
@@ -1202,6 +1218,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Ragnar Blackmane – Epic Hero"],
     equiped: ["bolt pistol", "Frostfang"],
@@ -1280,6 +1297,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Skyclaw Pack Leader", "4-14 Skyclaws"],
     equiped: ["bolt pistol", "Astartes chainsword"],
@@ -1354,6 +1372,7 @@ export const testData = [
       ],
     },
 
+    transport: ``,
     invulnerable: null,
     unit_composition: ["1 Space Wolves Venerable Dreadnought"],
     equiped: ["assault cannon", "storm bolter", "Dreadnought combat weapon"],
@@ -1363,7 +1382,9 @@ export const testData = [
     third_leader: false,
     wargear_hability: {
       title: "Blizzard Shield",
-      rule: `The bearer has a 4+ invulnerable save`,
+      transport: ``,
+      rule: `The bearer has a 4+ 
+      invulnerable save`,
     },
     specific: null,
     attached_unit: "",
@@ -1382,6 +1403,100 @@ export const testData = [
     the Space Wolves, with wisdom as deep as the ocean and intuition as
     sharp as krakens’ teeth. Awoken from dormancy, they fight as lords of
     battle, seemingly stepping from the sagas to kill in the name of Russ`,
+  },
+
+  {
+    name: "Stormfang Gunship",
+    image: "",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 300,
+      },
+    ],
+    stats: {
+      movement: 20,
+      toughness: 10,
+      armor_save: 3,
+      wounds: 14,
+      leadership: 6,
+      objective_control: 0,
+      weapon_skill: 4,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: ["Deadly Demise D6", "Hover"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Frozen Prey",
+          rule: `In your Shooting phase, after this model has
+          shot, if an enemy Monster or Vehicle unit was hit by one
+          or more of those attacks made with this model’s helfrost
+          destructor, until the end of your opponent’s next turn, that
+          enemy unit is Frozen. While a unit is Frozen, subtract 2 from
+          that unit’s Move characteristic, and subtract 2 from Advance
+          and Charge rolls made for that unit`,
+        },
+      ],
+    },
+
+    transport: {
+      rule: `This model has a transport capacity of 6 Adeptus Astartes
+      Infantry models. Each Jump Pack, Wulfen, Gravis or
+      Terminator model takes up the space of 2 models and each
+      Centurion model takes up the space of 3 models`,
+      amount: 6,
+      allowed: [
+        "Adeptus Astartes Infantry",
+        "Jump Pack",
+        "Wulfen",
+        "Gravis",
+        "Terminator",
+        "Centurion",
+      ],
+    },
+    invulnerable: null,
+    unit_composition: ["1 Stormfang Gunship"],
+    equiped: [
+      "helfrost destructor",
+      "2 skyhammer missile launchers",
+      "twin stormstrike missile launcher",
+      "armoured hull",
+    ],
+    wargear_options: [
+      {
+        title:
+          "This model’s 2 skyhammer missile launchers can be replaced with one of the following",
+        options: ["2 twin multi-meltas", "2 twin heavy bolters"],
+      },
+      {
+        title:
+          "This model’s twin stormstrike missile launcher can be replaced with",
+        options: ["1 twin lascannon"],
+      },
+    ],
+    leader: [],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: "",
+    specific: {
+      title: "DAMAGED: 1-5 WOUNDS REMAINING",
+      rule: `While this model has 1-5 wounds remaining, each time this
+    model makes an attack, subtract 1 from the Hit roll`,
+    },
+
+    attached_unit: "",
+
+    keywords: ["Vehicle", "Aircraft", "Fly", "Transport", "Stormfang Gunship"],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Dominating the skies like the dread ice wyrms of myth, Stormfang
+    Gunships are heavily armed and armoured vessels, bludgeoning their
+    way through enemy aerial assets. Each is built around a monstrous
+    helfrost destructor that freezes its target; even monstrous flesh is
+    ice-burned, and unyielding tank armour swiftly cracks and shatters`,
   },
 ];
 
@@ -1421,6 +1536,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1439,53 +1555,6 @@ export const testData = [
       },
           
       
-      {
-        name: "Stormfang",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 300,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
       {
         name: "Stormwolf",
         image: "",
@@ -1517,6 +1586,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1568,6 +1638,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1615,6 +1686,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1666,6 +1738,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1713,6 +1786,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1760,6 +1834,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1807,6 +1882,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1854,6 +1930,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1901,6 +1978,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1952,6 +2030,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -1999,6 +2078,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -2050,6 +2130,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -2101,6 +2182,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
@@ -2148,6 +2230,7 @@ export const testData = [
           ],
         },
     
+        transport:``,
         invulnerable: null,
         unit_composition: [],
         equiped: [],
