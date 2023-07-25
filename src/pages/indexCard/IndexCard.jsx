@@ -74,7 +74,7 @@ const IndexCard = () => {
               <Weapons />
             </div>
 
-            {wargear_options && <WargearOptions data={wargear_options} />}
+            {wargear_options && <WargearOptions />}
 
             {/* display in phones */}
             <div className="indexCard__content-bottom">

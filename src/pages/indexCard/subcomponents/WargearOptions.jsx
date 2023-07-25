@@ -1,30 +1,28 @@
 import React from "react";
+import { useSelector } from "react-redux";
 
-const WargearOptions = (props) => {
-  const { data } = props;
+const WargearOptions = () => {
+  const options = useSelector((state) => state.app.indexCard.wargear_options);
+
   return (
     <div className="indexCard__content-wargear font-rules">
       <div className="indexCard__wargear-options">wargear options</div>
-      {data}
-      {/* <ul className="list">
-        <li className="list-item">
-          The Sergeant’s bolt rifle can be replaced with one of the following:
-          <ul className="sublist">
-            <li className="sublist-item">1 Astartes chainsword</li>
-            <li className="sublist-item">1 hand flamer</li>
-            <li className="sublist-item">1 plasma pisto</li>
-            <li className="sublist-item">1 power weapon</li>
+      {options.map((o, i) => (
+        <ul className="list" key={i}>
+          {
+            <li key={`${i}`} className="list">
+              {o.title}:
+            </li>
+          }
+          <ul>
+            {o.options.map((option, j) => (
+              <li key={`${i}${j}`} className="sublist">
+                {option}:
+              </li>
+            ))}
           </ul>
-        </li>
-        <li className="list-item">
-          The Intercessor Sergeant’s close combat weapon can be replaced with
-          one of the following
-        </li>
-        <li className="list-item">
-          For every 5 models in this unit, 1 model equipped with a bolt rifle
-          can be equipped with 1 Astartes grenade launcher
-        </li>
-      </ul> */}
+        </ul>
+      ))}
     </div>
   );
 };
