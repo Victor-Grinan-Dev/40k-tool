@@ -7,7 +7,7 @@ const Habilities = () => {
   return (
     <div>
       <div className="indexCard__habilities">abilities</div>
-      {abilities && (
+      {core.length > 0 && (
         <>
           <p className="font-rules">
             CORE:
@@ -23,7 +23,7 @@ const Habilities = () => {
           <div className="indexCard__divisor"></div>
         </>
       )}
-      {abilities && (
+      {faction && (
         <span className="font-rules">
           FACTION:<span className="font-negrita"> {faction}</span>
         </span>
