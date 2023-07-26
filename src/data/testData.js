@@ -134,7 +134,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: null,
     attached_unit: "",
 
@@ -222,7 +222,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: null,
     attached_unit: `If a Character unit from your army with the Leader ability
     can be attached to an Assault Squad, it can instead be
@@ -286,7 +286,7 @@ export const testData = [
     leader: ["Fenrisian Wolves", "Thunderwolf Cavalry"],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: null,
     attached_unit: "",
 
@@ -357,7 +357,7 @@ export const testData = [
     take part in the battle and counts as having been destroyed`,
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: {
       title: "wolfkin",
       rule: `This model cannot be your Warlord and cannot be
@@ -414,7 +414,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: null,
     attached_unit: "",
 
@@ -486,7 +486,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: null,
     attached_unit: `If a Character unit from your army with the Leader ability
     can be attached to a Tactical Squad, it can instead be
@@ -556,7 +556,7 @@ export const testData = [
     leader: ["Thunderwolf Cavalry"],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: null,
     attached_unit: "",
 
@@ -634,7 +634,7 @@ export const testData = [
     leader: ["Astartes Servitors", "Blood Claws", "Grey Hunters", "Long Fangs"],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: null,
     attached_unit: "",
 
@@ -702,7 +702,7 @@ export const testData = [
     leader: ["Blood Claws", "Grey Hunters", "Wolf Guard"],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: null,
     specific: null,
     attached_unit: "",
 
@@ -777,7 +777,7 @@ export const testData = [
   //   ],
   // second_leader: false,
   // third_leader: false,
-  // wargear_hability: "",
+  // wargear_hability: {},
   //   specific: {
   //     title: "Logan Grimnar",
   //     rule: `Your army cannot contain both Logan Grimnar and Logan
@@ -855,7 +855,7 @@ export const testData = [
   //   leader: ["Thunderwolf Cavalry"],
   //  second_leader: false,
   // third_leader: false,
-  //  wargear_hability: "",
+  //  wargear_hability: {},
   //   specific: null,
   //   attached_unit: "",
 
@@ -958,7 +958,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {},
     specific: null,
     attached_unit: `If a Character unit from your army with the Leader ability
     can be attached to a Devastator Squad, it can instead be
@@ -1021,7 +1021,7 @@ export const testData = [
     leader: ["Blood Claws"],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {},
     specific: {
       title: "MASTER OF MISCHIEF",
       rule: "This model cannot be your Warlord",
@@ -1086,7 +1086,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {},
     specific: {
       title: "FORCE OF UNTAMED DESTRUCTION",
       rule: `This model cannot be your Warlord`,
@@ -1160,7 +1160,7 @@ export const testData = [
     ],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {},
     specific: null,
     attached_unit: "",
 
@@ -1233,7 +1233,7 @@ export const testData = [
     ],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {},
     specific: null,
     attached_unit: "",
 
@@ -1315,7 +1315,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {},
     specific: null,
     attached_unit: `If a Character unit from your army with the Leader ability
     can be attached to an Assault Squad with Jump Packs, it
@@ -1480,7 +1480,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {},
     specific: {
       title: "DAMAGED: 1-5 WOUNDS REMAINING",
       rule: `While this model has 1-5 wounds remaining, each time this
@@ -1564,7 +1564,7 @@ export const testData = [
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {},
     specific: {
       title: "DAMAGED: 1-5 WOUNDS REMAINING",
       rule: `While this model has 1-5 wounds remaining, each time this
@@ -1584,7 +1584,7 @@ export const testData = [
   },
   {
     name: "Thunderwolf Cavalry",
-    image: "",
+    image: "thunderwolfCavalry",
     point_cost: [
       {
         amount: 3,
@@ -1596,14 +1596,14 @@ export const testData = [
       },
     ],
     stats: {
-      movement: 8,
-      toughness: 9,
-      armor_save: 2,
-      wounds: 8,
+      movement: 10,
+      toughness: 6,
+      armor_save: 3,
+      wounds: 4,
       leadership: 6,
-      objective_control: 3,
-      weapon_skill: 2,
-      balistic_skill: 2,
+      objective_control: 2,
+      weapon_skill: 3,
+      balistic_skill: 3,
     },
 
     abilities: {
@@ -1611,28 +1611,702 @@ export const testData = [
       faction: "Oath of Moment",
       other: [
         {
-          title: "",
-          rule: ``,
+          title: "Ferocious Charge",
+          rule: `Each time this unit makes a Charge move,
+          until the end of the turn, add 1 to the Damage characteristic of
+          melee weapons equipped by models in this unit`,
         },
       ],
     },
 
     transport: ``,
     invulnerable: null,
-    unit_composition: [],
-    equiped: [],
-    wargear_options: [],
+    unit_composition: [
+      "1 Thunderwolf Cavalry Pack Leader",
+      "2-5 Thunderwolf Cavalry",
+    ],
+    equiped: ["bolt pistol", "crushing teeth and claws", "heirloom weapon"],
+    wargear_options: [
+      {
+        title:
+          "Any number of models can each have their bolt pistol replaced with one of the following",
+        options: ["1 boltgun", "1 plasma pistol", "1 storm shield"],
+      },
+    ],
     leader: [],
     second_leader: false,
     third_leader: false,
-    wargear_hability: "",
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a 4+ invulnerable save",
+    },
     specific: null,
     attached_unit: "",
 
-    keywords: [],
+    keywords: ["Mounted", "Grenades", "Imperium", "Thunderwolf Cavalry"],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-    lore: ``,
+    lore: `Thunderwolves are monstrous and solitary alpha predators, and only
+    the most dauntless elite within the Wolf Guard have the dominance
+    to ride them to war. When they charge, crushing jaws tear through
+    armoured plates, flesh and bone with feral butchery, while the
+    Thunderwolves’ riders hack down the foe with heroic ferocity.`,
+  },
+  {
+    name: "Ulrik the Slayer",
+    image: "ulrik",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 85,
+      },
+    ],
+    stats: {
+      movement: 6,
+      toughness: 4,
+      armor_save: 3,
+      wounds: 4,
+      leadership: 5,
+      objective_control: 1,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: ["Feel No Pain 6+", "Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Slayer’s Oath",
+          rule: `While this model is leading a unit, at the start
+          of the Fight phase, select one enemy unit within Engagement
+          Range of this model’s unit. Until the end of the phase, each
+          time a model in this model’s unit makes a melee attack that
+          targets that enemy unit, re-roll a Hit roll of 1 and re-roll a
+          Wound roll of 1. If that enemy unit is a Character, Vehicle or
+          Monster unit, until the end of the phase, each time a model
+          in this model’s unit makes a melee attack that targets that
+          enemy unit, you can re-roll the Hit roll and you can re-roll the
+          Wound roll`,
+        },
+        {
+          title: "Wolf Helm of Russ (Aura)",
+          rule: `While a friendly Adeptus Astartes
+          unit is within 6" of this model, models in that unit have a
+          Leadership characteristic of 5+`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: 4,
+    unit_composition: ["1 Ulrik the Slayer – Epic Hero"],
+    equiped: ["plasma pistol", "artificer crozius"],
+    wargear_options: [],
+    leader: ["Blood Claws", "Grey Hunters", "Long Fangs", "Wolf Guard"],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: null,
+    specific: null,
+    attached_unit: "",
+
+    keywords: [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Ulrik the Slayer",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `A paragon of wisdom and experience, Ulrik the Slayer has mentored
+    many of the Space Wolves’ greatest champions. He is the Wolf High
+    Priest, inspiring all who fight alongside him with his aggression and
+    martial prowess. Turning his fearsome gaze upon mighty foes, Ulrik
+    swears weighty oaths to cut them down`,
+  },
+  {
+    name: "Wolf Guards",
+    image: "wolfguards",
+    point_cost: [
+      {
+        amount: 5,
+        cost: 95,
+      },
+      {
+        amount: 10,
+        cost: 190,
+      },
+    ],
+    stats: {
+      movement: 4,
+      toughness: 4,
+      armor_save: 3,
+      wounds: 2,
+      leadership: 5,
+      objective_control: 3,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Chosen Companions",
+          rule: `While a Character model is leading
+          this unit, each time a model in this unit makes an attack, add
+          1 to the Hit roll`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: null,
+    unit_composition: ["1 Wolf Guard Pack Leader", "4-9 Wolf Guard"],
+    equiped: ["bolt pistol", "heirloom weapon"],
+    wargear_options: [
+      {
+        title:
+          "Any number of models can have their bolt pistol replaced with one of the following:",
+        options: [
+          "1 boltgun",
+          "1 combi-weapon",
+          "1 plasma pistol",
+          "1 storm bolter",
+          "1 storm shield",
+        ],
+      },
+    ],
+    leader: [],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a 4+ invulnerable save",
+    },
+    specific: null,
+    attached_unit: `If a Character unit from your army with the Leader ability
+    can be attached to a Vanguard Veteran Squad, it can
+    instead be attached to this unit`,
+
+    keywords: ["Infantry", "Grenades", "Imperium", "Wolf Guard"],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Earning their place through exceptional feats of arms, every Wolf
+    Guard is a heroic warrior chosen by their lord. They act as his council
+    and household companions, and when not tearing apart foes at his
+    side, they form bodyguards around other senior warriors or pursue
+    dangerous missions in their own right`,
+  },
+  {
+    name: "Wolf Guard Battle Leader in Terminator Armour",
+    image: "wolfguard__terminator_hammer",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 80,
+      },
+    ],
+    stats: {
+      movement: 5,
+      toughness: 5,
+      armor_save: 2,
+      wounds: 5,
+      leadership: 6,
+      objective_control: 1,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: ["Deep Strike", "Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Tactical Precision",
+          rule: `While this model is leading a unit,
+          weapons equipped by models in that unit with have the
+          [LETHAL HITS] ability`,
+        },
+        {
+          title: "Huskarl to the Jarl",
+          rule: `While this model is attached to a unit that
+          contains another Character model, all Character models in
+          that unit have the Feel No Pain 4+ ability`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: 4,
+    unit_composition: ["1 Wolf Guard Battle Leader in Terminator Armour"],
+    equiped: ["storm bolter", "power weapon"],
+    wargear_options: [
+      {
+        title: `This model’s power weapon can be replaced with one of the following`,
+        options: [
+          "1 chainfist",
+          "1 power fist",
+          "1 relic shield and 1 close combat weapon",
+          "1 thunder hammer",
+        ],
+      },
+      {
+        title: `This model’s storm bolter can be replaced with one of the following`,
+        options: [
+          "1 chainfist",
+          "1 power fist",
+          "1 relic shield and 1 close combat weapon",
+          "1 thunder hammer",
+        ],
+      },
+      {
+        title: `This model’s storm bolter and power weapon can be replaced with`,
+        options: ["1 twin lightning claws"],
+      },
+    ],
+    leader: [],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a Wounds characteristic of 4",
+    },
+    specific: null,
+    attached_unit: `If a Character unit from your army with the Leader ability
+    can be attached to a Terminator Squad, it can instead be
+    attached to this unit`,
+
+    keywords: [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Terminator",
+      "Wolf Guard Battle Leader in Terminator Armour",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Wolf Guard bedeck their Terminator armour with totems, trophies and
+    marks of honour gained over their years of battle. They fight at the
+    spearhead of assaults, eagerly seeking glory as enemy fire deflects
+    harmlessly from their relic armour, the earth shaking beneath their
+    heavy tread as they slay with stunning skill`,
+  },
+  {
+    name: "Wolf Guard Terminators",
+    image: "wolfguards_terminators",
+    point_cost: [
+      {
+        amount: 5,
+        cost: 200,
+      },
+      {
+        amount: 10,
+        cost: 400,
+      },
+    ],
+    stats: {
+      movement: 5,
+      toughness: 5,
+      armor_save: 2,
+      wounds: 3,
+      leadership: 6,
+      objective_control: 1,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: ["Deep Strike"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Wolf Guard:",
+          rule: `Each time a model in this unit makes an attack,
+          you can ignore any or all modifiers to that attack’s Ballistic
+          Skill or Weapon Skill characteristic and/or to the Hit roll. In
+          addition, each time a model in this unit makes an attack that
+          targets the enemy unit you selected for the Oath of Moment
+          ability this turn, add 1 to the Hit roll`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: 4,
+    unit_composition: [
+      "1 Wolf Guard Terminator Pack Leader",
+      "4-9 Wolf Guard Terminators",
+    ],
+    equiped: ["storm bolter", "power fist"],
+    wargear_options: [
+      {
+        title: `Any number of models can each have their power fist and storm bolter or power weapon and storm
+      bolter replaced with two of the following`,
+        options: [
+          "1 storm bolter*",
+          "1 combi-weapon*",
+          "1 chainfist",
+          "1 power fist",
+          "1 power weapon",
+          "1 thunder hammer",
+          "1 storm shield",
+        ],
+      },
+      {
+        title: `For every 5 models in this unit, one Wolf Guard Terminator can replace its power fist and storm bolter
+      with one of the following`,
+        options: [
+          "1 assault cannon",
+          "1 heavy flamer",
+          "1 storm bolter and 1 cyclone missile launcher",
+        ],
+      },
+      {
+        title: `Any number of models can each have their power fist and storm bolter or power weapon and storm
+      bolter replaced with`,
+        options: ["1 twin lightning claws"],
+      },
+    ],
+    leader: [
+      "Relic Terminator Squad",
+      "Terminator Assault Squad",
+      "Terminator Squad",
+      "Wolf Guard Terminators",
+    ],
+    second_leader: `You can attach this model to one of the above units even
+    if one Captain or Chapter Master model has already
+    been attached to it. If you do, and that Bodyguard unit is
+    destroyed, the Leader units attached to it become separate
+    units, with their original Starting Strengths`,
+    third_leader: false,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a Wounds characteristic of 4",
+    },
+    specific: null,
+    attached_unit: ``,
+
+    keywords: [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Terminator",
+      "Wolf Guard Terminators",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Wolf Guard Battle Leaders possess vast experience and dominant
+    personalities, using them to guide others in the art of war. Each
+    combines preternatural combat prowess with the greatest relics
+    from their lord’s armouries, the most prized of which are suits of
+    fearsome Terminator armour`,
+  },
+  {
+    name: "Wolf Guard Battle Leader on Thunderwolf",
+    image: "wolfguard_battle_leader_on_thunderwolf",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 95,
+      },
+    ],
+    stats: {
+      movement: 10,
+      toughness: 6,
+      armor_save: 3,
+      wounds: 5,
+      leadership: 6,
+      objective_control: 2,
+      weapon_skill: 3,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: ["Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Tactical Precision",
+          rule: `While this model is leading a unit,
+          weapons equipped by models in that unit have the
+          [LETHAL HITS] ability`,
+        },
+        {
+          title: "Aggressive Hunter:",
+          rule: `Once per battle, in your opponent’s
+          Shooting phase, after an enemy unit has finished making
+          its attacks, if this model’s unit was targeted by one or more
+          of those attacks, this model’s unit can make a Normal move
+          of up to D6", but must end that move as close as possible
+          to the closest enemy unit. When doing so, models in this
+          model’s unit can be moved within Engagement Range of that
+          enemy unit`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: null,
+    unit_composition: ["1 Wolf Guard Battle Leader on Thunderworlf"],
+    equiped: ["bolt pistol", "crushing teeth and claws", "relic weapon"],
+    wargear_options: [
+      {
+        title:
+          "This model’s relic weapon can be replaced with one of the following",
+        options: [
+          "1 plasma pistol",
+          "1 power fist",
+          "1 thunder hammer",
+          "1 storm shield and 1 close combat weapon",
+        ],
+      },
+      {
+        title:
+          "This model’s bolt pistol can be replaced with one of the following",
+        options: [
+          "1 combi-weapon",
+          "1 master-crafted boltgun",
+          "1 plasma pistol",
+          "1 storm bolter",
+          "1 power fist",
+          "1 relic weapon",
+          "1 thunder hammer",
+        ],
+      },
+      {
+        title: "This model’s bolt pistol and relic weapon can be replaced with",
+        options: ["1 twin lightning claws"],
+      },
+    ],
+    leader: ["Thunderwolf Cavalry"],
+    second_leader: `You can attach this model to the above unit even if one
+    Captain or Chapter Master model has already been
+    attached to it. If you do, and that Bodyguard unit is destroyed,
+    the Leader units attached to it become separate units, with
+    their original Starting Strengths`,
+    third_leader: false,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a 4+ invulnerable save",
+    },
+    specific: null,
+    attached_unit: "",
+
+    keywords: [
+      "Mounted",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Wolf Guard Battle Leader on Thunderwolf",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Battle Leaders are champions possessing great tactical
+    acumen, and are hand-picked by their lord to lead forces of
+    their own. The most aggressive often choose to ride to war on
+    the back of a Thunderwolf`,
+  },
+  {
+    name: "Wolf Guard Pack Leader",
+    image: "wolfguard",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 30,
+      },
+    ],
+    stats: {
+      movement: 6,
+      toughness: 4,
+      armor_save: 3,
+      wounds: 2,
+      leadership: 6,
+      objective_control: 1,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: ["Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Inspiring Leader:",
+          rule: `While this model is leading a unit, once per
+          battle, when a Battle-shock test is taken for that unit, you can
+          re-roll that test`,
+        },
+        {
+          title: "Pack Leader",
+          rule: `This model cannot be your Warlord and cannot
+          be given Enhancements`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: null,
+    unit_composition: ["1 Wolf Guard Pack Leader"],
+    equiped: ["bolt pistol", "boltgun ", "close combat weapon"],
+    wargear_options: [
+      {
+        title: `This model’s bolt pistol and boltgun can be replaced with two different weapons from the following
+      list*`,
+        options: [
+          "1 bolt pistol",
+          "1 boltgun",
+          "1 combi-weapon",
+          "1 plasma pistol",
+          "1 storm bolter",
+          "1 Astartes chainsword",
+          "1 power fist",
+          "1 power weapon",
+          "1 thunder hammer",
+          "1 storm shield",
+        ],
+      },
+      {
+        title: "This model’s bolt pistol and boltgun can be replaced with",
+        options: ["1 twin lightning claws"],
+      },
+    ],
+    leader: ["Blood Claws", "Grey Hunters", "Long Fangs"],
+    second_leader: false,
+    third_leader: `You must attach this model to one of the above units, and can
+    do so even if one or more Character units have already been
+    attached to that unit, but a unit can never include more than
+    one Pack Leader model. If you do, and that Bodyguard unit
+    is destroyed, the Leader units attached to it become separate
+    units, with their original Starting Strengths. If it is not possible
+    to attach this model to a unit, it does not take part in the
+    battle and counts as having been destroyed`,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a 4+ invulnerable save",
+    },
+    specific: null,
+    attached_unit: "",
+
+    keywords: [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Pack Leader",
+      "Wolf Guard Pack Leader",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Wolf Guard of proven leadership ability and bellicose charisma may be
+    assigned to lead packs of battle-brothers. These warriors’ extensive
+    battlefield wisdom and saga-worthy combat prowess are inspirational
+    to the Space Wolves under their charge, and fighting alongside them is
+    seen as a great honour`,
+  },
+  {
+    name: "Wolf Guard Pack Leader in Terminator Armour",
+    image: "wolfguard_terminator_claws",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 45,
+      },
+    ],
+    stats: {
+      movement: 5,
+      toughness: 5,
+      armor_save: 2,
+      wounds: 3,
+      leadership: 6,
+      objective_control: 1,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: [],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Inspiring Leader",
+          rule: `While this model is leading a unit, once per
+          battle, when a Battle-shock test is taken for that unit, you can
+          re-roll that test.`,
+        },
+        {
+          title: "Pack Leader",
+          rule: `This model cannot be your Warlord and cannot
+          be given Enhancements`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: 4,
+    unit_composition: ["1 Wolf Guard Pack Leader in Terminator Armour"],
+    equiped: ["storm bolter", "power weapon"],
+    wargear_options: [
+      {
+        title: `This model’s storm bolter and power weapon can be replaced with two different options from the
+      following list*`,
+        options: [
+          "1 assault cannon",
+          "1 heavy flamer",
+          "1 cyclone missile launcher and 1 storm bolter",
+          "1 storm bolter",
+          "1 chainfist",
+          "1 power fist",
+          "1 thunder hammer",
+          "1 storm shield",
+        ],
+      },
+      {
+        title:
+          "This model’s storm bolter and power weapon can be replaced with",
+        options: ["1 twin lightning claws"],
+      },
+      {
+        title: "This model’s storm bolter can be replaced with",
+        options: ["1 combi-weapon"],
+      },
+    ],
+    leader: ["Blood Claws", "Grey Hunters", "Long Fangs"],
+    second_leader: false,
+    third_leader: `You must attach this model to one of the above units, and can
+    do so even if one or more Character units have already been
+    attached to that unit, but a unit can never include more than
+    one Pack Leader model. If you do, and that Bodyguard unit
+    is destroyed, the Leader units attached to it become separate
+    units, with their original Starting Strengths. If it is not possible
+    to attach this model to a unit, it does not take part in the
+    battle and counts as having been destroyed`,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a Wounds characteristic of 4",
+    },
+    specific: null,
+    attached_unit: "",
+
+    keywords: [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Terminator",
+      "Pack Leader",
+      "Wolf Guard Pack Leader in Terminator Armour",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Those Wolf Guard granted the raw power afforded by Terminator
+    armour bestride the battlefield as nigh-invulnerable champions.
+    Amongst the packs they lead, they serve as indomitable anvils,
+    anchoring their battle-brothers’ lines with their intimidating bulk and
+    unleashing the power of their ornate weapons to destructive effect`,
   },
 ];
 
@@ -1680,7 +2354,7 @@ export const testData = [
         leader: [],
         second_leader: false,
         third_leader: false,
-        wargear_hability: "",
+        wargear_hability: {},
         specific: null,
         attached_unit: "",
     
@@ -1693,298 +2367,12 @@ export const testData = [
       
       
       
-      {
-        name: "Ulrik the Slayer",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 85,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
-      {
-        name: "Wolf Guards",
-        image: "",
-        point_cost: [
-          {
-            amount: 5,
-            cost: 95,
-          },
-          {
-            amount: 10,
-            cost: 190,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
-      {
-        name: "Wolf Guard Battle Leader in Terminator Armour",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 80,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
-      {
-        name: "Wolf Guard Battle Leader on Thunderwolf",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 95,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
-      {
-        name: "Wolf Guard Pack Leader",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 30,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
-      {
-        name: "Wolf Guard Pack Leader in Terminator Armour",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 45,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: "",
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
+      
+      
+      
+      
+      
+      
       {
         name: "Wolf Guard Pack Leader with Jump Pack",
         image: "",
@@ -2024,7 +2412,7 @@ export const testData = [
         leader: [],
         second_leader: false,
         third_leader: false,
-        wargear_hability: "",
+        wargear_hability: {},
         specific: null,
         attached_unit: "",
     
@@ -2076,7 +2464,7 @@ export const testData = [
         leader: [],
         second_leader: false,
         third_leader: false,
-        wargear_hability: "",
+        wargear_hability: {},
         specific: null,
         attached_unit: "",
     
@@ -2124,7 +2512,7 @@ export const testData = [
         leader: [],
         second_leader: false,
         third_leader: false,
-        wargear_hability: "",
+        wargear_hability: {},
         specific: null,
         attached_unit: "",
     
@@ -2176,7 +2564,7 @@ export const testData = [
         leader: [],
         second_leader: false,
         third_leader: false,
-        wargear_hability: "",
+        wargear_hability: {},
         specific: null,
         attached_unit: "",
     
@@ -2228,7 +2616,7 @@ export const testData = [
         leader: [],
         second_leader: false,
         third_leader: false,
-        wargear_hability: "",
+        wargear_hability: {},
         specific: null,
         attached_unit: "",
     
@@ -2276,7 +2664,7 @@ export const testData = [
         leader: [],
         second_leader: false,
         third_leader: false,
-        wargear_hability: "",
+        wargear_hability: {},
         specific: null,
         attached_unit: "",
     

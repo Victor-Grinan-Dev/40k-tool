@@ -37,7 +37,7 @@ import whirlwind from "../../assets/space_wolves/whirlwind.png";
 import wolf_lord from "../../assets/space_wolves/wolf_lord.png";
 import wolfguard__terminator_hammer from "../../assets/space_wolves/wolfguard__terminator_hammer.png";
 import wolfguard_jumppack from "../../assets/space_wolves/wolfguard_jumppack.png";
-import wolfguard_terminator_claws from "../../assets/space_wolves/wolfguard__terminator_hammer.png";
+import wolfguard_terminator_claws from "../../assets/space_wolves/wolfguard_terminator_claws.png";
 import wolfguard from "../../assets/space_wolves/wolfguard.png";
 import wolfguards_terminators from "../../assets/space_wolves/wolfguards_terminators.png";
 import wolfguards from "../../assets/space_wolves/wolfguards.png";
