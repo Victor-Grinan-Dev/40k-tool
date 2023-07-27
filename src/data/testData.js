@@ -723,158 +723,158 @@ export const testData = [
     deeds of valour and his Great Company boasts many veteran Wolf
     Guard. Wildly competitive, Krom refuses to accept defeat`,
   },
-  // {
-  //   name: "Logan Grimnar",
-  //   image: "loganGrimnar",
-  //   point_cost: [
-  //     {
-  //       amount: 1,
-  //       cost: 145,
-  //     },
-  //   ],
-  //   stats: {
-  //     movement: 5,
-  //     toughness: 5,
-  //     armor_save: 2,
-  //     wounds: 6,
-  //     leadership: 6,
-  //     objective_control: 1,
-  //     weapon_skill: 2,
-  //     balistic_skill: 2,
-  //   },
+  {
+    name: "Logan Grimnar",
+    image: "loganGrimnar",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 145,
+      },
+    ],
+    stats: {
+      movement: 5,
+      toughness: 5,
+      armor_save: 2,
+      wounds: 6,
+      leadership: 6,
+      objective_control: 1,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
 
-  //   abilities: {
-  //     core: ["Deep Strike", "Leader"],
-  //     faction: "Oath of Moment",
-  //     other: [
-  //       {
-  //         title: "High King of Fenris",
-  //         rule: `Once per battle, in your Charge phase,
-  //         this model can use this ability. If it does, until the end of the
-  //         turn, you can re-roll Charge rolls made for Adeptus Astartes
-  //         units from your army and, until the end of the turn, each time
-  //         an Adeptus Astartes model from your army makes a melee
-  //         attack, you can re-roll the Hit roll`,
-  //       },
-  //       {
-  //         title: "The Great Wolf",
-  //         rule: `Each time this model destroys an enemy unit,
-  //         you gain 1CP`,
-  //       },
-  //     ],
-  //   },
+    abilities: {
+      core: ["Deep Strike", "Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "High King of Fenris",
+          rule: `Once per battle, in your Charge phase,
+          this model can use this ability. If it does, until the end of the
+          turn, you can re-roll Charge rolls made for Adeptus Astartes
+          units from your army and, until the end of the turn, each time
+          an Adeptus Astartes model from your army makes a melee
+          attack, you can re-roll the Hit roll`,
+        },
+        {
+          title: "The Great Wolf",
+          rule: `Each time this model destroys an enemy unit,
+          you gain 1CP`,
+        },
+      ],
+    },
 
-  // transport:``,
-  //  invulnerable: 4,
-  //   unit_composition: ["Logan Grimnar – Epic Hero"],
-  //   equiped: ["Storm bolter", "The Axe Morkai"],
-  //   wargear_options: [],
-  //   leader: [
-  //     "Relic Terminator Squad",
-  //     "Terminator Assault Squad",
-  //     "Terminator Squad",
-  //     "Wolf Guard Terminators",
-  //   ],
-  // second_leader: false,
-  // third_leader: false,
-  // wargear_hability: {},
-  //   specific: {
-  //     title: "Logan Grimnar",
-  //     rule: `Your army cannot contain both Logan Grimnar and Logan
-  //       Grimnar on Stormrider`,
-  //   },
-  //   attached_unit: "",
+    transport: ``,
+    invulnerable: 4,
+    unit_composition: ["Logan Grimnar – Epic Hero"],
+    equiped: ["Storm bolter", "The Axe Morkai"],
+    wargear_options: [],
+    leader: [
+      "Relic Terminator Squad",
+      "Terminator Assault Squad",
+      "Terminator Squad",
+      "Wolf Guard Terminators",
+    ],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: {},
+    specific: {
+      title: "Logan Grimnar",
+      rule: `Your army cannot contain both Logan Grimnar and Logan
+        Grimnar on Stormrider`,
+    },
+    attached_unit: "",
 
-  //   keywords: [
-  //     "Infantry",
-  //     "Character",
-  //     "Epic Hero",
-  //     "Imperium",
-  //     "Terminator",
-  //     "Chapter Master",
-  //     "Logan Grimnar",
-  //   ],
-  //   faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    keywords: [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Chapter Master",
+      "Logan Grimnar",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-  //   lore: `Logan Grimnar – Great Wolf and High King of Fenris – is one of the
-  //   longest serving Chapter Masters. Waging war against any who
-  //   threaten the Space Wolves or the Imperium, Grimnar’s charisma and
-  //   centuries of heroic victories have immortalised him as one of the most
-  //   lauded warriors in the galaxy`,
-  // },
-  // {
-  //   name: "Grimnar on Stormrider",
-  //   image: "loganStormrider",
-  //   point_cost: [
-  //     {
-  //       amount: 1,
-  //       cost: 235,
-  //     },
-  //   ],
-  //   stats: {
-  //     movement: 10,
-  //     toughness: 6,
-  //     armor_save: 2,
-  //     wounds: 12,
-  //     leadership: 6,
-  //     objective_control: 4,
-  //     weapon_skill: 2,
-  //     balistic_skill: 2,
-  //   },
+    lore: `Logan Grimnar – Great Wolf and High King of Fenris – is one of the
+    longest serving Chapter Masters. Waging war against any who
+    threaten the Space Wolves or the Imperium, Grimnar’s charisma and
+    centuries of heroic victories have immortalised him as one of the most
+    lauded warriors in the galaxy`,
+  },
+  {
+    name: "Grimnar on Stormrider",
+    image: "loganStormrider",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 235,
+      },
+    ],
+    stats: {
+      movement: 10,
+      toughness: 6,
+      armor_save: 2,
+      wounds: 12,
+      leadership: 6,
+      objective_control: 4,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
 
-  //   abilities: {
-  //     core: ["Deadly Demise D3", "Leader"],
-  //     faction: "Oath of Moment",
-  //     other: [
-  //       {
-  //         title: "High King of Fenris",
-  //         rule: `Once per battle, in your Charge phase,
-  //           this model can use this ability. If it does, until the end of the
-  //           turn, you can re-roll Charge rolls made for Adeptus Astartes
-  //           units from your army and, until the end of the turn, each time
-  //           an Adeptus Astartes model from your army makes a melee
-  //           attack, you can re-roll the Hit roll`,
-  //       },
-  //       {
-  //         title: "The Great Wolf",
-  //         rule: `Each time this model destroys an enemy unit,
-  //           you gain 1CP`,
-  //       },
-  //     ],
-  //   },
+    abilities: {
+      core: ["Deadly Demise D3", "Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "High King of Fenris",
+          rule: `Once per battle, in your Charge phase,
+            this model can use this ability. If it does, until the end of the
+            turn, you can re-roll Charge rolls made for Adeptus Astartes
+            units from your army and, until the end of the turn, each time
+            an Adeptus Astartes model from your army makes a melee
+            attack, you can re-roll the Hit roll`,
+        },
+        {
+          title: "The Great Wolf",
+          rule: `Each time this model destroys an enemy unit,
+            you gain 1CP`,
+        },
+      ],
+    },
 
-  // transport:``,
-  // invulnerable: 4,
-  //   unit_composition: ["1 Logan Grimnar on Stormrider – Epic Hero"],
-  //   equiped: [
-  //     "storm bolter",
-  //     "the Axe of Morkai",
-  //     "flurry of teeth and claws 4+",
-  //   ],
-  //   wargear_options: [],
-  //   leader: ["Thunderwolf Cavalry"],
-  //  second_leader: false,
-  // third_leader: false,
-  //  wargear_hability: {},
-  //   specific: null,
-  //   attached_unit: "",
+    transport: ``,
+    invulnerable: 4,
+    unit_composition: ["1 Logan Grimnar on Stormrider – Epic Hero"],
+    equiped: [
+      "storm bolter",
+      "the Axe of Morkai",
+      "flurry of teeth and claws 4+",
+    ],
+    wargear_options: [],
+    leader: ["Thunderwolf Cavalry"],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: null,
+    specific: null,
+    attached_unit: "",
 
-  //   keywords: [
-  //     "Mounted",
-  //     "Character",
-  //     "Epic Hero",
-  //     "Imperium",
-  //     "Terminator",
-  //     "Logan Grimnar on Stormrider",
-  //   ],
-  //   faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    keywords: [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Logan Grimnar on Stormrider",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-  //   lore: `When riding to battle upon his ornate anti-grav chariot, Stormrider,
-  //   Logan Grimnar is a destructive and swift tempest of war. Drawn by a
-  //   pair of giant and ferocious Thunderwolves, Stormrider’s saga-inscribed
-  //   hull bears the grizzled leader into the heart of the enemy, there to reap
-  //   a fell tally with the Axe Morkai`,
-  // },
+    lore: `When riding to battle upon his ornate anti-grav chariot, Stormrider,
+    Logan Grimnar is a destructive and swift tempest of war. Drawn by a
+    pair of giant and ferocious Thunderwolves, Stormrider’s saga-inscribed
+    hull bears the grizzled leader into the heart of the enemy, there to reap
+    a fell tally with the Axe Morkai`,
+  },
   {
     name: "Long Fangs",
     image: "longFangs",
@@ -2614,7 +2614,6 @@ export const testData = [
         },
       ],
     },
-
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Wulfen Dreadnought"],
