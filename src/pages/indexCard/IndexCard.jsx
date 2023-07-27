@@ -15,6 +15,7 @@ import { useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { setIndexCard } from "../../app/appSlice";
 import Weapons from "./subcomponents/Weapons";
+import Transport from "./subcomponents/Transport";
 
 const IndexCard = () => {
   const location = useLocation();
@@ -38,6 +39,7 @@ const IndexCard = () => {
     wargear_hability,
     specific,
     attached_unit,
+    transport,
   } = indexCard;
   const {
     armor_save,
@@ -80,11 +82,14 @@ const IndexCard = () => {
             <div className="indexCard__content-bottom">
               {/* Habilities: core, faction & unique */}
               {<Habilities data={abilities} />}
-              {/* invulnerable */}
-
-              {invulnerable && <Invulnerable />}
               {/* unit-composition */}
               <UnitComposition />
+
+              {/*Transport */}
+              {transport && <Transport />}
+              {/* invulnerable */}
+              {invulnerable && <Invulnerable />}
+
               {/* leader */}
               {leader.length > 0 && <Leader />}
               {/* wargear hability */}
@@ -104,6 +109,9 @@ const IndexCard = () => {
           {invulnerable && <Invulnerable />}
           {/* unit-composition */}
           <UnitComposition />
+          {/*Transport */}
+          {transport && <Transport />}
+
           {/* leader */}
 
           {leader.length > 0 && <Leader />}
