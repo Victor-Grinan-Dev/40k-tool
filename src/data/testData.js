@@ -1897,7 +1897,7 @@ export const testData = [
   },
   {
     name: "Wolf Guard Terminators",
-    image: "wolfguards_terminators",
+    image: "terminators",
     point_cost: [
       {
         amount: 5,
@@ -2308,6 +2308,353 @@ export const testData = [
     anchoring their battle-brothers’ lines with their intimidating bulk and
     unleashing the power of their ornate weapons to destructive effect`,
   },
+
+  {
+    name: "Wolf Guard Pack Leader with Jump Pack",
+    image: "wolfguard_jumppack",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 40,
+      },
+    ],
+    stats: {
+      movement: 12,
+      toughness: 4,
+      armor_save: 3,
+      wounds: 2,
+      leadership: 6,
+      objective_control: 1,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: ["Deep Strike", "Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Inspiring Leader",
+          rule: `While this model is leading a unit, once per
+          battle, when a Battle-shock test is taken for that unit, you can
+          re-roll that test.`,
+        },
+        {
+          title: "Pack Leader",
+          rule: `This model cannot be your Warlord and cannot
+          be given Enhancements`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: null,
+    unit_composition: ["1 Wolf Guard Pack Leader with Jump Pack"],
+    equiped: ["bolt pistol", "Astartes chainsword"],
+    wargear_options: [
+      {
+        title: `This model’s bolt pistol and Astartes chainsword can be replaced with two different weapons from the
+    following list*`,
+        options: [
+          "1 bolt pistol",
+          "1 combi-weapon",
+          "1 plasma pistol",
+          "1 storm bolter",
+          "1 Astartes chainsword",
+          "1 power fist",
+          "1 power weapon",
+          "1 thunder hammer",
+          "1 storm shield",
+        ],
+      },
+      {
+        title: `This model’s bolt pistol and Astartes chainsword can be replaced with`,
+        options: ["1 twin lightning claws."],
+      },
+    ],
+    leader: ["Skyclaws"],
+    second_leader: false,
+    third_leader: `You must attach this model to the above unit, and can do
+    so even if one or more Character units have already been
+    attached to that unit, but a unit can never include more than
+    one Pack Leader model. If you do, and that Bodyguard unit
+    is destroyed, the Leader units attached to it become separate
+    units, with their original Starting Strengths. If it is not possible
+    to attach this model to a unit, it does not take part in the
+    battle and counts as having been destroyed`,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a Wounds characteristic of 4",
+    },
+    specific: null,
+    attached_unit: "",
+
+    keywords: [
+      "Infantry",
+      "Character",
+      "Jump Pack",
+      "Fly",
+      "Grenades",
+      "Imperium",
+      "Pack Leader",
+      "Wolf Guard Pack Leader with Jump Pack",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Wolf Guard entrusted with leading packs of free-spirited Skyclaws
+    wear powerful jump packs that allow them to pounce on the foe in
+    arcing leaps. Their stern composure reins in the reckless excesses of
+    their headstrong wards, but in the bloodletting brutality of the charge,
+    the Pack Leader is a blizzard of furious destruction`,
+  },
+  {
+    name: "Wolf Lord on Thunderwolf",
+    image: "wolflord_thunderwolf",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 100,
+      },
+    ],
+    stats: {
+      movement: 10,
+      toughness: 6,
+      armor_save: 3,
+      wounds: 6,
+      leadership: 6,
+      objective_control: 2,
+      weapon_skill: 2,
+      balistic_skill: 2,
+    },
+
+    abilities: {
+      core: ["Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Rites of Battle",
+          rule: `Once per battle round, one unit from your
+          army with this ability can be targeted with a Stratagem for
+          0CP, even if another unit from your army has already been
+          targeted with that Stratagem this phase`,
+        },
+        {
+          title: "Speed of the Hunter",
+          rule: `Add 1 to Advance and Charge rolls made
+          for this model’s unit`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: null,
+    unit_composition: ["1 Wolf Lord on Thunderwolf"],
+    equiped: ["bolt pistol", "crushing teeth and claws", "relic weapon"],
+    wargear_options: [
+      {
+        title:
+          "This model’s relic weapon can be replaced with one of the following",
+        options: [
+          "1 plasma pistol",
+          "1 power fist",
+          "1 thunder hammer",
+          "1 relic shield and 1 close combat weapon",
+        ],
+      },
+      {
+        title:
+          "This model’s bolt pistol can be replaced with one of the following",
+        options: [
+          "1 combi-weapon",
+          "1 master-crafted boltgun",
+          "1 plasma pistol",
+          "1 storm bolter",
+          "1 power fist",
+          "1 relic weapon",
+          "1 thunder hammer",
+        ],
+      },
+      {
+        title: "This model’s bolt pistol and relic weapon can be replaced with",
+        options: ["1 twin lightning claws"],
+      },
+    ],
+    leader: ["Thunderwolf Cavalry"],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a Wounds characteristic of 4",
+    },
+    specific: null,
+    attached_unit: "",
+
+    keywords: [
+      "Mounted",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Captain",
+      "Wolf Lord on Thunderwolf",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Raised from a pup or bested in the wastes, a Thunderwolf makes
+    for a savage and fearsome mount for a Wolf Lord. Often leading wild
+    and wilful Great Companies, these Wolf Lords meld their centuries
+    of experience and strategic acumen with the ferocity and speed of a
+    hunter as deadly as the lord himself`,
+  },
+  {
+    name: "Wulfen",
+    image: "wulfens",
+    point_cost: [
+      {
+        amount: 5,
+        cost: 100,
+      },
+      {
+        amount: 10,
+        cost: 200,
+      },
+    ],
+    stats: {
+      movement: 8,
+      toughness: 5,
+      armor_save: 4,
+      wounds: 2,
+      leadership: 6,
+      objective_control: 0,
+      weapon_skill: 3,
+      balistic_skill: 5,
+    },
+
+    abilities: {
+      core: ["Feel No Pain 6+"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Death Frenzy",
+          rule: `Each time a model in this unit is destroyed by a
+          melee attack, if that model has not fought this phase, roll one
+          D6. On a 4+, do not remove it from play; that destroyed model
+          can fight after the attacking model’s unit has finished making
+          its attacks, and is then removed from play.`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: null,
+    unit_composition: ["1 Wulfen Pack Leader", "4-9 Wulfen"],
+    equiped: ["ulfen claws and melee weapons"],
+    wargear_options: [
+      {
+        title: "Any number of models can each be equipped with",
+        options: ["1 stormfrag auto-launcher"],
+      },
+      {
+        title:
+          "AAny number of models can each have their Wulfen claws and melee weapons replaced with",
+        options: [" 1 Wulfen hammer and 1 storm shield"],
+      },
+    ],
+    leader: [],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: {
+      title: "Storm Shield",
+      rule: "The bearer has a Wounds characteristic of 4",
+    },
+    specific: null,
+    attached_unit: "",
+
+    keywords: ["Infantry", "Imperium", "Wulfen"],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Wulfen exist on the brink of constant berserk rages, and their chilling
+    howls unleash the inner beast in sons of Russ nearby. Wulfen are
+    bestial warriors, altered by the Curse lying in the blood of all scions of
+    the Wolf King. They are hunters, bounding forward with fangs bared
+    and claws outstretched, ripping foes apart with inhuman speed`,
+  },
+
+  {
+    name: "Wulfen Dreadnought",
+    image: "wulfen_dread",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 155,
+      },
+    ],
+    stats: {
+      movement: 8,
+      toughness: 9,
+      armor_save: 2,
+      wounds: 8,
+      leadership: 6,
+      objective_control: 0,
+      weapon_skill: 3,
+      balistic_skill: 3,
+    },
+
+    abilities: {
+      core: ["Deadly Demise 1", "Feel No Pain 6+"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "Bestial Rage",
+          rule: `Each time this model is selected to fight, you
+          can select one enemy unit within Engagement Range of it
+          and roll one D6, adding 2 to the result if this model made
+          a Charge move this turn: on a 4-5, that enemy unit suffers
+          D3 mortal wounds; on a 6+, that enemy unit suffers D3+3
+          mortal wounds`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: null,
+    unit_composition: ["1 Wulfen Dreadnought"],
+    equiped: ["storm bolter", "Fenrisian great axe", "great wolf claw"],
+    wargear_options: [
+      {
+        title:
+          "This model’s Fenrisian great axe or great wolf claw and storm bolter can be replaced with",
+        options: ["1 blizzard shield and 1 storm bolter"],
+      },
+      {
+        title:
+          "Any number of this model’s storm bolters can each be replaced with",
+        options: ["1 heavy flamer"],
+      },
+    ],
+    leader: [],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: {
+      title: "Blizzard Shield",
+      rule: "The bearer has a 4+ invulnerable save",
+    },
+    specific: null,
+    attached_unit: "",
+
+    keywords: [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Dreadnought",
+      "Wulfen Dreadnought",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+    lore: `Even near death and interred in a Dreadnought sarcophagus, a warrior
+    may yet succumb to the Curse of the Wulfen. Joints and servos twitch
+    and spasm like a crazed animal’s muscles as a Wulfen Dreadnought
+    seeks to maul and eviscerate. From emitters, baleful howls blare its
+    mindless hunger for violence`,
+  },
 ];
 
 /**
@@ -2366,161 +2713,8 @@ export const testData = [
           
       
       
+    
       
-      
-      
-      
-      
-      
-      
-      {
-        name: "Wolf Guard Pack Leader with Jump Pack",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 40,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: {},
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
-      {
-        name: "Wolf Guard Terminators",
-        image: "",
-        point_cost: [
-          {
-            amount: 5,
-            cost: 200,
-          },
-          {
-            amount: 10,
-            cost: 400,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: {},
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
-      {
-        name: "Wolf Lord on Thunderwolf",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 100,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: {},
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
       {
         name: "Wolf Scouts",
         image: "",
@@ -2573,104 +2767,4 @@ export const testData = [
     
         lore: ``,
       },
-      {
-        name: "Wulfen",
-        image: "",
-        point_cost: [
-          {
-            amount: 5,
-            cost: 100,
-          },
-          {
-            amount: 10,
-            cost: 200,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: {},
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-    
-        lore: ``,
-      },
-      {
-        name: "Wulfen Dreadnought",
-        image: "",
-        point_cost: [
-          {
-            amount: 1,
-            cost: 155,
-          },
-        ],
-        stats: {
-          movement: 8,
-          toughness: 9,
-          armor_save: 2,
-          wounds: 8,
-          leadership: 6,
-          objective_control: 3,
-          weapon_skill: 2,
-          balistic_skill: 2,
-        },
-    
-        abilities: {
-          core: [],
-          faction: "Oath of Moment",
-          other: [
-            {
-              title: "",
-              rule: ``,
-            },
-          ],
-        },
-    
-        transport:``,
-        invulnerable: null,
-        unit_composition: [],
-        equiped: [],
-        wargear_options: [],
-        leader: [],
-        second_leader: false,
-        third_leader: false,
-        wargear_hability: {},
-        specific: null,
-        attached_unit: "",
-    
-        keywords: [],
-        faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-        lore: ``,
-      },
-    
  */

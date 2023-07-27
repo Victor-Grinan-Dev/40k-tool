@@ -28,6 +28,7 @@ import runePriest from "../../assets/space_wolves/runePriest.png";
 import skyclaws from "../../assets/space_wolves/skyclaws.png";
 import stormfang from "../../assets/space_wolves/stormfang.png";
 import stromwolf from "../../assets/space_wolves/stromwolf.png";
+import scouts from "../../assets/space_wolves/scouts.png";
 import terminators from "../../assets/space_wolves/terminators.png";
 import thunderwolfCavalry from "../../assets/space_wolves/ThunderwolfCavalry.png";
 import ulrik from "../../assets/space_wolves/Ulrik.png";
@@ -45,6 +46,7 @@ import wolfguard_battle_leader_on_thunderwolf from "../../assets/space_wolves/wo
 import wolflord_thunderwolf from "../../assets/space_wolves/wolflord_thunderwolf.png";
 import wolfpriestJumpack from "../../assets/space_wolves/wolfpriest-jumppack.png";
 import wulfens from "../../assets/space_wolves/Wulfens.png";
+import wulfen_dread from "../../assets/space_wolves/wulfen_dread.png";
 
 const ModelsImages = ({ imgName, type }) => {
   const images = {
@@ -74,6 +76,7 @@ const ModelsImages = ({ imgName, type }) => {
     runePriest: runePriest,
     skyclaws: skyclaws,
     stromwolf: stromwolf,
+    scouts: scouts,
     terminators: terminators,
     thunderwolfCavalry: thunderwolfCavalry,
     ulrik: ulrik,
@@ -93,6 +96,7 @@ const ModelsImages = ({ imgName, type }) => {
     wolflord_thunderwolf: wolflord_thunderwolf,
     wolfpriestJumpack: wolfpriestJumpack,
     wulfens: wulfens,
+    wulfen_dread: wulfen_dread,
   };
   const imagesTypes = {
     listedModel: "my-models__card-image",
