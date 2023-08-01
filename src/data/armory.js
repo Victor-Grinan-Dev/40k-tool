@@ -1,5 +1,6 @@
 export const armoury = {
   foehammer: {
+    id: "foehammer",
     name: "Foehammer",
     profiles: {
       ranged: {
@@ -25,6 +26,7 @@ export const armoury = {
     },
   },
   assault_cannon: {
+    id: "assault_cannon",
     name: "Assault cannon",
     profiles: {
       standard: {
@@ -41,6 +43,7 @@ export const armoury = {
     },
   },
   heavy_flamer: {
+    id: "heavy_flamer",
     name: "Heavy flamer",
     profiles: {
       standard: {
@@ -57,6 +60,7 @@ export const armoury = {
     },
   },
   twin_lascannon: {
+    id: "twin_lascannon",
     name: "Twin lascannon",
     profiles: {
       standard: {
@@ -73,6 +77,7 @@ export const armoury = {
     },
   },
   heavy_plasma_cannon: {
+    id: "heavy_plasma_cannon",
     name: "Heavy plasma cannon",
     profiles: {
       standard: {
@@ -98,6 +103,7 @@ export const armoury = {
     },
   },
   hellfrost_cannon: {
+    id: "hellfrost_cannon",
     name: "Heavy plasma cannon",
     profiles: {
       dispersed: {
@@ -123,6 +129,7 @@ export const armoury = {
     },
   },
   combi_weapon: {
+    id: "combi_weapon",
     name: "Combi weapon",
     profiles: {
       standard: {
@@ -138,6 +145,7 @@ export const armoury = {
     },
   },
   flamer: {
+    id: "flamer",
     name: "Flamer",
     profiles: {
       standard: {
@@ -153,6 +161,7 @@ export const armoury = {
     },
   },
   grav_gun: {
+    id: "grav_gun",
     name: "Grav-gun",
     profiles: {
       standard: {
@@ -168,6 +177,7 @@ export const armoury = {
     },
   },
   grav_pistol: {
+    id: "grav_pistol",
     name: "Grav-pistol",
     profiles: {
       standard: {
@@ -183,6 +193,7 @@ export const armoury = {
     },
   },
   hand_flamer: {
+    id: "hand_flamer",
     name: "Hand flamer",
     profiles: {
       standard: {
@@ -198,6 +209,7 @@ export const armoury = {
     },
   },
   inferno_pistol: {
+    id: "inferno_pistol",
     name: "Inferno pistol",
     profiles: {
       standard: {
@@ -213,6 +225,7 @@ export const armoury = {
     },
   },
   meltagun: {
+    id: "meltagun",
     name: "Meltagun",
     profiles: {
       standard: {
@@ -228,6 +241,7 @@ export const armoury = {
     },
   },
   plasma_gun: {
+    id: "plasma_gun",
     name: "Plasma gun",
     profiles: {
       standard: {
@@ -253,6 +267,7 @@ export const armoury = {
     },
   },
   plasma_pistol: {
+    id: "plasma_pistol",
     name: "Plasma pistol",
     profiles: {
       standard: {
@@ -278,6 +293,7 @@ export const armoury = {
     },
   },
   plasma_cannon: {
+    id: "plasma_cannon",
     name: "Plasma cannon",
     profiles: {
       standard: {
@@ -303,6 +319,7 @@ export const armoury = {
     },
   },
   helfrost_destructor: {
+    id: "helfrost_destructor",
     name: "Helfrost destructor",
     profiles: {
       dispersed: {
@@ -328,6 +345,7 @@ export const armoury = {
     },
   },
   helfrost_cannon: {
+    id: "helfrost_cannon",
     name: "Helfrost cannon",
     profiles: {
       dispersed: {
@@ -353,6 +371,7 @@ export const armoury = {
     },
   },
   twin_helfrost_cannon: {
+    id: "twin_helfrost_cannon",
     name: "Twin helfrost cannon",
     profiles: {
       dispersed: {
@@ -378,6 +397,7 @@ export const armoury = {
     },
   },
   helfrost_pistol: {
+    id: "helfrost_pistol",
     name: "Helfrost pistol",
     profiles: {
       dispersed: {
@@ -403,6 +423,7 @@ export const armoury = {
     },
   },
   missile_launcher: {
+    id: "missile_launcher",
     name: "Missile launcher",
     profiles: {
       frag: {
@@ -428,6 +449,7 @@ export const armoury = {
     },
   },
   cyclone_missile_launcher: {
+    id: "cyclone_missile_launcher",
     name: "Cyclone missile launcher",
     profiles: {
       frag: {
@@ -453,6 +475,7 @@ export const armoury = {
     },
   },
   fenrisian_great_axe: {
+    id: "fenrisian_great_axe",
     name: "Fenrisian great axe",
     profiles: {
       strike: {
@@ -478,6 +501,7 @@ export const armoury = {
     },
   },
   the_axe_morkai: {
+    id: "the_axe_morkai",
     name: "The Axe Morkai",
     profiles: {
       one_handed: {
@@ -503,6 +527,7 @@ export const armoury = {
     },
   },
   living_lightning: {
+    id: "living_lightning",
     name: "Living Lightning",
     profiles: {
       witchfire: {
@@ -528,6 +553,7 @@ export const armoury = {
     },
   },
   storm_bolter: {
+    id: "storm_bolter",
     name: "Storm bolter",
     profiles: {
       standard: {
@@ -544,6 +570,7 @@ export const armoury = {
     },
   },
   skyhammer_missile_launcher: {
+    id: "skyhammer_missile_launcher",
     name: "Skyhammer missile launcher",
     profiles: {
       standard: {
@@ -560,6 +587,7 @@ export const armoury = {
     },
   },
   twin_stormstrike_missile_launcher: {
+    id: "twin_stormstrike_missile_launcher",
     name: "Twin stormstrike missile launcher",
     profiles: {
       standard: {
@@ -576,6 +604,7 @@ export const armoury = {
     },
   },
   grav_cannon: {
+    id: "grav_cannon",
     name: "Grav-cannon",
     profiles: {
       standard: {
@@ -592,6 +621,7 @@ export const armoury = {
     },
   },
   heavy_bolter: {
+    id: "heavy_bolter",
     name: "Heavy bolter",
     profiles: {
       standard: {
@@ -608,6 +638,7 @@ export const armoury = {
     },
   },
   twin_heavy_bolter: {
+    id: "twin_heavy_bolter",
     name: "Twin heavy bolter",
     profiles: {
       standard: {
@@ -624,6 +655,7 @@ export const armoury = {
     },
   },
   lascannon: {
+    id: "lascannon",
     name: "Lascannon",
     profiles: {
       standard: {
@@ -641,6 +673,7 @@ export const armoury = {
   },
   multi_melta: {
     //add to models attack value
+    id: "  //add to models attack va",
     name: "Mueapons_skillti-melta",
     profiles: {
       standard: {
@@ -658,6 +691,7 @@ export const armoury = {
   },
   twin_multi_melt: {
     //add to models attack value
+    id: "  //add to models attack va",
     name: "Twin mueapons_skillti-melta",
     profiles: {
       standard: {
@@ -675,6 +709,7 @@ export const armoury = {
   },
 
   stormfrag_auto_launcher: {
+    id: "stormfrag_auto_launcher",
     name: "Stormfrag auto-launcher",
     profiles: {
       standard: {
@@ -691,6 +726,7 @@ export const armoury = {
     },
   },
   close_combat_weapon: {
+    id: "close_combat_weapon",
     name: "Close combat weapon",
     profiles: {
       standard: {
@@ -706,6 +742,7 @@ export const armoury = {
     },
   },
   dreadnought_combat_weapon: {
+    id: "dreadnought_combat_weapon",
     name: "Dreadnought combat weapon",
     profiles: {
       standard: {
@@ -721,6 +758,7 @@ export const armoury = {
     },
   },
   great_wolf_claw: {
+    id: "great_wolf_claw",
     name: "Great wolf claw",
     profiles: {
       standard: {
@@ -736,6 +774,7 @@ export const armoury = {
     },
   },
   armoured_hull: {
+    id: "armoured_hull",
     name: "Armoured hull",
     profiles: {
       standard: {
@@ -751,6 +790,7 @@ export const armoury = {
     },
   },
   chainfist: {
+    id: "chainfist",
     name: "Chainfist",
     profiles: {
       standard: {
@@ -766,6 +806,7 @@ export const armoury = {
     },
   },
   teeth_and_claws: {
+    id: "teeth_and_claws",
     name: "Teeth and claws",
     profiles: {
       standard: {
@@ -781,6 +822,7 @@ export const armoury = {
     },
   },
   crushing_teeth_and_claws: {
+    id: "crushing_teeth_and_claws",
     name: "Crushing teeth and claws",
     profiles: {
       standard: {
@@ -796,6 +838,7 @@ export const armoury = {
     },
   },
   flurry_of_teeth_and_claws: {
+    id: "flurry_of_teeth_and_claws",
     name: "Flurry of teeth and claws",
     profiles: {
       standard: {
@@ -811,6 +854,7 @@ export const armoury = {
     },
   },
   heirloom_weapon: {
+    id: "heirloom_weapon",
     name: "Heirloom weapon",
     profiles: {
       standard: {
@@ -826,6 +870,7 @@ export const armoury = {
     },
   },
   wulfen_claws_and_melee_weapons: {
+    id: "wulfen_claws_and_melee_weapons",
     name: "Wulfen claws and melee weapons",
     profiles: {
       standard: {
@@ -841,6 +886,7 @@ export const armoury = {
     },
   },
   wulfen_hammer: {
+    id: "wulfen_hammer",
     name: "Wulfen claws and melee weapons",
     profiles: {
       standard: {
@@ -856,6 +902,7 @@ export const armoury = {
     },
   },
   astartes_chainsword: {
+    id: "astartes_chainsword",
     name: "Astartes chainsword",
     profiles: {
       standard: {
@@ -871,6 +918,7 @@ export const armoury = {
     },
   },
   power_fist: {
+    id: "power_fist",
     name: "Power fist",
     profiles: {
       standard: {
@@ -886,6 +934,7 @@ export const armoury = {
     },
   },
   power_weapon: {
+    id: "power_weapon",
     name: "Power weapon",
     profiles: {
       standard: {
@@ -901,6 +950,7 @@ export const armoury = {
     },
   },
   relic_weapon: {
+    id: "relic_weapon",
     name: "Relic weapon",
     profiles: {
       standard: {
@@ -916,6 +966,7 @@ export const armoury = {
     },
   },
   thunder_hammer: {
+    id: "thunder_hammer",
     name: "Thunder hammer",
     profiles: {
       standard: {
@@ -931,6 +982,7 @@ export const armoury = {
     },
   },
   Twin_lightning_claws: {
+    id: "Twin_lightning_claws",
     name: "Twin lightning claws",
     profiles: {
       standard: {
@@ -946,6 +998,7 @@ export const armoury = {
     },
   },
   wolf_claws: {
+    id: "wolf_claws",
     name: "Twin lightning claws",
     profiles: {
       standard: {
@@ -961,6 +1014,7 @@ export const armoury = {
     },
   },
   claw_of_the_Jackalwolf: {
+    id: "claw_of_the_Jackalwolf",
     name: "Claw of the Jackalwolf",
     profiles: {
       standard: {
@@ -976,6 +1030,7 @@ export const armoury = {
     },
   },
   glacius: {
+    id: "glacius",
     name: "Glacius",
     profiles: {
       standard: {
@@ -991,6 +1046,7 @@ export const armoury = {
     },
   },
   wyrmclaw: {
+    id: "wyrmclaw",
     name: "Wyrmclaw",
     profiles: {
       standard: {
@@ -1006,6 +1062,7 @@ export const armoury = {
     },
   },
   frostfang: {
+    id: "frostfang",
     name: "Frostfang",
     profiles: {
       standard: {
@@ -1021,6 +1078,7 @@ export const armoury = {
     },
   },
   artificer_crozius: {
+    id: "artificer_crozius",
     name: "Artificer crozius",
     profiles: {
       standard: {
@@ -1036,6 +1094,7 @@ export const armoury = {
     },
   },
   trueclaw: {
+    id: "trueclaw",
     name: "Trueclaw",
     profiles: {
       standard: {
@@ -1051,6 +1110,7 @@ export const armoury = {
     },
   },
   Murderclaws: {
+    id: "Murderclaws",
     name: "Murderclaws",
     profiles: {
       standard: {
@@ -1066,6 +1126,7 @@ export const armoury = {
     },
   },
   Staff_of_the_Stormcaller: {
+    id: "Staff_of_the_Stormcaller",
     name: "Murderclaws",
     profiles: {
       standard: {
@@ -1082,10 +1143,14 @@ export const armoury = {
   },
 };
 /**
-     weapon_name: {
+
+id:"/",weapon_name: {
+      id:" weapon_name",
       name: "Weapon Name",
       profiles: {
+        id:"profiles",
         profile_name1: {
+          id:"profile_name1",
           profile: "profile name 1",
           rules: ["ANTI-MONSTER 2+", "ASSAULT"],
           range: 6,
@@ -1095,7 +1160,9 @@ export const armoury = {
           armour_penetration: "2",//always positive
           damage: "3", // always string type
         },
+        id:" ",
         profile_name2: {
+          id:"profile_name2",
           profile: "profile name 2",
           rules: ["anti-monster 2+"],
           range: "melee",
@@ -1111,9 +1178,11 @@ export const armoury = {
 /*
 
     close_combat_weapon: {
+      id:"close_combat_weapon",
       name: "Close combat weapon",
       profiles: {
         standard: {
+          id:"standard",
           profile: "profile name 1",
           rules: ["ANTI-MONSTER 2+", "ASSAULT"],
           range: "melee",
