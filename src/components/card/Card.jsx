@@ -3,23 +3,18 @@ import ModelsImages from "../modelsImages/ModelsImages";
 import { Link } from "react-router-dom";
 import { setIndexCard } from "../../app/appSlice";
 import { useDispatch } from "react-redux";
+import { armoury } from "../../data/armory";
 
 const Card = ({ props }) => {
-  const { name, stats, point_cost, image } = props;
+  const { name, stats, point_cost, image, equiped } = props;
+  const { weapon_skill, balistic_skill } = stats;
+
   const dispatch = useDispatch();
-  // const {
-  //   armor_save,
-  //   balistic_skill,
-  //   leadership,
-  //   movement,
-  //   objective_control,
-  //   toughness,
-  //   weapon_skill,
-  //   wounds,
-  // } = stats;
 
   const points = point_cost[0].cost || 100;
   const models = point_cost[0].amount || 1;
+
+  console.log(equiped);
   return (
     <div className="modelCard__header">
       <div className="modelCard__container-left">
@@ -65,12 +60,18 @@ const Card = ({ props }) => {
     </p> */}
         <div className="modelCard__point-cost">{points}pts</div>
         <div className="modelCard__wargear-container">
-          <div className="modelCard__wargear-container--item">
+          {equiped.map((w, i) => (
+            <div className="modelCard__wargear-container--item" key={i}>
+              {armoury[w]?.name || "missing weapon"}
+              {w.range === "melee" ? weapon_skill : balistic_skill}+
+            </div>
+          ))}
+          {/* <div className="modelCard__wargear-container--item">
             power sword {stats.balistic_skill || 3}+
           </div>
           <div className="modelCard__wargear-container--item">
             plasma pistol {stats.weapon_skill || 3}+
-          </div>
+          </div> */}
         </div>
       </div>
 

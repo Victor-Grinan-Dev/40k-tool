@@ -26,16 +26,18 @@ const MyModels = () => {
             key={i}
             onClick={() => dispatch(addToArmy(data))}
           >
-            <p className="my-models__card-text">{data.point_cost[0].cost}pts</p>
-            <p className="my-models__card-text">
+            <ModelsImages imgName={data.image} type={"listedModel"} />
+            <p className="my-models__card-text pts">
+              {data.point_cost[0].cost}pts
+            </p>
+            <p className="my-models__card-text modelName">
               {data.point_cost[0].amount > 1
                 ? `${data.point_cost[0].amount}x`
                 : ""}{" "}
               {data.name}
             </p>
 
-            <ModelsImages imgName={data.image} type={"listedModel"} />
-            <div>0/3</div>
+            <p className="my-models__card-text amount">0/3</p>
           </div>
         ))}
     </div>

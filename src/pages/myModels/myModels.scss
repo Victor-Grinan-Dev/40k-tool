@@ -23,6 +23,20 @@
     }
     &-image {
       width: 5rem;
+      margin: 0 1rem;
+    }
+
+    &:hover {
+      background-color: $primary-3;
+    }
+
+    &:focus {
+      animation: shine 2s ease-in 0.75s;
     }
   }
+}
+
+.modelName {
+  flex: 1;
+  margin: 0 1rem;
 }

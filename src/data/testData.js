@@ -1,6 +1,8 @@
 export const testData = [
   {
+    id: "",
     name: "Arjac Rockfist",
+    nickname: "",
     image: "arjac",
     point_cost: [
       {
@@ -17,6 +19,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
     abilities: {
       core: ["Deep Strike", "Leader"],
@@ -43,7 +46,7 @@ export const testData = [
     invulnerable: 4,
     wargear_options: [],
     unit_composition: ["1 Arjac Rockfist – Epic Hero"],
-    equiped: ["Foehammer"],
+    equiped: ["foehammer"],
     leader: [
       "Relic Terminator Squad",
       "Terminator Assault Squad",
@@ -77,7 +80,9 @@ export const testData = [
         upholds the honour of the Chapter`,
   },
   {
+    id: "",
     name: "Bjorn the Fell-Handed",
+    nickname: "",
     image: "bjorn",
     point_cost: [
       {
@@ -94,6 +99,7 @@ export const testData = [
       objective_control: 3,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -118,15 +124,15 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Bjorn the Fell-Handed– Epic Hero"],
-    equiped: ["assault cannon", "heavy flamer", "Trueclaw"],
+    equiped: ["assault_cannon", "heavy_flamer", "trueclaw"],
     wargear_options: [
       {
         title:
-          "This model’s assault cannon can be replaced with one of the following",
+          "This model’s assault_cannon can be replaced with one of the following",
         options: [
-          "heavy plasma cannon",
+          "heavy plasma_cannon",
           "helfrost cannon",
-          "multi-melta",
+          "multi_melta",
           "twin lascannon",
         ],
       },
@@ -157,7 +163,9 @@ export const testData = [
         as furiously as he did at Russ’ side`,
   },
   {
+    id: "",
     name: "Blood Claws",
+    nickname: "",
     image: "bloodClaws",
     point_cost: [
       {
@@ -178,6 +186,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 2,
     },
 
     abilities: {
@@ -197,25 +206,25 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Blood Claw Pack Leader", "9-14 Blood Claws"],
-    equiped: ["bolt pistol", "Astartes chainsword"],
+    equiped: ["bolt_pistol", "astartes_chainsword"],
     wargear_options: [
       {
         title:
-          "The Blood Claw Pack Leader’s Astartes chainsword can be replaced with one of the following",
-        options: ["1 power weapon", "1 power fist"],
+          "The Blood Claw Pack Leader’s astartes_chainsword can be replaced with one of the following",
+        options: ["1 power_weapon", "1 power_fist"],
       },
       {
-        title: "The Blood Claw Pack Leader’s bolt pistol can be replaced with",
-        options: ["1 plasma pistol"],
+        title: "The Blood Claw Pack Leader’s bolt_pistol can be replaced with",
+        options: ["1 plasma_pistol"],
       },
       {
         title:
-          "Up to 2 Blood Claws can each have their Astartes chainsword replaced with one of the following",
+          "Up to 2 Blood Claws can each have their astartes_chainsword replaced with one of the following",
         options: [
           "1 flamer and 1 close combat weapon",
-          "1 grav-gun and 1 close combat weapon",
+          "1 grav_gun and 1 close combat weapon",
           "1 meltagun and 1 close combat weapon",
-          "1 plasma gun and 1 close combat weapon",
+          "1 plasma_gun and 1 close combat weapon",
         ],
       },
     ],
@@ -238,7 +247,9 @@ export const testData = [
     with the Blood Claws’ glory hunts`,
   },
   {
+    id: "",
     name: "Canis Wolfborn ",
+    nickname: "",
     image: "canis_wolfborn",
     point_cost: [
       {
@@ -255,6 +266,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 2,
       balistic_skill: 5,
+      attacks: 0,
     },
 
     abilities: {
@@ -281,7 +293,7 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Canis Wolfborn – Epic Hero"],
-    equiped: ["crushing teeth and jaws 4+", "Wolf claws"],
+    equiped: ["crushing_teeth_and_jaws", "wolf_claws"],
     wargear_options: [],
     leader: ["Fenrisian Wolves", "Thunderwolf Cavalry"],
     second_leader: false,
@@ -306,7 +318,9 @@ export const testData = [
     are all the communication he needs`,
   },
   {
+    id: "",
     name: "Cyberwolf",
+    nickname: "",
     image: "cyberwolf",
     point_cost: [
       {
@@ -323,6 +337,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 4,
       balistic_skill: 0,
+      attacks: 0,
     },
 
     abilities: {
@@ -346,7 +361,7 @@ export const testData = [
     transport: ``,
     invulnerable: 6,
     unit_composition: ["Fenrisian Wolves"],
-    equiped: ["Teeth and claws"],
+    equiped: ["teeth_and_claws"],
     wargear_options: [],
     leader: ["Fenrisian Wolves"],
     secondLeader: `You must attach this model to the above unit, even if Canis
@@ -371,7 +386,9 @@ export const testData = [
     lore: ``,
   },
   {
+    id: "",
     name: "Fenrisian Wolves",
+    nickname: "",
     image: "fenrisianWolf",
     point_cost: [
       {
@@ -392,6 +409,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 4,
       balistic_skill: 0,
+      attacks: 0,
     },
 
     abilities: {
@@ -409,7 +427,7 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["5-10 Fenrisian Wolves"],
-    equiped: ["Teeth and claws"],
+    equiped: ["teeth_and_claws"],
     wargear_options: [],
     leader: [],
     second_leader: false,
@@ -428,7 +446,9 @@ export const testData = [
     coordinated flurry of razor-sharp teeth and claws`,
   },
   {
+    id: "",
     name: "Grey Hunters",
+    nickname: "",
     image: "greyHunters",
     point_cost: [
       {
@@ -449,6 +469,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 2,
     },
 
     abilities: {
@@ -466,21 +487,21 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Grey Hunter Pack Leader", "4-9 Grey Hunters"],
-    equiped: ["bolt pistol", "boltgun", "combat weapon"],
+    equiped: ["bolt_pistol", "boltgun", "combat_weapon"],
     wargear_options: [
       {
         title: "Any number of models can each be equipped with",
-        options: ["1 Astartes chainsword"],
+        options: ["1 astartes_chainsword"],
       },
       {
         title:
           "The Grey Hunter Pack Leader’s close combat weapon can be replaced with one of the following",
-        options: ["1 power fist", "1 power weapon"],
+        options: ["1 power_fist", "1 power_weapon"],
       },
       {
         title:
           "Up to 2 Grey Hunters can each have their boltgun replaced with one of the following",
-        options: ["1 flamer", "1 grav-gun", "1 meltagun", "1 plasma gun"],
+        options: ["1 flamer", "1 grav_gun", "1 meltagun", "1 plasma_gun"],
       },
     ],
     leader: [],
@@ -508,7 +529,9 @@ export const testData = [
     set, Grey Hunters leap in for the kill`,
   },
   {
+    id: "",
     name: "Harald Deathwolf",
+    nickname: "",
     image: "haraldDeathwolf",
     point_cost: [
       {
@@ -525,6 +548,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -535,7 +559,7 @@ export const testData = [
           title: "Lord of the Wolfkin",
           rule: `While this model is leading a unit, each
           time that unit makes a Charge move, until the end of the turn,
-          crushing teeth and claws equipped by models in that unit
+          crushing_teeth_and_claws equipped by models in that unit
           have the [DEVASTATING WOUNDS] ability`,
         },
         {
@@ -551,7 +575,7 @@ export const testData = [
     transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Harald Deathwolf – Epic Hero"],
-    equiped: ["bolt pistol", "crushing teeth and claws", "Glacius"],
+    equiped: ["bolt_pistol", "crushing_teeth_and_claws", "glacius"],
     wargear_options: [],
     leader: ["Thunderwolf Cavalry"],
     second_leader: false,
@@ -578,7 +602,9 @@ export const testData = [
     from atop his giant Thunderwolf, Icetooth`,
   },
   {
+    id: "",
     name: "Iron Priest",
+    nickname: "",
     image: "ironPriest",
     point_cost: [
       {
@@ -595,6 +621,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -629,7 +656,7 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Iron Priest"],
-    equiped: ["helfrost pistol", "servo-arm", "tempest hammer"],
+    equiped: ["helfrost_pistol", "servo_arm", "tempest_hammer"],
     wargear_options: [],
     leader: ["Astartes Servitors", "Blood Claws", "Grey Hunters", "Long Fangs"],
     second_leader: false,
@@ -655,7 +682,9 @@ export const testData = [
     esoteric weapons to bear on the foe if needed`,
   },
   {
+    id: "",
     name: "Krom Dragongaze",
+    nickname: "",
     image: "kromDragongaze",
     point_cost: [
       {
@@ -672,6 +701,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -697,7 +727,7 @@ export const testData = [
     transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Krom Dragongaze"],
-    equiped: ["Wyrmclaw", "Bolt pistol"],
+    equiped: ["wyrmclaw", "bolt_pistol"],
     wargear_options: [],
     leader: ["Blood Claws", "Grey Hunters", "Wolf Guard"],
     second_leader: false,
@@ -723,160 +753,164 @@ export const testData = [
     deeds of valour and his Great Company boasts many veteran Wolf
     Guard. Wildly competitive, Krom refuses to accept defeat`,
   },
-  // {
-  //   name: "Logan Grimnar",
-  //   image: "loganGrimnar",
-  //   point_cost: [
-  //     {
-  //       amount: 1,
-  //       cost: 145,
-  //     },
-  //   ],
-  //   stats: {
-  //     movement: 5,
-  //     toughness: 5,
-  //     armor_save: 2,
-  //     wounds: 6,
-  //     leadership: 6,
-  //     objective_control: 1,
-  //     weapon_skill: 2,
-  //     balistic_skill: 2,
-  //   },
-
-  //   abilities: {
-  //     core: ["Deep Strike", "Leader"],
-  //     faction: "Oath of Moment",
-  //     other: [
-  //       {
-  //         title: "High King of Fenris",
-  //         rule: `Once per battle, in your Charge phase,
-  //         this model can use this ability. If it does, until the end of the
-  //         turn, you can re-roll Charge rolls made for Adeptus Astartes
-  //         units from your army and, until the end of the turn, each time
-  //         an Adeptus Astartes model from your army makes a melee
-  //         attack, you can re-roll the Hit roll`,
-  //       },
-  //       {
-  //         title: "The Great Wolf",
-  //         rule: `Each time this model destroys an enemy unit,
-  //         you gain 1CP`,
-  //       },
-  //     ],
-  //   },
-
-  // transport:``,
-  //  invulnerable: 4,
-  //   unit_composition: ["Logan Grimnar – Epic Hero"],
-  //   equiped: ["Storm bolter", "The Axe Morkai"],
-  //   wargear_options: [],
-  //   leader: [
-  //     "Relic Terminator Squad",
-  //     "Terminator Assault Squad",
-  //     "Terminator Squad",
-  //     "Wolf Guard Terminators",
-  //   ],
-  // second_leader: false,
-  // third_leader: false,
-  // wargear_hability: {},
-  //   specific: {
-  //     title: "Logan Grimnar",
-  //     rule: `Your army cannot contain both Logan Grimnar and Logan
-  //       Grimnar on Stormrider`,
-  //   },
-  //   attached_unit: "",
-
-  //   keywords: [
-  //     "Infantry",
-  //     "Character",
-  //     "Epic Hero",
-  //     "Imperium",
-  //     "Terminator",
-  //     "Chapter Master",
-  //     "Logan Grimnar",
-  //   ],
-  //   faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-
-  //   lore: `Logan Grimnar – Great Wolf and High King of Fenris – is one of the
-  //   longest serving Chapter Masters. Waging war against any who
-  //   threaten the Space Wolves or the Imperium, Grimnar’s charisma and
-  //   centuries of heroic victories have immortalised him as one of the most
-  //   lauded warriors in the galaxy`,
-  // },
-  // {
-  //   name: "Grimnar on Stormrider",
-  //   image: "loganStormrider",
-  //   point_cost: [
-  //     {
-  //       amount: 1,
-  //       cost: 235,
-  //     },
-  //   ],
-  //   stats: {
-  //     movement: 10,
-  //     toughness: 6,
-  //     armor_save: 2,
-  //     wounds: 12,
-  //     leadership: 6,
-  //     objective_control: 4,
-  //     weapon_skill: 2,
-  //     balistic_skill: 2,
-  //   },
-
-  //   abilities: {
-  //     core: ["Deadly Demise D3", "Leader"],
-  //     faction: "Oath of Moment",
-  //     other: [
-  //       {
-  //         title: "High King of Fenris",
-  //         rule: `Once per battle, in your Charge phase,
-  //           this model can use this ability. If it does, until the end of the
-  //           turn, you can re-roll Charge rolls made for Adeptus Astartes
-  //           units from your army and, until the end of the turn, each time
-  //           an Adeptus Astartes model from your army makes a melee
-  //           attack, you can re-roll the Hit roll`,
-  //       },
-  //       {
-  //         title: "The Great Wolf",
-  //         rule: `Each time this model destroys an enemy unit,
-  //           you gain 1CP`,
-  //       },
-  //     ],
-  //   },
-
-  // transport:``,
-  // invulnerable: 4,
-  //   unit_composition: ["1 Logan Grimnar on Stormrider – Epic Hero"],
-  //   equiped: [
-  //     "storm bolter",
-  //     "the Axe of Morkai",
-  //     "flurry of teeth and claws 4+",
-  //   ],
-  //   wargear_options: [],
-  //   leader: ["Thunderwolf Cavalry"],
-  //  second_leader: false,
-  // third_leader: false,
-  //  wargear_hability: {},
-  //   specific: null,
-  //   attached_unit: "",
-
-  //   keywords: [
-  //     "Mounted",
-  //     "Character",
-  //     "Epic Hero",
-  //     "Imperium",
-  //     "Terminator",
-  //     "Logan Grimnar on Stormrider",
-  //   ],
-  //   faction_keywords: ["Adeptus Astartes", "Space Wolves"],
-
-  //   lore: `When riding to battle upon his ornate anti-grav chariot, Stormrider,
-  //   Logan Grimnar is a destructive and swift tempest of war. Drawn by a
-  //   pair of giant and ferocious Thunderwolves, Stormrider’s saga-inscribed
-  //   hull bears the grizzled leader into the heart of the enemy, there to reap
-  //   a fell tally with the Axe Morkai`,
-  // },
   {
+    id: "",
+    name: "Logan Grimnar",
+    nickname: "",
+    image: "loganGrimnar",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 145,
+      },
+    ],
+    stats: {
+      movement: 5,
+      toughness: 5,
+      armor_save: 2,
+      wounds: 6,
+      leadership: 6,
+      objective_control: 1,
+      weapon_skill: 2,
+      balistic_skill: 2,
+      attacks: 0,
+    },
+
+    abilities: {
+      core: ["Deep Strike", "Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "High King of Fenris",
+          rule: `Once per battle, in your Charge phase,
+          this model can use this ability. If it does, until the end of the
+          turn, you can re-roll Charge rolls made for Adeptus Astartes
+          units from your army and, until the end of the turn, each time
+          an Adeptus Astartes model from your army makes a melee
+          attack, you can re-roll the Hit roll`,
+        },
+        {
+          title: "The Great Wolf",
+          rule: `Each time this model destroys an enemy unit,
+          you gain 1CP`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: 4,
+    unit_composition: ["Logan Grimnar – Epic Hero"],
+    equiped: ["storm_bolter", "the_axe_morkai"],
+    wargear_options: [],
+    leader: [
+      "Relic Terminator Squad",
+      "Terminator Assault Squad",
+      "Terminator Squad",
+      "Wolf Guard Terminators",
+    ],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: {},
+    specific: {
+      title: "Logan Grimnar",
+      rule: `Your army cannot contain both Logan Grimnar and Logan
+        Grimnar on Stormrider`,
+    },
+    attached_unit: "",
+
+    keywords: [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Chapter Master",
+      "Logan Grimnar",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `Logan Grimnar – Great Wolf and High King of Fenris – is one of the
+    longest serving Chapter Masters. Waging war against any who
+    threaten the Space Wolves or the Imperium, Grimnar’s charisma and
+    centuries of heroic victories have immortalised him as one of the most
+    lauded warriors in the galaxy`,
+  },
+  {
+    id: "",
+    name: "Grimnar on Stormrider",
+    nickname: "",
+    image: "loganStormrider",
+    point_cost: [
+      {
+        amount: 1,
+        cost: 235,
+      },
+    ],
+    stats: {
+      movement: 10,
+      toughness: 6,
+      armor_save: 2,
+      wounds: 12,
+      leadership: 6,
+      objective_control: 4,
+      weapon_skill: 2,
+      balistic_skill: 2,
+      attacks: 0,
+    },
+
+    abilities: {
+      core: ["Deadly Demise D3", "Leader"],
+      faction: "Oath of Moment",
+      other: [
+        {
+          title: "High King of Fenris",
+          rule: `Once per battle, in your Charge phase,
+            this model can use this ability. If it does, until the end of the
+            turn, you can re-roll Charge rolls made for Adeptus Astartes
+            units from your army and, until the end of the turn, each time
+            an Adeptus Astartes model from your army makes a melee
+            attack, you can re-roll the Hit roll`,
+        },
+        {
+          title: "The Great Wolf",
+          rule: `Each time this model destroys an enemy unit,
+            you gain 1CP`,
+        },
+      ],
+    },
+
+    transport: ``,
+    invulnerable: 4,
+    unit_composition: ["1 Logan Grimnar on Stormrider – Epic Hero"],
+    equiped: ["storm_bolter", "the_axe_morkai", "flurry_of_teeth_and_claws"],
+    wargear_options: [],
+    leader: ["Thunderwolf Cavalry"],
+    second_leader: false,
+    third_leader: false,
+    wargear_hability: null,
+    specific: null,
+    attached_unit: "",
+
+    keywords: [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Terminator",
+      "Logan Grimnar on Stormrider",
+    ],
+    faction_keywords: ["Adeptus Astartes", "Space Wolves"],
+
+    lore: `When riding to battle upon his ornate anti-grav chariot, Stormrider,
+    Logan Grimnar is a destructive and swift tempest of war. Drawn by a
+    pair of giant and ferocious Thunderwolves, Stormrider’s saga-inscribed
+    hull bears the grizzled leader into the heart of the enemy, there to reap
+    a fell tally with the Axe Morkai`,
+  },
+  {
+    id: "",
     name: "Long Fangs",
+    nickname: "",
     image: "longFangs",
     point_cost: [
       {
@@ -897,6 +931,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 2,
     },
 
     abilities: {
@@ -923,35 +958,35 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Long Fang Pack Leader", "4-5 Long Fangs"],
-    equiped: ["boltgun", "bolt pistol", "close combat weapon"],
+    equiped: ["boltgun", "bolt_pistol", "close_combat_weapon"],
     wargear_options: [
       {
         title:
           "Any number of Long Fangs can each have their boltgun replaced with one of the following",
         options: [
-          "1 grav-cannon",
-          "1 heavy bolter",
-          "1 heavy flamer*",
+          "1 grav_cannon",
+          "1 heavy_bolter",
+          "1 heavy_flamer*",
           "1 lascannon",
-          "1 missile launcher",
-          "1 multi-melta",
-          "1 plasma cannon",
+          "1 missile_launcher",
+          "1 multi_melta",
+          "1 plasma_cannon",
         ],
       },
       {
         title:
           "The Long Fang Pack Leader’s close combat weapon can be replaced with one of the following",
-        options: ["1 Astartes chainsword", "1 power fist", "1 power weapon"],
+        options: ["1 astartes_chainsword", "1 power_fist", "1 power_weapon"],
       },
       {
         title:
           "The Long Fang Pack Leader’s boltgun can be replace with one of the following",
         options: [
-          "1 grav-gun",
+          "1 grav_gun",
           "1 flamer",
           "1 meltagun",
-          "1 plasma gun",
-          "1 plasma pistol",
+          "1 plasma_gun",
+          "1 plasma_pistol",
         ],
       },
     ],
@@ -974,7 +1009,9 @@ export const testData = [
     monstrous beasts and battle tanks of the foe`,
   },
   {
+    id: "",
     name: "Lukas the Trickster",
+    nickname: "",
     image: "lucas",
     point_cost: [
       {
@@ -991,6 +1028,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1016,7 +1054,7 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Lukas the Trickster – Epic Hero"],
-    equiped: ["plasma pistol", "Claw of the Jackalwolf"],
+    equiped: ["plasma_pistol", "claw_of_the_jackalwolf"],
     wargear_options: [],
     leader: ["Blood Claws"],
     second_leader: false,
@@ -1045,7 +1083,9 @@ export const testData = [
     Lukas’ skills are as deadly as they are mischievous`,
   },
   {
+    id: "",
     name: "Murderfang",
+    nickname: "",
     image: "murderfang",
     point_cost: [
       {
@@ -1062,6 +1102,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 3,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1081,7 +1122,7 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["Murderfang – Epic Hero"],
-    equiped: ["heavy flamer", "storm bolter", "the Murderclaws"],
+    equiped: ["heavy_flamer", "storm_bolter", "the_murderclaws"],
     wargear_options: [],
     leader: [],
     second_leader: false,
@@ -1106,12 +1147,16 @@ export const testData = [
 
     lore: `A stampeding mechanical beast is unleashed from beneath the Fang
     in times of need, its massively brutal claws tearing its foes limb from
-    bloody limb. The Chapter names it Murderfang. Its true identity is
+    id:"",bloody limb. The Chapter 
+    names it Murderfang. Its true identity is
+    nickname:"",
     unknown for its insensate snarling rages are bereft of speech; it is
     known now only as a force of untamed destruction`,
   },
   {
+    id: "",
     name: "Njal Stormcaller",
+    nickname: "",
     image: "njal",
     point_cost: [
       {
@@ -1128,6 +1173,7 @@ export const testData = [
       objective_control: 3,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1150,7 +1196,7 @@ export const testData = [
     transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Njal Stormcaller – Epic Hero"],
-    equiped: ["bolt pistol", "Living Lightning", "Staff of the Stormcaller"],
+    equiped: ["bolt_pistol", "Living Lightning", "Staff of the Stormcaller"],
     wargear_options: [],
     leader: [
       "Relic Terminator Squad",
@@ -1181,7 +1227,9 @@ export const testData = [
     enemy sorceries`,
   },
   {
+    id: "",
     name: "Ragnar Blackmane",
+    nickname: "",
     image: "ragnar",
     point_cost: [
       {
@@ -1198,6 +1246,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1221,7 +1270,7 @@ export const testData = [
     transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Ragnar Blackmane – Epic Hero"],
-    equiped: ["bolt pistol", "Frostfang"],
+    equiped: ["bolt_pistol", "Frostfang"],
     wargear_options: [],
     leader: [
       "Wolf Guard",
@@ -1256,7 +1305,9 @@ export const testData = [
     and his terrifying howls freeze the blood of his foes`,
   },
   {
+    id: "",
     name: "Skyclaws",
+    nickname: "",
     image: "skyclaws",
     point_cost: [
       {
@@ -1281,6 +1332,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 2,
     },
 
     abilities: {
@@ -1300,18 +1352,18 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Skyclaw Pack Leader", "4-14 Skyclaws"],
-    equiped: ["bolt pistol", "Astartes chainsword"],
-    wargear_options: `■ The Skyclaw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.
-    ■ The Skyclaw Pack Leader’s Astartes chainsword can be replaced with one of the following:
-    ◦ 1 power fist
-    ◦ 1 power weapon
-    ■ Up to 2 Skyclaws can each have their bolt pistol and Astartes chainsword replaced with one of
+    equiped: ["bolt_pistol", "astartes_chainsword"],
+    wargear_options: `■ The Skyclaw Pack Leader’s bolt_pistol can be replaced with 1 plasma_pistol.
+    ■ The Skyclaw Pack Leader’s astartes_chainsword can be replaced with one of the following:
+    ◦ 1 power_fist
+    ◦ 1 power_weapon
+    ■ Up to 2 Skyclaws can each have their bolt_pistol and astartes_chainsword replaced with one of
     the following:
-    ◦ 1 plasma pistol and 1 Astartes chainsword
+    ◦ 1 plasma_pistol and 1 astartes_chainsword
     ◦ 1 flamer and 1 close combat weapon
-    ◦ 1 grav-gun and 1 close combat weapon
+    ◦ 1 grav_gun and 1 close combat weapon
     ◦ 1 meltagun and 1 close combat weapon
-    ◦ 1 plasma gun and 1 close combat weapon`,
+    ◦ 1 plasma_gun and 1 close combat weapon`,
     leader: [],
     second_leader: false,
     third_leader: false,
@@ -1339,7 +1391,9 @@ export const testData = [
   },
 
   {
+    id: "",
     name: "Venerable Dreadnought",
+    nickname: "",
     image: "vendread",
     point_cost: [
       {
@@ -1356,6 +1410,7 @@ export const testData = [
       objective_control: 3,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1375,7 +1430,7 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Space Wolves Venerable Dreadnought"],
-    equiped: ["assault cannon", "storm bolter", "Dreadnought combat weapon"],
+    equiped: ["assault_cannon", "storm_bolter", "Dreadnought combat weapon"],
     wargear_options: [],
     leader: [],
     second_leader: false,
@@ -1402,11 +1457,14 @@ export const testData = [
     battle. The ancient warriors at the heart of each are living legends of
     the Space Wolves, with wisdom as deep as the ocean and intuition as
     sharp as krakens’ teeth. Awoken from dormancy, they fight as lords of
-    battle, seemingly stepping from the sagas to kill in the name of Russ`,
+    id:"",battle, seemingly stepping from the sagas to kill in the 
+    name of Russ`,
   },
 
   {
+    id: "",
     name: "Stormfang Gunship",
+    nickname: "",
     image: "stormfang",
     point_cost: [
       {
@@ -1423,6 +1481,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 4,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1460,20 +1519,20 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Stormfang Gunship"],
     equiped: [
-      "helfrost destructor",
-      "2 skyhammer missile launchers",
-      "twin stormstrike missile launcher",
-      "armoured hull",
+      "helfrost_destructor",
+      "2 skyhammer_missile_launchers",
+      "twin_stormstrike_missile_launcher",
+      "armoured_hull",
     ],
     wargear_options: [
       {
         title:
-          "This model’s 2 skyhammer missile launchers can be replaced with one of the following",
-        options: ["2 twin multi-meltas", "2 twin heavy bolters"],
+          "This model’s 2 skyhammer_missile_launchers can be replaced with one of the following",
+        options: ["2 twin multi_meltas", "2 twin heavy_bolters"],
       },
       {
         title:
-          "This model’s twin stormstrike missile launcher can be replaced with",
+          "This model’s twin_stormstrike_missile_launcher can be replaced with",
         options: ["1 twin lascannon"],
       },
     ],
@@ -1499,7 +1558,9 @@ export const testData = [
     ice-burned, and unyielding tank armour swiftly cracks and shatters`,
   },
   {
+    id: "",
     name: "Stormwolf",
+    nickname: "",
     image: "stromwolf",
     point_cost: [
       {
@@ -1516,6 +1577,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 4,
       balistic_skill: 3,
+      attacks: 4,
     },
 
     abilities: {
@@ -1550,15 +1612,15 @@ export const testData = [
     unit_composition: ["1 Stormwolf"],
     equiped: [
       "twin helfrost cannon",
-      "2 skyhammer missile launchers",
+      "2 skyhammer_missile_launchers",
       "twin lascannon",
-      "armoured hull",
+      "armoured_hull",
     ],
     wargear_options: [
       {
         title:
-          "This model’s 2 skyhammer missile launchers can be replaced with one of the following",
-        options: ["2 twin multi-meltas", "2 twin heavy bolters"],
+          "This model’s 2 skyhammer_missile_launchers can be replaced with one of the following",
+        options: ["2 twin multi_meltas", "2 twin heavy_bolters"],
       },
     ],
     leader: [],
@@ -1583,7 +1645,9 @@ export const testData = [
     before rising to hunt for yet more targets`,
   },
   {
+    id: "",
     name: "Thunderwolf Cavalry",
+    nickname: "",
     image: "thunderwolfCavalry",
     point_cost: [
       {
@@ -1604,6 +1668,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1625,19 +1690,19 @@ export const testData = [
       "1 Thunderwolf Cavalry Pack Leader",
       "2-5 Thunderwolf Cavalry",
     ],
-    equiped: ["bolt pistol", "crushing teeth and claws", "heirloom weapon"],
+    equiped: ["bolt_pistol", "crushing_teeth_and_claws", "heirloom_weapon"],
     wargear_options: [
       {
         title:
-          "Any number of models can each have their bolt pistol replaced with one of the following",
-        options: ["1 boltgun", "1 plasma pistol", "1 storm shield"],
+          "Any number of models can each have their bolt_pistol replaced with one of the following",
+        options: ["1 boltgun", "1 plasma_pistol", "1 storm_shield"],
       },
     ],
     leader: [],
     second_leader: false,
     third_leader: false,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a 4+ invulnerable save",
     },
     specific: null,
@@ -1653,7 +1718,9 @@ export const testData = [
     Thunderwolves’ riders hack down the foe with heroic ferocity.`,
   },
   {
+    id: "",
     name: "Ulrik the Slayer",
+    nickname: "",
     image: "ulrik",
     point_cost: [
       {
@@ -1670,6 +1737,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1701,7 +1769,7 @@ export const testData = [
     transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Ulrik the Slayer – Epic Hero"],
-    equiped: ["plasma pistol", "artificer crozius"],
+    equiped: ["plasma_pistol", "artificer crozius"],
     wargear_options: [],
     leader: ["Blood Claws", "Grey Hunters", "Long Fangs", "Wolf Guard"],
     second_leader: false,
@@ -1727,7 +1795,9 @@ export const testData = [
     swears weighty oaths to cut them down`,
   },
   {
+    id: "",
     name: "Wolf Guards",
+    nickname: "",
     image: "wolfguards",
     point_cost: [
       {
@@ -1748,6 +1818,7 @@ export const testData = [
       objective_control: 3,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1766,17 +1837,17 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Wolf Guard Pack Leader", "4-9 Wolf Guard"],
-    equiped: ["bolt pistol", "heirloom weapon"],
+    equiped: ["bolt_pistol", "heirloom_weapon"],
     wargear_options: [
       {
         title:
-          "Any number of models can have their bolt pistol replaced with one of the following:",
+          "Any number of models can have their bolt_pistol replaced with one of the following:",
         options: [
           "1 boltgun",
-          "1 combi-weapon",
-          "1 plasma pistol",
-          "1 storm bolter",
-          "1 storm shield",
+          "1 combi_weapon",
+          "1 plasma_pistol",
+          "1 storm_bolter",
+          "1 storm_shield",
         ],
       },
     ],
@@ -1784,7 +1855,7 @@ export const testData = [
     second_leader: false,
     third_leader: false,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a 4+ invulnerable save",
     },
     specific: null,
@@ -1802,7 +1873,9 @@ export const testData = [
     dangerous missions in their own right`,
   },
   {
+    id: "",
     name: "Wolf Guard Battle Leader in Terminator Armour",
+    nickname: "",
     image: "wolfguard__terminator_hammer",
     point_cost: [
       {
@@ -1819,6 +1892,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1843,36 +1917,36 @@ export const testData = [
     transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Wolf Guard Battle Leader in Terminator Armour"],
-    equiped: ["storm bolter", "power weapon"],
+    equiped: ["storm_bolter", "power_weapon"],
     wargear_options: [
       {
-        title: `This model’s power weapon can be replaced with one of the following`,
+        title: `This model’s power_weapon can be replaced with one of the following`,
         options: [
           "1 chainfist",
-          "1 power fist",
+          "1 power_fist",
           "1 relic shield and 1 close combat weapon",
-          "1 thunder hammer",
+          "1 thunder_hammer",
         ],
       },
       {
-        title: `This model’s storm bolter can be replaced with one of the following`,
+        title: `This model’s storm_bolter can be replaced with one of the following`,
         options: [
           "1 chainfist",
-          "1 power fist",
+          "1 power_fist",
           "1 relic shield and 1 close combat weapon",
-          "1 thunder hammer",
+          "1 thunder_hammer",
         ],
       },
       {
-        title: `This model’s storm bolter and power weapon can be replaced with`,
-        options: ["1 twin lightning claws"],
+        title: `This model’s storm_bolter and power_weapon can be replaced with`,
+        options: ["1 twin_lightning_claws"],
       },
     ],
     leader: [],
     second_leader: false,
     third_leader: false,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a Wounds characteristic of 4",
     },
     specific: null,
@@ -1896,7 +1970,9 @@ export const testData = [
     heavy tread as they slay with stunning skill`,
   },
   {
+    id: "",
     name: "Wolf Guard Terminators",
+    nickname: "",
     image: "terminators",
     point_cost: [
       {
@@ -1917,6 +1993,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 3,
     },
 
     abilities: {
@@ -1941,34 +2018,34 @@ export const testData = [
       "1 Wolf Guard Terminator Pack Leader",
       "4-9 Wolf Guard Terminators",
     ],
-    equiped: ["storm bolter", "power fist"],
+    equiped: ["storm_bolter", "power_fist"],
     wargear_options: [
       {
-        title: `Any number of models can each have their power fist and storm bolter or power weapon and storm
+        title: `Any number of models can each have their power_fist and storm_bolter or power_weapon and storm
       bolter replaced with two of the following`,
         options: [
-          "1 storm bolter*",
-          "1 combi-weapon*",
+          "1 storm_bolter*",
+          "1 combi_weapon*",
           "1 chainfist",
-          "1 power fist",
-          "1 power weapon",
-          "1 thunder hammer",
-          "1 storm shield",
+          "1 power_fist",
+          "1 power_weapon",
+          "1 thunder_hammer",
+          "1 storm_shield",
         ],
       },
       {
-        title: `For every 5 models in this unit, one Wolf Guard Terminator can replace its power fist and storm bolter
+        title: `For every 5 models in this unit, one Wolf Guard Terminator can replace its power_fist and storm_bolter
       with one of the following`,
         options: [
-          "1 assault cannon",
-          "1 heavy flamer",
-          "1 storm bolter and 1 cyclone missile launcher",
+          "1 assault_cannon",
+          "1 heavy_flamer",
+          "1 storm_bolter and 1 cyclone_missile_launcher",
         ],
       },
       {
-        title: `Any number of models can each have their power fist and storm bolter or power weapon and storm
+        title: `Any number of models can each have their power_fist and storm_bolter or power_weapon and storm
       bolter replaced with`,
-        options: ["1 twin lightning claws"],
+        options: ["1 twin_lightning_claws"],
       },
     ],
     leader: [
@@ -1984,7 +2061,7 @@ export const testData = [
     units, with their original Starting Strengths`,
     third_leader: false,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a Wounds characteristic of 4",
     },
     specific: null,
@@ -2006,7 +2083,9 @@ export const testData = [
     fearsome Terminator armour`,
   },
   {
+    id: "",
     name: "Wolf Guard Battle Leader on Thunderwolf",
+    nickname: "",
     image: "wolfguard_battle_leader_on_thunderwolf",
     point_cost: [
       {
@@ -2023,6 +2102,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 3,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -2052,34 +2132,34 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Wolf Guard Battle Leader on Thunderworlf"],
-    equiped: ["bolt pistol", "crushing teeth and claws", "relic weapon"],
+    equiped: ["bolt_pistol", "crushing_teeth_and_claws", "relic_weapon"],
     wargear_options: [
       {
         title:
-          "This model’s relic weapon can be replaced with one of the following",
+          "This model’s relic_weapon can be replaced with one of the following",
         options: [
-          "1 plasma pistol",
-          "1 power fist",
-          "1 thunder hammer",
-          "1 storm shield and 1 close combat weapon",
+          "1 plasma_pistol",
+          "1 power_fist",
+          "1 thunder_hammer",
+          "1 storm_shield and 1 close combat weapon",
         ],
       },
       {
         title:
-          "This model’s bolt pistol can be replaced with one of the following",
+          "This model’s bolt_pistol can be replaced with one of the following",
         options: [
-          "1 combi-weapon",
+          "1 combi_weapon",
           "1 master-crafted boltgun",
-          "1 plasma pistol",
-          "1 storm bolter",
-          "1 power fist",
-          "1 relic weapon",
-          "1 thunder hammer",
+          "1 plasma_pistol",
+          "1 storm_bolter",
+          "1 power_fist",
+          "1 relic_weapon",
+          "1 thunder_hammer",
         ],
       },
       {
-        title: "This model’s bolt pistol and relic weapon can be replaced with",
-        options: ["1 twin lightning claws"],
+        title: "This model’s bolt_pistol and relic_weapon can be replaced with",
+        options: ["1 twin_lightning_claws"],
       },
     ],
     leader: ["Thunderwolf Cavalry"],
@@ -2090,7 +2170,7 @@ export const testData = [
     their original Starting Strengths`,
     third_leader: false,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a 4+ invulnerable save",
     },
     specific: null,
@@ -2111,7 +2191,9 @@ export const testData = [
     the back of a Thunderwolf`,
   },
   {
+    id: "",
     name: "Wolf Guard Pack Leader",
+    nickname: "",
     image: "wolfguard",
     point_cost: [
       {
@@ -2128,6 +2210,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -2151,27 +2234,27 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Wolf Guard Pack Leader"],
-    equiped: ["bolt pistol", "boltgun ", "close combat weapon"],
+    equiped: ["bolt_pistol", "boltgun ", "close combat weapon"],
     wargear_options: [
       {
-        title: `This model’s bolt pistol and boltgun can be replaced with two different weapons from the following
+        title: `This model’s bolt_pistol and boltgun can be replaced with two different weapons from the following
       list*`,
         options: [
-          "1 bolt pistol",
+          "1 bolt_pistol",
           "1 boltgun",
-          "1 combi-weapon",
-          "1 plasma pistol",
-          "1 storm bolter",
-          "1 Astartes chainsword",
-          "1 power fist",
-          "1 power weapon",
-          "1 thunder hammer",
-          "1 storm shield",
+          "1 combi_weapon",
+          "1 plasma_pistol",
+          "1 storm_bolter",
+          "1 astartes_chainsword",
+          "1 power_fist",
+          "1 power_weapon",
+          "1 thunder_hammer",
+          "1 storm_shield",
         ],
       },
       {
-        title: "This model’s bolt pistol and boltgun can be replaced with",
-        options: ["1 twin lightning claws"],
+        title: "This model’s bolt_pistol and boltgun can be replaced with",
+        options: ["1 twin_lightning_claws"],
       },
     ],
     leader: ["Blood Claws", "Grey Hunters", "Long Fangs"],
@@ -2185,7 +2268,7 @@ export const testData = [
     to attach this model to a unit, it does not take part in the
     battle and counts as having been destroyed`,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a 4+ invulnerable save",
     },
     specific: null,
@@ -2208,7 +2291,9 @@ export const testData = [
     seen as a great honour`,
   },
   {
+    id: "",
     name: "Wolf Guard Pack Leader in Terminator Armour",
+    nickname: "",
     image: "wolfguard_terminator_claws",
     point_cost: [
       {
@@ -2225,6 +2310,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -2248,30 +2334,30 @@ export const testData = [
     transport: ``,
     invulnerable: 4,
     unit_composition: ["1 Wolf Guard Pack Leader in Terminator Armour"],
-    equiped: ["storm bolter", "power weapon"],
+    equiped: ["storm_bolter", "power_weapon"],
     wargear_options: [
       {
-        title: `This model’s storm bolter and power weapon can be replaced with two different options from the
+        title: `This model’s storm_bolter and power_weapon can be replaced with two different options from the
       following list*`,
         options: [
-          "1 assault cannon",
-          "1 heavy flamer",
-          "1 cyclone missile launcher and 1 storm bolter",
-          "1 storm bolter",
+          "1 assault_cannon",
+          "1 heavy_flamer",
+          "1 cyclone_missile_launcher and 1 storm_bolter",
+          "1 storm_bolter",
           "1 chainfist",
-          "1 power fist",
-          "1 thunder hammer",
-          "1 storm shield",
+          "1 power_fist",
+          "1 thunder_hammer",
+          "1 storm_shield",
         ],
       },
       {
         title:
-          "This model’s storm bolter and power weapon can be replaced with",
-        options: ["1 twin lightning claws"],
+          "This model’s storm_bolter and power_weapon can be replaced with",
+        options: ["1 twin_lightning_claws"],
       },
       {
-        title: "This model’s storm bolter can be replaced with",
-        options: ["1 combi-weapon"],
+        title: "This model’s storm_bolter can be replaced with",
+        options: ["1 combi_weapon"],
       },
     ],
     leader: ["Blood Claws", "Grey Hunters", "Long Fangs"],
@@ -2285,7 +2371,7 @@ export const testData = [
     to attach this model to a unit, it does not take part in the
     battle and counts as having been destroyed`,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a Wounds characteristic of 4",
     },
     specific: null,
@@ -2310,7 +2396,9 @@ export const testData = [
   },
 
   {
+    id: "",
     name: "Wolf Guard Pack Leader with Jump Pack",
+    nickname: "",
     image: "wolfguard_jumppack",
     point_cost: [
       {
@@ -2327,6 +2415,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -2350,26 +2439,26 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Wolf Guard Pack Leader with Jump Pack"],
-    equiped: ["bolt pistol", "Astartes chainsword"],
+    equiped: ["bolt_pistol", "astartes_chainsword"],
     wargear_options: [
       {
-        title: `This model’s bolt pistol and Astartes chainsword can be replaced with two different weapons from the
+        title: `This model’s bolt_pistol and astartes_chainsword can be replaced with two different weapons from the
     following list*`,
         options: [
-          "1 bolt pistol",
-          "1 combi-weapon",
-          "1 plasma pistol",
-          "1 storm bolter",
-          "1 Astartes chainsword",
-          "1 power fist",
-          "1 power weapon",
-          "1 thunder hammer",
-          "1 storm shield",
+          "1 bolt_pistol",
+          "1 combi_weapon",
+          "1 plasma_pistol",
+          "1 storm_bolter",
+          "1 astartes_chainsword",
+          "1 power_fist",
+          "1 power_weapon",
+          "1 thunder_hammer",
+          "1 storm_shield",
         ],
       },
       {
-        title: `This model’s bolt pistol and Astartes chainsword can be replaced with`,
-        options: ["1 twin lightning claws."],
+        title: `This model’s bolt_pistol and astartes_chainsword can be replaced with`,
+        options: ["1 twin_lightning_claws."],
       },
     ],
     leader: ["Skyclaws"],
@@ -2383,7 +2472,7 @@ export const testData = [
     to attach this model to a unit, it does not take part in the
     battle and counts as having been destroyed`,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a Wounds characteristic of 4",
     },
     specific: null,
@@ -2408,7 +2497,9 @@ export const testData = [
     the Pack Leader is a blizzard of furious destruction`,
   },
   {
+    id: "",
     name: "Wolf Lord on Thunderwolf",
+    nickname: "",
     image: "wolflord_thunderwolf",
     point_cost: [
       {
@@ -2425,6 +2516,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -2449,41 +2541,41 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Wolf Lord on Thunderwolf"],
-    equiped: ["bolt pistol", "crushing teeth and claws", "relic weapon"],
+    equiped: ["bolt_pistol", "crushing_teeth_and_claws", "relic_weapon"],
     wargear_options: [
       {
         title:
-          "This model’s relic weapon can be replaced with one of the following",
+          "This model’s relic_weapon can be replaced with one of the following",
         options: [
-          "1 plasma pistol",
-          "1 power fist",
-          "1 thunder hammer",
-          "1 relic shield and 1 close combat weapon",
+          "1 plasma_pistol",
+          "1 power_fist",
+          "1 thunder_hammer",
+          "1 relic_shield and 1 close_combat_weapon",
         ],
       },
       {
         title:
-          "This model’s bolt pistol can be replaced with one of the following",
+          "This model’s bolt_pistol can be replaced with one of the following",
         options: [
-          "1 combi-weapon",
+          "1 combi_weapon",
           "1 master-crafted boltgun",
-          "1 plasma pistol",
-          "1 storm bolter",
-          "1 power fist",
-          "1 relic weapon",
-          "1 thunder hammer",
+          "1 plasma_pistol",
+          "1 storm_bolter",
+          "1 power_fist",
+          "1 relic_weapon",
+          "1 thunder_hammer",
         ],
       },
       {
-        title: "This model’s bolt pistol and relic weapon can be replaced with",
-        options: ["1 twin lightning claws"],
+        title: "This model’s bolt_pistol and relic_weapon can be replaced with",
+        options: ["1 twin_lightning_claws"],
       },
     ],
     leader: ["Thunderwolf Cavalry"],
     second_leader: false,
     third_leader: false,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a Wounds characteristic of 4",
     },
     specific: null,
@@ -2506,7 +2598,9 @@ export const testData = [
     hunter as deadly as the lord himself`,
   },
   {
+    id: "",
     name: "Wulfen",
+    nickname: "",
     image: "wulfens",
     point_cost: [
       {
@@ -2527,6 +2621,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 3,
       balistic_skill: 5,
+      attacks: 0,
     },
 
     abilities: {
@@ -2547,23 +2642,23 @@ export const testData = [
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Wulfen Pack Leader", "4-9 Wulfen"],
-    equiped: ["ulfen claws and melee weapons"],
+    equiped: ["wulfen_claws_and_melee_weapons"],
     wargear_options: [
       {
         title: "Any number of models can each be equipped with",
-        options: ["1 stormfrag auto-launcher"],
+        options: ["1 stormfrag_auto_launcher"],
       },
       {
         title:
-          "AAny number of models can each have their Wulfen claws and melee weapons replaced with",
-        options: [" 1 Wulfen hammer and 1 storm shield"],
+          "AAny number of models can each have their Wulfen_claws_and_melee_weapons replaced with",
+        options: [" 1 Wulfen_hammer and 1 storm_shield"],
       },
     ],
     leader: [],
     second_leader: false,
     third_leader: false,
     wargear_hability: {
-      title: "Storm Shield",
+      title: "Storm_Shield",
       rule: "The bearer has a Wounds characteristic of 4",
     },
     specific: null,
@@ -2580,7 +2675,9 @@ export const testData = [
   },
 
   {
+    id: "",
     name: "Wulfen Dreadnought",
+    nickname: "",
     image: "wulfen_dread",
     point_cost: [
       {
@@ -2597,6 +2694,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -2614,21 +2712,20 @@ export const testData = [
         },
       ],
     },
-
     transport: ``,
     invulnerable: null,
     unit_composition: ["1 Wulfen Dreadnought"],
-    equiped: ["storm bolter", "Fenrisian great axe", "great wolf claw"],
+    equiped: ["storm_bolter", "Fenrisian great axe", "great wolf claw"],
     wargear_options: [
       {
         title:
-          "This model’s Fenrisian great axe or great wolf claw and storm bolter can be replaced with",
-        options: ["1 blizzard shield and 1 storm bolter"],
+          "This model’s Fenrisian great axe or great wolf claw and storm_bolter can be replaced with",
+        options: ["1 blizzard_shield and 1 storm_bolter"],
       },
       {
         title:
-          "Any number of this model’s storm bolters can each be replaced with",
-        options: ["1 heavy flamer"],
+          "Any number of this model’s storm_bolters can each be replaced with",
+        options: ["1 heavy_flamer"],
       },
     ],
     leader: [],
@@ -2659,7 +2756,9 @@ export const testData = [
 
 /**
       {
+        id:"",
         name: "Hounds of Morkai",
+        nickname:"",
         image: "",
         point_cost: [
           {
@@ -2680,6 +2779,7 @@ export const testData = [
           objective_control: 3,
           weapon_skill: 2,
           balistic_skill: 2,
+          attacks:null,
         },
     
         abilities: {
@@ -2716,7 +2816,9 @@ export const testData = [
     
       
       {
+        id:"",
         name: "Wolf Scouts",
+        nickname:"",
         image: "",
         point_cost: [
           {
@@ -2737,6 +2839,7 @@ export const testData = [
           objective_control: 3,
           weapon_skill: 2,
           balistic_skill: 2,
+          attacks:null,
         },
     
         abilities: {
