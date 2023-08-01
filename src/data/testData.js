@@ -1,6 +1,8 @@
 export const testData = [
   {
+    id: "",
     name: "Arjac Rockfist",
+    nickname: "",
     image: "arjac",
     point_cost: [
       {
@@ -78,7 +80,9 @@ export const testData = [
         upholds the honour of the Chapter`,
   },
   {
+    id: "",
     name: "Bjorn the Fell-Handed",
+    nickname: "",
     image: "bjorn",
     point_cost: [
       {
@@ -159,7 +163,9 @@ export const testData = [
         as furiously as he did at Russ’ side`,
   },
   {
+    id: "",
     name: "Blood Claws",
+    nickname: "",
     image: "bloodClaws",
     point_cost: [
       {
@@ -241,7 +247,9 @@ export const testData = [
     with the Blood Claws’ glory hunts`,
   },
   {
+    id: "",
     name: "Canis Wolfborn ",
+    nickname: "",
     image: "canis_wolfborn",
     point_cost: [
       {
@@ -310,7 +318,9 @@ export const testData = [
     are all the communication he needs`,
   },
   {
+    id: "",
     name: "Cyberwolf",
+    nickname: "",
     image: "cyberwolf",
     point_cost: [
       {
@@ -376,7 +386,9 @@ export const testData = [
     lore: ``,
   },
   {
+    id: "",
     name: "Fenrisian Wolves",
+    nickname: "",
     image: "fenrisianWolf",
     point_cost: [
       {
@@ -434,7 +446,9 @@ export const testData = [
     coordinated flurry of razor-sharp teeth and claws`,
   },
   {
+    id: "",
     name: "Grey Hunters",
+    nickname: "",
     image: "greyHunters",
     point_cost: [
       {
@@ -515,7 +529,9 @@ export const testData = [
     set, Grey Hunters leap in for the kill`,
   },
   {
+    id: "",
     name: "Harald Deathwolf",
+    nickname: "",
     image: "haraldDeathwolf",
     point_cost: [
       {
@@ -586,7 +602,9 @@ export const testData = [
     from atop his giant Thunderwolf, Icetooth`,
   },
   {
+    id: "",
     name: "Iron Priest",
+    nickname: "",
     image: "ironPriest",
     point_cost: [
       {
@@ -664,7 +682,9 @@ export const testData = [
     esoteric weapons to bear on the foe if needed`,
   },
   {
+    id: "",
     name: "Krom Dragongaze",
+    nickname: "",
     image: "kromDragongaze",
     point_cost: [
       {
@@ -734,7 +754,9 @@ export const testData = [
     Guard. Wildly competitive, Krom refuses to accept defeat`,
   },
   {
+    id: "",
     name: "Logan Grimnar",
+    nickname: "",
     image: "loganGrimnar",
     point_cost: [
       {
@@ -814,7 +836,9 @@ export const testData = [
     lauded warriors in the galaxy`,
   },
   {
+    id: "",
     name: "Grimnar on Stormrider",
+    nickname: "",
     image: "loganStormrider",
     point_cost: [
       {
@@ -884,7 +908,9 @@ export const testData = [
     a fell tally with the Axe Morkai`,
   },
   {
+    id: "",
     name: "Long Fangs",
+    nickname: "",
     image: "longFangs",
     point_cost: [
       {
@@ -983,7 +1009,9 @@ export const testData = [
     monstrous beasts and battle tanks of the foe`,
   },
   {
+    id: "",
     name: "Lukas the Trickster",
+    nickname: "",
     image: "lucas",
     point_cost: [
       {
@@ -1055,7 +1083,9 @@ export const testData = [
     Lukas’ skills are as deadly as they are mischievous`,
   },
   {
+    id: "",
     name: "Murderfang",
+    nickname: "",
     image: "murderfang",
     point_cost: [
       {
@@ -1117,12 +1147,16 @@ export const testData = [
 
     lore: `A stampeding mechanical beast is unleashed from beneath the Fang
     in times of need, its massively brutal claws tearing its foes limb from
-    bloody limb. The Chapter names it Murderfang. Its true identity is
+    id:"",bloody limb. The Chapter 
+    names it Murderfang. Its true identity is
+    nickname:"",
     unknown for its insensate snarling rages are bereft of speech; it is
     known now only as a force of untamed destruction`,
   },
   {
+    id: "",
     name: "Njal Stormcaller",
+    nickname: "",
     image: "njal",
     point_cost: [
       {
@@ -1193,7 +1227,9 @@ export const testData = [
     enemy sorceries`,
   },
   {
+    id: "",
     name: "Ragnar Blackmane",
+    nickname: "",
     image: "ragnar",
     point_cost: [
       {
@@ -1269,7 +1305,9 @@ export const testData = [
     and his terrifying howls freeze the blood of his foes`,
   },
   {
+    id: "",
     name: "Skyclaws",
+    nickname: "",
     image: "skyclaws",
     point_cost: [
       {
@@ -1353,7 +1391,9 @@ export const testData = [
   },
 
   {
+    id: "",
     name: "Venerable Dreadnought",
+    nickname: "",
     image: "vendread",
     point_cost: [
       {
@@ -1417,11 +1457,15 @@ export const testData = [
     battle. The ancient warriors at the heart of each are living legends of
     the Space Wolves, with wisdom as deep as the ocean and intuition as
     sharp as krakens’ teeth. Awoken from dormancy, they fight as lords of
-    battle, seemingly stepping from the sagas to kill in the name of Russ`,
+    id:"",battle, seemingly stepping from the sagas to kill in the 
+    name of Russ`,
+    nickname: "",
   },
 
   {
+    id: "",
     name: "Stormfang Gunship",
+    nickname: "",
     image: "stormfang",
     point_cost: [
       {
@@ -1515,7 +1559,9 @@ export const testData = [
     ice-burned, and unyielding tank armour swiftly cracks and shatters`,
   },
   {
+    id: "",
     name: "Stormwolf",
+    nickname: "",
     image: "stromwolf",
     point_cost: [
       {
@@ -1600,7 +1646,9 @@ export const testData = [
     before rising to hunt for yet more targets`,
   },
   {
+    id: "",
     name: "Thunderwolf Cavalry",
+    nickname: "",
     image: "thunderwolfCavalry",
     point_cost: [
       {
@@ -1671,7 +1719,9 @@ export const testData = [
     Thunderwolves’ riders hack down the foe with heroic ferocity.`,
   },
   {
+    id: "",
     name: "Ulrik the Slayer",
+    nickname: "",
     image: "ulrik",
     point_cost: [
       {
@@ -1746,7 +1796,9 @@ export const testData = [
     swears weighty oaths to cut them down`,
   },
   {
+    id: "",
     name: "Wolf Guards",
+    nickname: "",
     image: "wolfguards",
     point_cost: [
       {
@@ -1822,7 +1874,9 @@ export const testData = [
     dangerous missions in their own right`,
   },
   {
+    id: "",
     name: "Wolf Guard Battle Leader in Terminator Armour",
+    nickname: "",
     image: "wolfguard__terminator_hammer",
     point_cost: [
       {
@@ -1917,7 +1971,9 @@ export const testData = [
     heavy tread as they slay with stunning skill`,
   },
   {
+    id: "",
     name: "Wolf Guard Terminators",
+    nickname: "",
     image: "terminators",
     point_cost: [
       {
@@ -2028,7 +2084,9 @@ export const testData = [
     fearsome Terminator armour`,
   },
   {
+    id: "",
     name: "Wolf Guard Battle Leader on Thunderwolf",
+    nickname: "",
     image: "wolfguard_battle_leader_on_thunderwolf",
     point_cost: [
       {
@@ -2134,7 +2192,9 @@ export const testData = [
     the back of a Thunderwolf`,
   },
   {
+    id: "",
     name: "Wolf Guard Pack Leader",
+    nickname: "",
     image: "wolfguard",
     point_cost: [
       {
@@ -2232,7 +2292,9 @@ export const testData = [
     seen as a great honour`,
   },
   {
+    id: "",
     name: "Wolf Guard Pack Leader in Terminator Armour",
+    nickname: "",
     image: "wolfguard_terminator_claws",
     point_cost: [
       {
@@ -2335,7 +2397,9 @@ export const testData = [
   },
 
   {
+    id: "",
     name: "Wolf Guard Pack Leader with Jump Pack",
+    nickname: "",
     image: "wolfguard_jumppack",
     point_cost: [
       {
@@ -2434,7 +2498,9 @@ export const testData = [
     the Pack Leader is a blizzard of furious destruction`,
   },
   {
+    id: "",
     name: "Wolf Lord on Thunderwolf",
+    nickname: "",
     image: "wolflord_thunderwolf",
     point_cost: [
       {
@@ -2533,7 +2599,9 @@ export const testData = [
     hunter as deadly as the lord himself`,
   },
   {
+    id: "",
     name: "Wulfen",
+    nickname: "",
     image: "wulfens",
     point_cost: [
       {
@@ -2608,7 +2676,9 @@ export const testData = [
   },
 
   {
+    id: "",
     name: "Wulfen Dreadnought",
+    nickname: "",
     image: "wulfen_dread",
     point_cost: [
       {
@@ -2687,7 +2757,9 @@ export const testData = [
 
 /**
       {
+        id:"",
         name: "Hounds of Morkai",
+        nickname:"",
         image: "",
         point_cost: [
           {
@@ -2745,7 +2817,9 @@ export const testData = [
     
       
       {
+        id:"",
         name: "Wolf Scouts",
+        nickname:"",
         image: "",
         point_cost: [
           {
