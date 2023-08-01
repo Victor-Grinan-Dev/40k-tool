@@ -1459,7 +1459,6 @@ export const testData = [
     sharp as krakens’ teeth. Awoken from dormancy, they fight as lords of
     id:"",battle, seemingly stepping from the sagas to kill in the 
     name of Russ`,
-    nickname: "",
   },
 
   {
