@@ -62,7 +62,7 @@ const Card = ({ props }) => {
         <div className="modelCard__wargear-container">
           {equiped.map((w, i) => (
             <div className="modelCard__wargear-container--item" key={i}>
-              {armoury[w]?.name || w}{" "}
+              {armoury[w]?.name || "missing weapon"}
               {w.range === "melee" ? weapon_skill : balistic_skill}+
             </div>
           ))}
