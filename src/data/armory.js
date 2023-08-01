@@ -6,21 +6,21 @@ export const armoury = {
         profile: "ranged",
         rules: ["ANTI-MONSTER 2+", "ASSAULT"],
         range: 6,
-        a: "1",
-        bs: 0,
+        attacks: "1", //add to models attack value
+        weapons_skill: "0",
         s: "8",
-        ap: "2",
-        d: "3",
+        armour_penetration: "2",
+        damage: "3",
       },
       melee: {
         profile: "melee",
         rules: ["anti-monster 2+"],
         range: "melee",
-        a: "5",
-        ws: 0,
-        s: "8",
-        ap: "2",
-        d: "3",
+        attacks: "5", //add to models attack value
+        weapons_skill: "0",
+        strength: "8",
+        armour_penetration: "2",
+        damage: "3",
       },
     },
   },
@@ -32,11 +32,11 @@ export const armoury = {
         type: "range",
         rules: ["DEVASTATING WOUNDS"],
         range: 24,
-        a: 6,
-        bs: 0,
+        attacks: 6, //add to models attack value
+        weapons_skill: "0",
         s: "6",
-        ap: "0",
-        d: "1",
+        armour_penetration: "0",
+        damage: "1",
       },
     },
   },
@@ -48,11 +48,11 @@ export const armoury = {
         type: "range",
         rules: ["IGNORES COVER", "TORRENT"],
         range: 12,
-        a: "d6",
-        bs: "n/a",
+        attacks: "d6", //add to models attack value
+        weapons_skill: "n/a",
         s: "5",
-        ap: "1",
-        d: "1",
+        armour_penetration: "1",
+        damage: "1",
       },
     },
   },
@@ -64,11 +64,11 @@ export const armoury = {
         type: "range",
         rules: ["MELTA 2"],
         range: 48,
-        a: "1",
-        bs: 0,
+        attacks: "1", //add to models attack value
+        weapons_skill: "0",
         s: "12",
-        ap: "3",
-        d: "d6 + 1",
+        armour_penetration: "3",
+        damage: "d6 + 1",
       },
     },
   },
@@ -79,21 +79,21 @@ export const armoury = {
         profile: "ranged",
         rules: ["BLAST"],
         range: 36,
-        a: "d3",
-        bs: 0,
+        attacks: "d3", //add to models attack value
+        weapons_skill: "0",
         s: "7",
-        ap: "2",
-        d: "2",
+        armour_penetration: "2",
+        damage: "2",
       },
       supercharge: {
         profile: "melee",
         rules: ["BLAST", "HAZARDOUS"],
         range: 36,
-        a: "d3",
-        ws: 2,
-        s: "8",
-        ap: "3",
-        d: "3",
+        attacks: "d3", //add to models attack value
+        weapons_skill: "2",
+        strength: "8",
+        armour_penetration: "3",
+        damage: "3",
       },
     },
   },
@@ -104,21 +104,21 @@ export const armoury = {
         profile: "dispersed",
         rules: ["TORRENT]"],
         range: 12,
-        a: "d3",
-        bs: "n/a",
+        attacks: "d3", //add to models attack value
+        weapons_skill: "n/a",
         s: "6",
-        ap: "1",
-        d: "2",
+        armour_penetration: "1",
+        damage: "2",
       },
       focused: {
         profile: "focused",
         rules: ["BLAST", "HAZARDOUS"],
         range: 36,
-        a: "1",
-        bs: 0,
+        attacks: "1", //add to models attack value
+        weapons_skill: "0",
         s: "9",
-        ap: "3",
-        d: "5",
+        armour_penetration: "3",
+        damage: "5",
       },
     },
   },
@@ -129,11 +129,11 @@ export const armoury = {
         profile: "standard",
         rules: ["ANTI-INFANTRY 4+", "DEVASTATING WOUNDS", "RAPID FIRE 1"],
         range: 24,
-        a: "1",
-        bs: 1, //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "1", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "4",
-        ap: "0", //always positive
-        d: "1", // always string type
+        armour_penetration: "0", //always positive
+        damage: "1", // always string type
       },
     },
   },
@@ -144,11 +144,11 @@ export const armoury = {
         profile: "standard",
         rules: ["IGNORES COVER", "TORRENT"],
         range: 12,
-        a: "D6",
-        bs: "N/A", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D6", //add to models attack value
+        weapons_skill: "N/A", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "4",
-        ap: "0", //always positive
-        d: "1", // always string type
+        armour_penetration: "0", //always positive
+        damage: "1", // always string type
       },
     },
   },
@@ -159,11 +159,11 @@ export const armoury = {
         profile: "standard",
         rules: ["ANTI-VEHICLE 2+"],
         range: 18,
-        a: "2",
-        bs: "3", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "2", //add to models attack value
+        weapons_skill: "3", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "5",
-        ap: "1", //always positive
-        d: "2", // always string type
+        armour_penetration: "1", //always positive
+        damage: "2", // always string type
       },
     },
   },
@@ -174,11 +174,11 @@ export const armoury = {
         profile: "standard",
         rules: ["ANTI-VEHICLE 2+", "PISTOL"],
         range: 18,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "4",
-        ap: "1", //always positive
-        d: "2", // always string type
+        armour_penetration: "1", //always positive
+        damage: "2", // always string type
       },
     },
   },
@@ -189,11 +189,11 @@ export const armoury = {
         profile: "standard",
         rules: ["IGNORES COVER", "TORRENT", "PISTOL"],
         range: 12,
-        a: "D6",
-        bs: "N/A", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D6", //add to models attack value
+        weapons_skill: "N/A", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "3",
-        ap: "0", //always positive
-        d: "1", // always string type
+        armour_penetration: "0", //always positive
+        damage: "1", // always string type
       },
     },
   },
@@ -204,11 +204,11 @@ export const armoury = {
         profile: "standard",
         rules: ["MELTA 2", "PISTOL"],
         range: 6,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "8",
-        ap: "4", //always positive
-        d: "D3", // always string type
+        armour_penetration: "4", //always positive
+        damage: "D3", // always string type
       },
     },
   },
@@ -219,11 +219,11 @@ export const armoury = {
         profile: "standard",
         rules: ["MELTA 2"],
         range: 12,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "9",
-        ap: "4", //always positive
-        d: "D6", // always string type
+        armour_penetration: "4", //always positive
+        damage: "D6", // always string type
       },
     },
   },
@@ -234,21 +234,21 @@ export const armoury = {
         profile: "standard",
         rules: ["RAPID FIRE 1"],
         range: 24,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "7",
-        ap: "2", //always positive
-        d: "1", // always string type
+        armour_penetration: "2", //always positive
+        damage: "1", // always string type
       },
       supercharge: {
         profile: "supercharge",
         rules: ["RAPID FIRE 1", "HAZARDOUS"],
         range: 24,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "8",
-        ap: "3", //always positive
-        d: "2", // always string type
+        armour_penetration: "3", //always positive
+        damage: "2", // always string type
       },
     },
   },
@@ -259,21 +259,21 @@ export const armoury = {
         profile: "standard",
         rules: ["PISTOL"],
         range: 12,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "7",
-        ap: "2", //always positive
-        d: "1", // always string type
+        armour_penetration: "2", //always positive
+        damage: "1", // always string type
       },
       supercharge: {
         profile: "supercharge",
         rules: ["PISTOL", "HAZARDOUS"],
         range: 12,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "8",
-        ap: "3", //always positive
-        d: "2", // always string type
+        armour_penetration: "3", //always positive
+        damage: "2", // always string type
       },
     },
   },
@@ -284,21 +284,21 @@ export const armoury = {
         profile: "standard",
         rules: ["BLAST"],
         range: 36,
-        a: "D3",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D3", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "7",
-        ap: "2", //always positive
-        d: "2", // always string type
+        armour_penetration: "2", //always positive
+        damage: "2", // always string type
       },
       supercharge: {
         profile: "supercharge",
         rules: ["BLAST", "HAZARDOUS"],
         range: 36,
-        a: "D3",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D3", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "8",
-        ap: "3", //always positive
-        d: "3", // always string type
+        armour_penetration: "3", //always positive
+        damage: "3", // always string type
       },
     },
   },
@@ -309,21 +309,21 @@ export const armoury = {
         profile: "dispersed",
         rules: ["TORRENT"],
         range: 12,
-        a: "D6+6",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D6+6", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "8",
-        ap: "1", //always positive
-        d: "2", // always string type
+        armour_penetration: "1", //always positive
+        damage: "2", // always string type
       },
       focused: {
         profile: "focused",
         rules: ["SUSTAINED HITS D3"],
         range: 36,
-        a: "D3",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D3", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "11",
-        ap: "3", //always positive
-        d: "7", // always string type
+        armour_penetration: "3", //always positive
+        damage: "7", // always string type
       },
     },
   },
@@ -334,21 +334,21 @@ export const armoury = {
         profile: "dispersed",
         rules: ["TORRENT"],
         range: 12,
-        a: "D3",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D3", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "6",
-        ap: "1", //always positive
-        d: "2", // always string type
+        armour_penetration: "1", //always positive
+        damage: "2", // always string type
       },
       focused: {
         profile: "focused",
         rules: [],
         range: 36,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "9",
-        ap: "3", //always positive
-        d: "5", // always string type
+        armour_penetration: "3", //always positive
+        damage: "5", // always string type
       },
     },
   },
@@ -359,21 +359,21 @@ export const armoury = {
         profile: "dispersed",
         rules: ["TORRENT", "TWIN-LINKED"],
         range: 12,
-        a: "D3",
-        bs: "N/A", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D3", //add to models attack value
+        weapons_skill: "N/A", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "6",
-        ap: "1", //always positive
-        d: "2", // always string type
+        armour_penetration: "1", //always positive
+        damage: "2", // always string type
       },
       focused: {
         profile: "focused",
         rules: ["TWIN-LINKED"],
         range: 36,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "9",
-        ap: "3", //always positive
-        d: "5", // always string type
+        armour_penetration: "3", //always positive
+        damage: "5", // always string type
       },
     },
   },
@@ -384,21 +384,21 @@ export const armoury = {
         profile: "dispersed",
         rules: ["TORRENT", "PISTOL"],
         range: 12,
-        a: "D3",
-        bs: "N/A", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D3", //add to models attack value
+        weapons_skill: "N/A", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "3",
-        ap: "1", //always positive
-        d: "1", // always string type
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
       },
       focused: {
         profile: "focused",
         rules: ["PISTOL"],
         range: 36,
-        a: "1",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "6",
-        ap: "3", //always positive
-        d: "3", // always string type
+        armour_penetration: "3", //always positive
+        damage: "3", // always string type
       },
     },
   },
@@ -409,21 +409,21 @@ export const armoury = {
         profile: "frag",
         rules: ["BLAST", "HEAVY"],
         range: 48,
-        a: "D6",
-        bs: "1", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D6", //add to models attack value
+        weapons_skill: "1", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "4",
-        ap: "0", //always positive
-        d: "1", // always string type
+        armour_penetration: "0", //always positive
+        damage: "1", // always string type
       },
       krak: {
         profile: "krak",
         rules: ["HEAVY"],
         range: 48,
-        a: "1",
-        bs: "1", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "1", //add to models attack value
+        weapons_skill: "1", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "9",
-        ap: "2", //always positive
-        d: "D6", // always string type
+        armour_penetration: "2", //always positive
+        damage: "D6", // always string type
       },
     },
   },
@@ -434,21 +434,21 @@ export const armoury = {
         profile: "frag",
         rules: ["BLAST", "HEAVY"],
         range: 48,
-        a: "2D6",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "2D6", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "4",
-        ap: "0", //always positive
-        d: "1", // always string type
+        armour_penetration: "0", //always positive
+        damage: "1", // always string type
       },
       krak: {
         profile: "krak",
         rules: ["HEAVY"],
         range: 48,
-        a: "2",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "2", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "9",
-        ap: "2", //always positive
-        d: "D6", // always string type
+        armour_penetration: "2", //always positive
+        damage: "D6", // always string type
       },
     },
   },
@@ -459,21 +459,21 @@ export const armoury = {
         profile: "strike",
         rules: [],
         range: "melee",
-        a: "5",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "5", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "10",
-        ap: "2", //always positive
-        d: "D6+1", // always string type
+        armour_penetration: "2", //always positive
+        damage: "D6+1", // always string type
       },
       sweep: {
         profile: "sweep",
         rules: [],
         range: "melee",
-        a: "10",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "10", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "6",
-        ap: "2", //always positive
-        d: "1", // always string type
+        armour_penetration: "2", //always positive
+        damage: "1", // always string type
       },
     },
   },
@@ -484,21 +484,21 @@ export const armoury = {
         profile: "one-handed",
         rules: [],
         range: "melee",
-        a: "10",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "10", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "6",
-        ap: "2", //always positive
-        d: "1", // always string type
+        armour_penetration: "2", //always positive
+        damage: "1", // always string type
       },
       two_handed: {
         profile: "two-handed",
         rules: [],
         range: "melee",
-        a: "6",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "6", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "8",
-        ap: "2", //always positive
-        d: "3", // always string type
+        armour_penetration: "2", //always positive
+        damage: "3", // always string type
       },
     },
   },
@@ -509,21 +509,21 @@ export const armoury = {
         profile: "witchfire",
         rules: ["PSYCHIC", "SUSTAINED HITS 2"],
         range: "24",
-        a: "D6",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "D6", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "7",
-        ap: "1", //always positive
-        d: "1", // always string type
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
       },
       focused_witchfire: {
         profile: "focused witchfire",
         rules: ["PSYCHIC", "SUSTAINED HITS 2", "HAZARDOUS"],
         range: "24",
-        a: "2D6",
-        bs: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        attacks: "2D6", //add to models attack value
+        weapons_skill: "0", //how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
         s: "7",
-        ap: "1", //always positive
-        d: "1", // always string type
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
       },
     },
   },
@@ -535,11 +535,11 @@ export const armoury = {
         type: "range",
         rules: ["RAPID FIRE 2"],
         range: 24,
-        a: 2,
-        bs: 1,
+        attacks: 2, //add to models attack value
+        weapons_skill: "1",
         s: "4",
-        ap: "0",
-        d: "1",
+        armour_penetration: "0",
+        damage: "1",
       },
     },
   },
@@ -551,11 +551,11 @@ export const armoury = {
         type: "range",
         rules: ["ANTI-FLY 2+"],
         range: 48,
-        a: 3,
-        bs: 0,
+        attacks: 3, //add to models attack value
+        weapons_skill: "0",
         s: "8",
-        ap: "1",
-        d: "D3",
+        armour_penetration: "1",
+        damage: "D3",
       },
     },
   },
@@ -567,11 +567,11 @@ export const armoury = {
         type: "range",
         rules: ["ANTI-FLY 2+"],
         range: 48,
-        a: "1",
-        bs: 0,
+        attacks: "1", //add to models attack value
+        weapons_skill: "0",
         s: "10",
-        ap: "2",
-        d: "3",
+        armour_penetration: "2",
+        damage: "3",
       },
     },
   },
@@ -583,11 +583,11 @@ export const armoury = {
         type: "range",
         rules: ["[ANTI-VEHICLE 2+", "HEAVY]"],
         range: 24,
-        a: 3,
-        bs: 1,
+        attacks: 3, //add to models attack value
+        weapons_skill: "1",
         s: "6",
-        ap: "1",
-        d: "3",
+        armour_penetration: "1",
+        damage: "3",
       },
     },
   },
@@ -599,11 +599,11 @@ export const armoury = {
         type: "range",
         rules: ["HEAVY", "SUSTAINED HITS 1"],
         range: 36,
-        a: 3,
-        bs: 1,
+        attacks: 3, //add to models attack value
+        weapons_skill: "1",
         s: "5",
-        ap: "1",
-        d: "2",
+        armour_penetration: "1",
+        damage: "2",
       },
     },
   },
@@ -615,11 +615,11 @@ export const armoury = {
         type: "range",
         rules: ["HEAVY", "SUSTAINED HITS 1", "TWIN-LINKED"],
         range: 36,
-        a: 3,
-        bs: 1,
+        attacks: 3, //add to models attack value
+        weapons_skill: "1",
         s: "5",
-        ap: "1",
-        d: "2",
+        armour_penetration: "1",
+        damage: "2",
       },
     },
   },
@@ -631,43 +631,45 @@ export const armoury = {
         type: "range",
         rules: ["HEAVY"],
         range: 48,
-        a: "1",
-        bs: 1,
+        attacks: "1", //add to models attack value
+        weapons_skill: "1",
         s: "12",
-        ap: "3",
-        d: "D6+1",
+        armour_penetration: "3",
+        damage: "D6+1",
       },
     },
   },
   multi_melta: {
-    name: "Multi-melta",
+    //add to models attack value
+    name: "Mueapons_skillti-melta",
     profiles: {
       standard: {
         profile: "ranged",
         type: "range",
         rules: ["MELTA 2", "HEAVY"],
-        range: 18,
-        a: 2,
-        bs: 0,
+        range: "18",
+        attacks: 2, //add to models attack value
+        weapons_skill: "0",
         s: "9",
-        ap: "4",
-        d: "d6",
+        armour_penetration: "4",
+        damage: "d6",
       },
     },
   },
-  twin_multi_melta: {
-    name: "Twin multi-melta",
+  twin_multi_melt: {
+    //add to models attack value
+    name: "Twin mueapons_skillti-melta",
     profiles: {
       standard: {
         profile: "ranged",
         type: "range",
         rules: ["MELTA 2", "HEAVY", "TWIN-LINKED"],
-        range: 18,
-        a: 2,
-        bs: 0,
+        range: "18",
+        attacks: 2, //add to models attack value
+        weapons_skill: "0",
         s: "9",
-        ap: "4",
-        d: "d6",
+        armour_penetration: "4",
+        damage: "d6",
       },
     },
   },
@@ -679,12 +681,402 @@ export const armoury = {
         profile: "ranged",
         type: "range",
         rules: ["ASSAULT", "BLAST"],
-        range: 12,
-        a: "D6",
-        bs: 0,
+        range: "12",
+        attacks: "D6", //add to models attack value
+        weapons_skill: "0",
         s: "4",
-        ap: "0",
-        d: "1",
+        armour_penetration: "0",
+        damage: "1",
+      },
+    },
+  },
+  close_combat_weapon: {
+    name: "Close combat weapon",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "0/1", //add to models attack value (normal models / characters)
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "4",
+        armour_penetration: "0", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  dreadnought_combat_weapon: {
+    name: "Dreadnought combat weapon",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "5", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "12",
+        armour_penetration: "2", //always positive
+        damage: "3", // always string type
+      },
+    },
+  },
+  great_wolf_claw: {
+    name: "Great wolf claw",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "5", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "10",
+        armour_penetration: "3", //always positive
+        damage: "3", // always string type
+      },
+    },
+  },
+  armoured_hull: {
+    name: "Armoured hull",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "6", //add to models attack value
+        weapons_skill: "1", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "8",
+        armour_penetration: "0", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  chainfist: {
+    name: "Chainfist",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["ANTI-VEHICLE 3+"],
+        range: "melee",
+        attacks: "0", //add to models attack value
+        weapons_skill: "1", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "8",
+        armour_penetration: "2", //always positive
+        damage: "2", // always string type
+      },
+    },
+  },
+  teeth_and_claws: {
+    name: "Teeth and claws",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "2", //add to models attack value
+        weapons_skill: "1", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "4",
+        armour_penetration: "0", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  crushing_teeth_and_claws: {
+    name: "Crushing teeth and claws",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["EXTRA ATTACKS"], //add to models attack value
+        range: "melee",
+        attacks: "3", //add to models attack value
+        weapons_skill: "1", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  flurry_of_teeth_and_claws: {
+    name: "Flurry of teeth and claws",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["EXTRA ATTACKS"], //add to models attack value
+        range: "melee",
+        attacks: "6", //add to models attack value
+        weapons_skill: "2", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  heirloom_weapon: {
+    name: "Heirloom weapon",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "4", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  wulfen_claws_and_melee_weapons: {
+    name: "Wulfen claws and melee weapons",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "2", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  wulfen_hammer: {
+    name: "Wulfen claws and melee weapons",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "0", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  astartes_chainsword: {
+    name: "Astartes chainsword",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "4",
+        armour_penetration: "1", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  power_fist: {
+    name: "Power fist",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "0", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "8",
+        armour_penetration: "2", //always positive
+        damage: "2", // always string type
+      },
+    },
+  },
+  power_weapon: {
+    name: "Power weapon",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "2", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  relic_weapon: {
+    name: "Relic weapon",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "1", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "2", //always positive
+        damage: "2", // always string type
+      },
+    },
+  },
+  thunder_hammer: {
+    name: "Thunder hammer",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["DEVASTATING WOUNDS"],
+        range: "melee",
+        attacks: "0", //add to models attack value
+        weapons_skill: "1", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "8",
+        armour_penetration: "2", //always positive
+        damage: "2", // always string type
+      },
+    },
+  },
+  Twin_lightning_claws: {
+    name: "Twin lightning claws",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["TWIN-LINKED"],
+        range: "melee",
+        attacks: "2", //add to models attack value
+        weapons_skill: "1", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "4",
+        armour_penetration: "2", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  wolf_claws: {
+    name: "Twin lightning claws",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["TWIN-LINKED"],
+        range: "melee",
+        attacks: "8", //add to models attack value
+        weapons_skill: "1", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "2", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  claw_of_the_Jackalwolf: {
+    name: "Claw of the Jackalwolf",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "6", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "5",
+        armour_penetration: "2", //always positive
+        damage: "1", // always string type
+      },
+    },
+  },
+  glacius: {
+    name: "Glacius",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "6", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "6",
+        armour_penetration: "2", //always positive
+        damage: "2", // always string type
+      },
+    },
+  },
+  wyrmclaw: {
+    name: "Wyrmclaw",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["LETHAL HITS"],
+        range: "melee",
+        attacks: "6", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "7",
+        armour_penetration: "2", //always positive
+        damage: "2", // always string type
+      },
+    },
+  },
+  frostfang: {
+    name: "Frostfang",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["SUSTAINED HITS 1"],
+        range: "melee",
+        attacks: "8", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "6",
+        armour_penetration: "3", //always positive
+        damage: "2", // always string type
+      },
+    },
+  },
+  artificer_crozius: {
+    name: "Artificer crozius",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: [],
+        range: "melee",
+        attacks: "5", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "6",
+        armour_penetration: "2", //always positive
+        damage: "2", // always string type
+      },
+    },
+  },
+  trueclaw: {
+    name: "Trueclaw",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["LETHAL HITS"],
+        range: "melee",
+        attacks: "6", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "12",
+        armour_penetration: "2", //always positive
+        damage: "3", // always string type
+      },
+    },
+  },
+  Murderclaws: {
+    name: "Murderclaws",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["TWIN-LINKED"],
+        range: "melee",
+        attacks: "8", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "14",
+        armour_penetration: "2", //always positive
+        damage: "3", // always string type
+      },
+    },
+  },
+  Staff_of_the_Stormcaller: {
+    name: "Murderclaws",
+    profiles: {
+      standard: {
+        profile: "standard",
+        rules: ["PSYCHIC", "SUSTAINED HITS 2"],
+        range: "melee",
+        attacks: "4", //add to models attack value
+        weapons_skill: "0", //how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+        strength: "7",
+        armour_penetration: "1", //always positive
+        damage: "D3", // always string type
       },
     },
   },
@@ -697,57 +1089,48 @@ export const armoury = {
           profile: "profile name 1",
           rules: ["ANTI-MONSTER 2+", "ASSAULT"],
           range: 6,
-          a: "1",
-          bs: 0,//how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+          attacks: "1", //add to models attack value
+          weapons_skill: "0",//how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
           s:"8",
-          ap: "2",//always positive
-          d: "3", // always string type
+          armour_penetration: "2",//always positive
+          damage: "3", // always string type
         },
         profile_name2: {
           profile: "profile name 2",
           rules: ["anti-monster 2+"],
           range: "melee",
-          a: 5,
-          ws: 0,//how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
-          s:"8",
-          ap: "2",//always positive
-          d: "3", // always string type
+          attacks: 5, //add to models attack value
+          weapons_skill: "0",//how much adds from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+          strength:"8",
+          armour_penetration: "2",//always positive
+          damage: "3", // always string type
         },
       },
   },
  */
 /*
 
-Close combat weapon Melee 5 3+ 6 0 1
-Dreadnought combat weapon Melee 5 3+ 12 -2 3
-Great wolf claw Melee 5 3+ 10 -3 3
-Armoured hull Melee 6 4+ 8 0 1
+    close_combat_weapon: {
+      name: "Close combat weapon",
+      profiles: {
+        standard: {
+          profile: "profile name 1",
+          rules: ["ANTI-MONSTER 2+", "ASSAULT"],
+          range: "melee",
+          attacks: "5", //add to models attack value
+          weapons_skill: "0",//how much adss from users hit roll. eg user bs=3, weapon bs=1: roll to hit becomes 4
+          strength:"4",
+          armour_penetration: "0",//always positive
+          damage: "1", // always string type
+        },
+      },
 
-Chainfist [ANTI-VEHICLE 3+] Melee 3 4+ 8 -2 2
+  */
 
-Teeth and claws Melee 2 4+ 4 0 1
-Crushing teeth and claws [EXTRA ATTACKS] Melee 3 4+ 5 -1 1
-Flurry of teeth and claws [EXTRA ATTACKS]
+/**
 
-Heirloom weapon Melee 4 3+ 5 -1 1
 
-Wulfen claws and melee weapons Melee 6 3+ 5 -1 1
-Wulfen hammer Melee 4 3+ 5 -1 1
-Astartes chainsword Melee 3 3+ 4 -1 1
-Power fist Melee 2 3+ 8 -2 2
-Power weapon Melee 3 3+ 5 -2 1
-Relic weapon Melee 5 2+ 5 -2 2
-Thunder hammer [DEVASTATING WOUNDS] Melee 4 3+ 8 -2 2
-Twin lightning claws [TWIN-LINKED] Melee 6 3+ 4 -2 1
-
-Wolf claws [TWIN-LINKED] Melee 8 2+ 5 -2 1 
-Claw of the Jackalwolf Melee 6 2+ 5 -2 1
-Glacius Melee 6 2+ 6 -2 2
-Wyrmclaw [LETHAL HITS] Melee 6 2+ 7 -2 2
-Frostfang [SUSTAINED HITS 1] Melee 8 2+ 6 -3 2
-Artificer crozius Melee 5 2+ 6 -2 2
-Trueclaw [LETHAL HITS] Melee 6 2+ 12 -2 3
 Staff of the Stormcaller [PSYCHIC, SUSTAINED HITS 2] Melee 4 3+ 7 -1 D3
-The Murderclaws [TWIN-LINKED] Melee 8 3+ 14 -2 3
+
 
  */

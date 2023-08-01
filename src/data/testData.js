@@ -17,6 +17,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
     abilities: {
       core: ["Deep Strike", "Leader"],
@@ -94,6 +95,7 @@ export const testData = [
       objective_control: 3,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -178,6 +180,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 2,
     },
 
     abilities: {
@@ -255,6 +258,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 2,
       balistic_skill: 5,
+      attacks: 0,
     },
 
     abilities: {
@@ -323,6 +327,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 4,
       balistic_skill: 0,
+      attacks: 0,
     },
 
     abilities: {
@@ -392,6 +397,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 4,
       balistic_skill: 0,
+      attacks: 0,
     },
 
     abilities: {
@@ -449,6 +455,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 2,
     },
 
     abilities: {
@@ -525,6 +532,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -595,6 +603,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -672,6 +681,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -741,6 +751,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -820,6 +831,7 @@ export const testData = [
       objective_control: 4,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -893,6 +905,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 2,
     },
 
     abilities: {
@@ -987,6 +1000,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1058,6 +1072,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 3,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1124,6 +1139,7 @@ export const testData = [
       objective_control: 3,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1194,6 +1210,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1277,6 +1294,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 2,
     },
 
     abilities: {
@@ -1352,6 +1370,7 @@ export const testData = [
       objective_control: 3,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1419,6 +1438,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 4,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1512,6 +1532,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 4,
       balistic_skill: 3,
+      attacks: 4,
     },
 
     abilities: {
@@ -1600,6 +1621,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1666,6 +1688,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1744,6 +1767,7 @@ export const testData = [
       objective_control: 3,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -1815,6 +1839,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -1913,6 +1938,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 3,
     },
 
     abilities: {
@@ -2019,6 +2045,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 3,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -2124,6 +2151,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -2221,6 +2249,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -2323,6 +2352,7 @@ export const testData = [
       objective_control: 1,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -2421,6 +2451,7 @@ export const testData = [
       objective_control: 2,
       weapon_skill: 2,
       balistic_skill: 2,
+      attacks: 0,
     },
 
     abilities: {
@@ -2523,6 +2554,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 3,
       balistic_skill: 5,
+      attacks: 0,
     },
 
     abilities: {
@@ -2593,6 +2625,7 @@ export const testData = [
       objective_control: 0,
       weapon_skill: 3,
       balistic_skill: 3,
+      attacks: 0,
     },
 
     abilities: {
@@ -2675,6 +2708,7 @@ export const testData = [
           objective_control: 3,
           weapon_skill: 2,
           balistic_skill: 2,
+          attacks:null,
         },
     
         abilities: {
@@ -2732,6 +2766,7 @@ export const testData = [
           objective_control: 3,
           weapon_skill: 2,
           balistic_skill: 2,
+          attacks:null,
         },
     
         abilities: {
