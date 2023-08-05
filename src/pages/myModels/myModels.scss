@@ -28,10 +28,11 @@
 
     &:hover {
       background-color: $primary-3;
+      cursor: pointer;
     }
 
     &:focus {
-      animation: shine 2s ease-in 0.75s;
+      animation: shine 0s linear;
     }
   }
 }
