@@ -25,6 +25,7 @@ const MyModels = () => {
             className="my-models__card"
             key={i}
             onClick={() => dispatch(addToArmy(data))}
+            tabIndex={0}
           >
             <ModelsImages imgName={data.image} type={"listedModel"} />
             <p className="my-models__card-text pts">
