@@ -34,7 +34,7 @@ Contributions are welcome! Here's how you can contribute to this project:
 3. Make your changes and commit them.
 4. Push your changes to your forked repository.
 5. Submit a pull request.
-6. 
+ 
 ## License
  MIT License
  GNU General Public License (GPL)
