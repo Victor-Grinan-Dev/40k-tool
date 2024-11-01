@@ -1,5 +1,5 @@
 # 40K-Toolkit
-A graphic representation of your 40k army, to meke it easier for players. 
+A graphic representation of your 40k army, to make it easier to play. 
 
 ## Table of Contents
 - Features
