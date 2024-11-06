@@ -1,0 +1,10 @@
+40 general file
+gameSystem.sharedRules.rule [{name, page, description}]
+
+space marines file
+catalogue.rules.rule - [{name, description}]
+catalogue.sharedProfiles.profile [{name, typeName, characteristics.characteristic.text}]
+
+space-wolves file
+gameSystem.profileTypes.profileType [{name, characteristicTypes.characteristicType[{name}] }]
+gameSystem.sharedRules.rule [{name, page, description}] // same as the marines rules.
