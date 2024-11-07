@@ -13,7 +13,7 @@ const data = {
             "entryLink": [
                 {
                     "import": "true",
-                    "name": "\u00e2\u20ac\u02dcIron Hand\u00e2\u20ac\u2122 Straken",
+                    "name": "Iron Hand Straken",
                     "hidden": "false",
                     "type": "selectionEntry",
                     "id": "f38c-6b5-d8d3-32db",
@@ -355,7 +355,7 @@ const data = {
                 },
                 {
                     "import": "true",
-                    "name": "Gaunt\u00e2\u20ac\u2122s Ghosts",
+                    "name": "Gaunt's Ghosts",
                     "hidden": "false",
                     "type": "selectionEntry",
                     "id": "ffd3-a6da-a79e-bb34",
@@ -747,7 +747,7 @@ const data = {
                 },
                 {
                     "import": "true",
-                    "name": "Regimental Attach\u00c3\u00a9s",
+                    "name": "Regimental Attaches",
                     "hidden": "false",
                     "type": "selectionEntry",
                     "id": "9f03-ced1-9af-3f2d",

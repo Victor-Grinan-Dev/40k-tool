@@ -536,7 +536,7 @@ const data = {
                                     "characteristic": {
                                         "name": "Description",
                                         "typeId": "9b8f-694b-e5e-b573",
-                                        "text": "This model can be attached to the following units:\n\u00e2\u2013\u00a0 Assault Intercessor Squad\n\u00e2\u2013\u00a0 Bladeguard Veteran Squad\n\u00e2\u2013\u00a0 Hellblaster Squad\n\u00e2\u2013\u00a0 Infernus Squad\n\u00e2\u2013\u00a0 Inner Circle Companions\n\u00e2\u2013\u00a0 Intercessor Squad\n\u00e2\u2013\u00a0 Sternguard Veteran Squad\n\u00e2\u2013\u00a0 Tactical Squad"
+                                        "text": "This model can be attached to the following units:\n Assault Intercessor Squad\n Bladeguard Veteran Squad\n Hellblaster Squad\n Infernus Squad\n Inner Circle Companions\n Intercessor Squad\n Sternguard Veteran Squad\n Tactical Squad"
                                     }
                                 }
                             }
@@ -707,7 +707,7 @@ const data = {
                                     "characteristic": {
                                         "name": "Description",
                                         "typeId": "9b8f-694b-e5e-b573",
-                                        "text": "This unit can be attached to the following units:\n\u00e2\u2013\u00a0 Deathwing Knights\n\u00e2\u2013\u00a0 Deathwing Terminator Squad\n\u00e2\u2013\u00a0 Terminator Assault Squad\n\u00e2\u2013\u00a0 Terminator Squad"
+                                        "text": "This unit can be attached to the following units:\n Deathwing Knights\n Deathwing Terminator Squad\n Terminator Assault Squad\n Terminator Squad"
                                     }
                                 }
                             }
@@ -1139,7 +1139,7 @@ const data = {
                                     "characteristic": {
                                         "name": "Description",
                                         "typeId": "9b8f-694b-e5e-b573",
-                                        "text": "This model can be attached to the following units:\n\u00e2\u2013\u00a0 Outrider Squad\n\u00e2\u2013\u00a0 Ravenwing Black Knights"
+                                        "text": "This model can be attached to the following units:\n Outrider Squad\n Ravenwing Black Knights"
                                     }
                                 }
                             },
@@ -1708,7 +1708,7 @@ const data = {
                                     "characteristic": {
                                         "name": "Description",
                                         "typeId": "9b8f-694b-e5e-b573",
-                                        "text": "This model can be attached to the following units:\n\u00e2\u2013\u00a0 Assault Intercessor Squad\n\u00e2\u2013\u00a0 Bladeguard Veteran Squad\n\u00e2\u2013\u00a0 Hellblaster Squad\n\u00e2\u2013\u00a0 Infernus Squad\n\u00e2\u2013\u00a0 Inner Circle Companions\n\u00e2\u2013\u00a0 Intercessor Squad\n\u00e2\u2013\u00a0 Sternguard Veterans Squad\n\u00e2\u2013\u00a0 Tactical Squad"
+                                        "text": "This model can be attached to the following units:\n Assault Intercessor Squad\n Bladeguard Veteran Squad\n Hellblaster Squad\n Infernus Squad\n Inner Circle Companions\n Intercessor Squad\n Sternguard Veterans Squad\n Tactical Squad"
                                     }
                                 }
                             }
@@ -1932,7 +1932,7 @@ const data = {
                                 "profiles": {
                                     "profile": [
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Mind Wipe - witchfire",
+                                            "name": "Mind Wipe - witchfire",
                                             "typeId": "f77d-b953-8fa4-b762",
                                             "typeName": "Ranged Weapons",
                                             "hidden": "false",
@@ -1978,7 +1978,7 @@ const data = {
                                             }
                                         },
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Mind Wipe - focussed witchfire",
+                                            "name": "Mind Wipe - focussed witchfire",
                                             "typeId": "f77d-b953-8fa4-b762",
                                             "typeName": "Ranged Weapons",
                                             "hidden": "false",
@@ -2298,7 +2298,7 @@ const data = {
                                     "characteristic": {
                                         "name": "Description",
                                         "typeId": "9b8f-694b-e5e-b573",
-                                        "text": "This model can be attached to the following units:\n\u00e2\u2013\u00a0 Assault Intercessor Squad\n\u00e2\u2013\u00a0 Bladeguard Veteran Squad\n\u00e2\u2013\u00a0 Hellblaster Squad\n\u00e2\u2013\u00a0 Infernus Squad\n\u00e2\u2013\u00a0 Inner Circle Companions\n\u00e2\u2013\u00a0 Intercessor Squad\n\u00e2\u2013\u00a0 Sternguard Veteran Squad\n\u00e2\u2013\u00a0 Tactical Squad"
+                                        "text": "This model can be attached to the following units:\n Assault Intercessor Squad\n Bladeguard Veteran Squad\n Hellblaster Squad\n Infernus Squad\n Inner Circle Companions\n Intercessor Squad\n Sternguard Veteran Squad\n Tactical Squad"
                                     }
                                 }
                             }
@@ -2491,7 +2491,7 @@ const data = {
                                 "profiles": {
                                     "profile": [
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Crozius Arcanum and Power Weapon - strike",
+                                            "name": "Crozius Arcanum and Power Weapon - strike",
                                             "typeId": "8a40-4aaa-c780-9046",
                                             "typeName": "Melee Weapons",
                                             "hidden": "false",
@@ -2538,7 +2538,7 @@ const data = {
                                             }
                                         },
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Crozius Arcanum and Power Weapon - sweep",
+                                            "name": "Crozius Arcanum and Power Weapon - sweep",
                                             "hidden": "false",
                                             "id": "48ef-c02b-cfa4-9797",
                                             "typeId": "8a40-4aaa-c780-9046",
@@ -2867,7 +2867,7 @@ const data = {
                                 "profiles": {
                                     "profile": [
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Arma Luminis - bolt",
+                                            "name": "Arma Luminis - bolt",
                                             "typeId": "f77d-b953-8fa4-b762",
                                             "typeName": "Ranged Weapons",
                                             "hidden": "false",
@@ -2914,7 +2914,7 @@ const data = {
                                             }
                                         },
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Arma Luminis - plasma",
+                                            "name": "Arma Luminis - plasma",
                                             "typeId": "f77d-b953-8fa4-b762",
                                             "typeName": "Ranged Weapons",
                                             "hidden": "false",
@@ -2982,7 +2982,7 @@ const data = {
                                 "profiles": {
                                     "profile": [
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Fealty - strike",
+                                            "name": "Fealty - strike",
                                             "typeId": "8a40-4aaa-c780-9046",
                                             "typeName": "Melee Weapons",
                                             "hidden": "false",
@@ -3029,7 +3029,7 @@ const data = {
                                             }
                                         },
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Fealty - sweep",
+                                            "name": "Fealty - sweep",
                                             "typeId": "8a40-4aaa-c780-9046",
                                             "typeName": "Melee Weapons",
                                             "hidden": "false",
@@ -3374,7 +3374,7 @@ const data = {
                                     "characteristic": {
                                         "name": "Description",
                                         "typeId": "9b8f-694b-e5e-b573",
-                                        "text": "This model can be attached to the following units:\n\u00e2\u2013\u00a0 Assault Intercessor Squad\n\u00e2\u2013\u00a0 Bladeguard Veteran Squad\n\u00e2\u2013\u00a0 Infernus Squad\n\u00e2\u2013\u00a0 Inner Circle Companions\n\u00e2\u2013\u00a0 Intercessor Squad\n\u00e2\u2013\u00a0 Sternguard Veteran Squad\n\u00e2\u2013\u00a0 Tactical Squad"
+                                        "text": "This model can be attached to the following units:\n Assault Intercessor Squad\n Bladeguard Veteran Squad\n Infernus Squad\n Inner Circle Companions\n Intercessor Squad\n Sternguard Veteran Squad\n Tactical Squad"
                                     }
                                 }
                             }
@@ -5032,7 +5032,7 @@ const data = {
                                 "profiles": {
                                     "profile": [
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Plasma storm battery - standard",
+                                            "name": "Plasma storm battery - standard",
                                             "typeId": "f77d-b953-8fa4-b762",
                                             "typeName": "Ranged Weapons",
                                             "hidden": "false",
@@ -5079,7 +5079,7 @@ const data = {
                                             }
                                         },
                                         {
-                                            "name": "\u00e2\u017e\u00a4 Plasma storm battery - supercharge",
+                                            "name": "Plasma storm battery - supercharge",
                                             "typeId": "f77d-b953-8fa4-b762",
                                             "typeName": "Ranged Weapons",
                                             "hidden": "false",
@@ -6064,7 +6064,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Standard",
+                                                                "name": "Plasma talon - Standard",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -6111,7 +6111,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Supercharged",
+                                                                "name": "Plasma talon - Supercharged",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -6284,7 +6284,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Standard",
+                                                                "name": "Plasma talon - Standard",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -6331,7 +6331,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Supercharged",
+                                                                "name": "Plasma talon - Supercharged",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -6858,7 +6858,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Astartes grenade launcher - frag",
+                                                                "name": "Astartes grenade launcher - frag",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -6905,7 +6905,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Astartes grenade launcher - krak",
+                                                                "name": "Astartes grenade launcher - krak",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -7122,7 +7122,7 @@ const data = {
                                     "characteristic": {
                                         "name": "Description",
                                         "typeId": "9b8f-694b-e5e-b573",
-                                        "text": "This unit can be attached to the following units:\n\u00e2\u2013\u00a0 Outrider Squad\n\u00e2\u2013\u00a0 Ravenwing Black Knights"
+                                        "text": "This unit can be attached to the following units:\n Outrider Squad\n Ravenwing Black Knights"
                                     }
                                 }
                             },
@@ -7473,7 +7473,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Standard",
+                                                                "name": "Plasma talon - Standard",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -7534,7 +7534,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Supercharged",
+                                                                "name": "Plasma talon - Supercharged",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -7635,7 +7635,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Astartes Grenade Launcher - Frag",
+                                                                "name": "Astartes Grenade Launcher - Frag",
                                                                 "hidden": "false",
                                                                 "id": "e147-1104-6c40-afa5",
                                                                 "typeId": "f77d-b953-8fa4-b762",
@@ -7681,7 +7681,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Astartes Grenade Launcher - Krak",
+                                                                "name": "Astartes Grenade Launcher - Krak",
                                                                 "hidden": "false",
                                                                 "id": "8f48-d526-9f28-717e",
                                                                 "typeId": "f77d-b953-8fa4-b762",
@@ -8049,7 +8049,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Standard",
+                                                                "name": "Plasma talon - Standard",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -8110,7 +8110,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Supercharged",
+                                                                "name": "Plasma talon - Supercharged",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -8211,7 +8211,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Astartes Grenade Launcher - Frag",
+                                                                "name": "Astartes Grenade Launcher - Frag",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -8271,7 +8271,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Astartes Grenade Launcher - Krak",
+                                                                "name": "Astartes Grenade Launcher - Krak",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -8650,7 +8650,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Standard",
+                                                                "name": "Plasma talon - Standard",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -8711,7 +8711,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Plasma talon - Supercharged",
+                                                                "name": "Plasma talon - Supercharged",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -8812,7 +8812,7 @@ const data = {
                                                     "profiles": {
                                                         "profile": [
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Astartes Grenade Launcher - Frag",
+                                                                "name": "Astartes Grenade Launcher - Frag",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -8872,7 +8872,7 @@ const data = {
                                                                 }
                                                             },
                                                             {
-                                                                "name": "\u00e2\u017e\u00a4 Astartes Grenade Launcher - Krak",
+                                                                "name": "Astartes Grenade Launcher - Krak",
                                                                 "typeId": "f77d-b953-8fa4-b762",
                                                                 "typeName": "Ranged Weapons",
                                                                 "hidden": "false",
@@ -10852,7 +10852,7 @@ const data = {
                                                                 "profiles": {
                                                                     "profile": [
                                                                         {
-                                                                            "name": "\u00e2\u017e\u00a4 Plasma Cannon - Standard",
+                                                                            "name": "Plasma Cannon - Standard",
                                                                             "typeId": "f77d-b953-8fa4-b762",
                                                                             "typeName": "Ranged Weapons",
                                                                             "hidden": "false",
@@ -10898,7 +10898,7 @@ const data = {
                                                                             }
                                                                         },
                                                                         {
-                                                                            "name": "\u00e2\u017e\u00a4 Plasma Cannon - Supercharge",
+                                                                            "name": "Plasma Cannon - Supercharge",
                                                                             "typeId": "f77d-b953-8fa4-b762",
                                                                             "typeName": "Ranged Weapons",
                                                                             "hidden": "false",
@@ -10966,7 +10966,7 @@ const data = {
                                                                 "profiles": {
                                                                     "profile": [
                                                                         {
-                                                                            "name": "\u00e2\u017e\u00a4 Cyclone Missile Launcher - Frag",
+                                                                            "name": "Cyclone Missile Launcher - Frag",
                                                                             "typeId": "f77d-b953-8fa4-b762",
                                                                             "typeName": "Ranged Weapons",
                                                                             "hidden": "false",
@@ -11058,7 +11058,7 @@ const data = {
                                                                             }
                                                                         },
                                                                         {
-                                                                            "name": "\u00e2\u017e\u00a4 Cyclone Missile Launcher - Krak",
+                                                                            "name": "Cyclone Missile Launcher - Krak",
                                                                             "typeId": "f77d-b953-8fa4-b762",
                                                                             "typeName": "Ranged Weapons",
                                                                             "hidden": "false",
@@ -11682,7 +11682,7 @@ const data = {
                                                 "profiles": {
                                                     "profile": [
                                                         {
-                                                            "name": "\u00e2\u017e\u00a4 Calibanite Greatsword - Strike",
+                                                            "name": "Calibanite Greatsword - Strike",
                                                             "typeId": "8a40-4aaa-c780-9046",
                                                             "typeName": "Melee Weapons",
                                                             "hidden": "false",
@@ -11728,7 +11728,7 @@ const data = {
                                                             }
                                                         },
                                                         {
-                                                            "name": "\u00e2\u017e\u00a4 Calibanite Greatsword - Sweep",
+                                                            "name": "Calibanite Greatsword - Sweep",
                                                             "typeId": "8a40-4aaa-c780-9046",
                                                             "typeName": "Melee Weapons",
                                                             "hidden": "false",
@@ -12479,7 +12479,7 @@ const data = {
                                     "characteristic": {
                                         "name": "Description",
                                         "typeId": "9b8f-694b-e5e-b573",
-                                        "text": "This unit can be attached to the following units:\n\u00e2\u2013\u00a0 Deathwing Command Squad\n\u00e2\u2013\u00a0 Deathwing Terminator Squad\n\n\u00e2\u2013\u00a0 Relic Terminator Squad\n\u00e2\u2013\u00a0 Terminator Assault Squad\n\u00e2\u2013\u00a0 Terminator Squad"
+                                        "text": "This unit can be attached to the following units:\n Deathwing Command Squad\n Deathwing Terminator Squad\n\n Relic Terminator Squad\n Terminator Assault Squad\n Terminator Squad"
                                     }
                                 }
                             },
@@ -14870,7 +14870,7 @@ const data = {
                                                                 "profiles": {
                                                                     "profile": [
                                                                         {
-                                                                            "name": "\u00e2\u017e\u00a4 Plasma Cannon - Standard",
+                                                                            "name": "Plasma Cannon - Standard",
                                                                             "typeId": "f77d-b953-8fa4-b762",
                                                                             "typeName": "Ranged Weapons",
                                                                             "hidden": "false",
@@ -14930,7 +14930,7 @@ const data = {
                                                                             }
                                                                         },
                                                                         {
-                                                                            "name": "\u00e2\u017e\u00a4 Plasma Cannon - Supercharge",
+                                                                            "name": "Plasma Cannon - Supercharge",
                                                                             "typeId": "f77d-b953-8fa4-b762",
                                                                             "typeName": "Ranged Weapons",
                                                                             "hidden": "false",
@@ -15012,7 +15012,7 @@ const data = {
                                                                 "profiles": {
                                                                     "profile": [
                                                                         {
-                                                                            "name": "\u00e2\u017e\u00a4 Cyclone Missile Launcher - Frag",
+                                                                            "name": "Cyclone Missile Launcher - Frag",
                                                                             "typeId": "f77d-b953-8fa4-b762",
                                                                             "typeName": "Ranged Weapons",
                                                                             "hidden": "false",
@@ -15132,7 +15132,7 @@ const data = {
                                                                             }
                                                                         },
                                                                         {
-                                                                            "name": "\u00e2\u017e\u00a4 Cyclone Missile Launcher - Krak",
+                                                                            "name": "Cyclone Missile Launcher - Krak",
                                                                             "typeId": "f77d-b953-8fa4-b762",
                                                                             "typeName": "Ranged Weapons",
                                                                             "hidden": "false",
