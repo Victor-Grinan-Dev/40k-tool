@@ -45,9 +45,25 @@
     justify-content: space-around;
     padding-bottom: 10px;
 
+    &__search{
+      @include input-style();
+    }
+
     &__select{
       display: flex;
       gap: 10px;
+
+      & select{
+        @include input-style();
+
+        & option{
+          background-color: $background; /* background color for each option */
+
+          & :hover {
+            background-color: $primary-2; /* Highlight color */
+          }
+        }
+      }
     }
 
     &__order{
