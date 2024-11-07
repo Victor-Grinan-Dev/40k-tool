@@ -9,9 +9,18 @@ export const appSlice = createSlice({
     error: "",
     message: "",
     darkMode: false,
+    view: "home",// my models, grapharmy
 
     //army
-    army: [],
+    army: {
+      armyList: [],
+      characters:[],
+      battleline:[],
+      units:[
+
+      ], //unit_leader: unit:
+    },
+
 
     //indexCard'
     indexCard: {}, //this is the single page of a model
@@ -37,10 +46,10 @@ export const appSlice = createSlice({
 
     //army
     addToArmy(state, action) {
-      state.army.push(action.payload);
+      state.army.armyList.push(action.payload);
     },
     delFromArmy(state, action) {
-      state.army = state.army.filter((item) => item !== action.payload);
+      state.army = state.army.armyList.filter((item) => item !== action.payload);
     },
 
     //indexCard
