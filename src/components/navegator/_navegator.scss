@@ -39,6 +39,18 @@
     }
   }
 
+  &__disabled-link{
+    padding: 0 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+    color: grey;
+
+    &:hover{
+      cursor: default;
+    }
+  }
+
   .utility-bar{
     width: 100%;
     display: flex;

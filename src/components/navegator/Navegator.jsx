@@ -3,10 +3,13 @@ import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
 import logo from "../../assets/icon-package/meLogo-white-border.png";
 import Menu from "./menu/Menu";
+import { useSelector } from "react-redux";
 
 const Navegator = () => {
   const location = useLocation();
+  const totalPts = useSelector(state => state.app.army.totalPts)
 
+  
   return (
     <div className="navegator">
       <div className="navegator__header">
@@ -21,8 +24,8 @@ const Navegator = () => {
           </Link>
         </li>
         <li className="navegator__item">
-          <Link className="navegator__nav-link" to={"grapharmy"}>
-            Grapharmy
+          <Link className={totalPts > 0 ? "navegator__nav-link" : "navegator__disabled-link"} to={totalPts > 0  && "grapharmy"}>
+            Grapharmy {totalPts === 0 ? ". . . .0":totalPts < 1000 ? `0${totalPts}`: totalPts}pts
           </Link>
         </li>
         <Menu />

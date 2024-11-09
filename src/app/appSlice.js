@@ -13,6 +13,7 @@ export const appSlice = createSlice({
 
     //army
     army: {
+      totalPts:0,
       armyList: [],
       characters:[],
       battleline:[],
@@ -45,9 +46,16 @@ export const appSlice = createSlice({
     },
 
     //army
-    addToArmy(state, action) {
+    addToArmyList(state, action) {
       state.army.armyList.push(action.payload);
     },
+    addToTotalPts(state, action) {
+      state.army.totalPts = state.army.totalPts + action.payload;
+    },
+
+
+
+
     delFromArmy(state, action) {
       state.army = state.army.armyList.filter((item) => item !== action.payload);
     },
@@ -69,7 +77,8 @@ export const {
   setImageUrl,
 
   //army
-  addToArmy,
+  addToArmyList,
+  addToTotalPts,
   delFromArmy,
 
   //indexCard

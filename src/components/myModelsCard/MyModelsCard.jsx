@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from 'react'
 import ModelsImages from '../modelsImages/ModelsImages';
 import { useDispatch } from "react-redux";
-import { addToArmy } from "../../app/appSlice";
+import { addToArmyList, addToTotalPts } from "../../app/appSlice";
 
 const MyModelsCard = ({modelData}, key) => {
 
     const dispatch = useDispatch();
     const [maxAmount, setMaxAmount] = useState(null);
 
-    const handleClick = (unit) => {
-     
-      dispatch(addToArmy(unit))
+    const handleSelectModel = (unit) => {
+      dispatch(addToArmyList(unit));
+      dispatch(addToTotalPts(unit.point_cost[0].cost))
     }
     
     useEffect(() => {
-        console.log(modelData.name)
+        // console.log(modelData.name)
         if(modelData){
             modelData.keywords.includes("Epic Hero") ? setMaxAmount(1) : modelData.keywords.includes("Battleline") ? setMaxAmount(6) : setMaxAmount(3);
         }
@@ -26,7 +26,7 @@ const MyModelsCard = ({modelData}, key) => {
             <div
                 className="my-models__card"
                 key={`${modelData.name}${key}`}
-                onClick={ ()=>handleClick(modelData) }
+                onClick={ ()=>handleSelectModel(modelData) }
                 tabIndex={0}
             >
                 <ModelsImages imgName={modelData?.image} type={"listedModel"} />
