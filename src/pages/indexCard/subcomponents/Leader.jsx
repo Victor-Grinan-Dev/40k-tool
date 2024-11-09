@@ -12,7 +12,8 @@ const Leader = () => {
       </p>
       <ul>
         {leader.map((l, i) => (
-          <li className="font-rules font-negrita margin-10" key={i}>
+          <li className="font-rules font-negrita margin-10" 
+          key={i}>
             {l}
           </li>
         ))}

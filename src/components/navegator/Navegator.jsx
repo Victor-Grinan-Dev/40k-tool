@@ -31,7 +31,7 @@ const Navegator = () => {
 
       <div className="utility-bar">
         {location.pathname === "/mymodels" &&
-          <div className="utility-bar">
+          <div className="utility-bar__container">
             <input type="text" placeholder="Search" className="utility-bar__search" />
             <div className="utility-bar__select">
               <p>Order by: </p>

@@ -8,7 +8,7 @@ const MyModels = () => {
     <div className="my-models">
       {testData &&
         testData.map((data, i) => (
-          <MyModelsCard modelData={data} id={i}/>
+          <MyModelsCard modelData={data} key={i}/>
         ))}
     </div>
   );

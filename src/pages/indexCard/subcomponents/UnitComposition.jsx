@@ -16,7 +16,8 @@ const UnitComposition = () => {
             <li className="font-negrita font-rules">4-9 Intercessors</li> */}
             {composition &&
               composition.map((c, i) => (
-                <li className="font-negrita font-rules" key={i}>
+                <li className="font-negrita font-rules" 
+                key={i}>
                   {c}
                 </li>
               ))}
