@@ -24,8 +24,8 @@ const CardModel = ({ props, fx }) => {
   //     weapon_skill,
   //     wounds,
   //   } = stats;
-  const points = point_cost[0].cost;
-  const models = point_cost[0].amount;
+  // const points = point_cost[0].cost;
+  // const models = point_cost[0].amount;
 
   //   const [hiddeSetting, setHiddeSetting] = useState(true);
 
@@ -37,9 +37,10 @@ const CardModel = ({ props, fx }) => {
 
   return (
     <div className="model-card" onClick={() => fx()}>
-      <p className="model-card__name">{points}pts</p>
+      {/* <p className="model-card__name">{points}pts</p> */}
       <p className="model-card__name">
-        {models > 1 ? `${models}x` : ""} {name}
+        {/* {models > 1 ? `${models}x` : ""} */}
+         {name}
       </p>
 
       <ModelsImages imgName={image} type={"unit"} />

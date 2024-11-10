@@ -49,15 +49,13 @@ export const appSlice = createSlice({
     addToArmyList(state, action) {
       state.army.armyList.push(action.payload);
     },
+
     addToTotalPts(state, action) {
       state.army.totalPts = state.army.totalPts + action.payload;
     },
 
-
-
-
-    delFromArmy(state, action) {
-      state.army = state.army.armyList.filter((item) => item !== action.payload);
+    delFromArmyList(state, action) {
+      state.army = state.army.armyList.filter((item) => item.name !== action.payload);
     },
 
     //indexCard
@@ -79,7 +77,7 @@ export const {
   //army
   addToArmyList,
   addToTotalPts,
-  delFromArmy,
+  delFromArmyList,
 
   //indexCard
   setIndexCard,

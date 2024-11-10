@@ -1,16 +1,35 @@
 import React, { useEffect, useState } from 'react'
 import ModelsImages from '../modelsImages/ModelsImages';
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { addToArmyList, addToTotalPts } from "../../app/appSlice";
+import { isUnitInArmyList } from '../../functions/validate';
 
 const MyModelsCard = ({modelData}, key) => {
 
     const dispatch = useDispatch();
+
+    const [unitCount, setUnitCount] = useState(0);
+    const armyList = useSelector(state=>state.app.army.armyList);
     const [maxAmount, setMaxAmount] = useState(null);
 
+
     const handleSelectModel = (unit) => {
-      dispatch(addToArmyList(unit));
-      dispatch(addToTotalPts(unit.point_cost[0].cost))
+        
+        if (unitCount < maxAmount){
+            console.log(unit, armyList)
+            // console.log(isUnitInArmyList(unit, armyList))
+            if(!isUnitInArmyList(unit, armyList)){
+                dispatch(addToArmyList({name:unit.name, count:1}))
+            }else{
+
+                const foundUnit = armyList.find(item => item.name === unit.name);
+                console.log(foundUnit)
+                // dispatch(addToArmyList({name:unit.name, count:1}))
+
+            }
+            dispatch(addToTotalPts(modelData.point_cost[0].cost))
+            setUnitCount((prev)=>prev + 1)
+        }
     }
     
     useEffect(() => {
@@ -24,7 +43,7 @@ const MyModelsCard = ({modelData}, key) => {
       <>
         {modelData && 
             <div
-                className="my-models__card"
+                className={unitCount >= maxAmount ? "my-models__card-disabled" :"my-models__card"}
                 key={`${modelData.name}${key}`}
                 onClick={ ()=>handleSelectModel(modelData) }
                 tabIndex={0}
@@ -41,7 +60,7 @@ const MyModelsCard = ({modelData}, key) => {
                 </p>
                 
                 <p className="my-models__card-text amount">
-                {0}/{maxAmount}
+                {unitCount}/{maxAmount}
                 </p>
             </div>
         }   
