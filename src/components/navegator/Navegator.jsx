@@ -39,14 +39,14 @@ const Navegator = () => {
             <input type="text" placeholder="Search" className="utility-bar__search" />
             <div className="utility-bar__select">
               <select className="utility-bar__order">
-                <option value="default" selected>No filtered</option>
-                <option value="pts">Battleline</option>
-                <option value="pts">Character</option>
-                <option value="pts">Transport</option>
-                <option value="pts">Fast</option>
-                <option value="pts">Heavy</option>
-                <option value="pts">Vehicle</option>
-                <option value="pts">Infantry</option>
+                <option value="all" defaultValue>No filtered</option>
+                <option value="Battleline">Battleline</option>
+                <option value="Character">Character</option>
+                <option value="Transport">Transport</option>
+                <option value="Fast">Fast</option>
+                <option value="Heavy">Heavy</option>
+                <option value="Vehicle">Vehicle</option>
+                <option value="Infantry">Infantry</option>
               </select>
             </div>
           </div>
