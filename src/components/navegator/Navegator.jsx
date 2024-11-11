@@ -38,12 +38,15 @@ const Navegator = () => {
           <div className="utility-bar__container">
             <input type="text" placeholder="Search" className="utility-bar__search" />
             <div className="utility-bar__select">
-              <p>Order by: </p>
               <select className="utility-bar__order">
-                <option value="pts">name</option>
-                <option value="pts">cheapest</option>
-                <option value="pts">expensier</option>
-                <option value="pts">movement</option>
+                <option value="default" selected>No filtered</option>
+                <option value="pts">Battleline</option>
+                <option value="pts">Character</option>
+                <option value="pts">Transport</option>
+                <option value="pts">Fast</option>
+                <option value="pts">Heavy</option>
+                <option value="pts">Vehicle</option>
+                <option value="pts">Infantry</option>
               </select>
             </div>
           </div>
