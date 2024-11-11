@@ -18,10 +18,9 @@ export const appSlice = createSlice({
       armyList: [], //count of unique units
       unitList:[], //
       characters:[],
-      battleline:[],
-      otherUnits:[], //unit_leader: unit:
+      units:[],
+      transports:[],
     },
-
 
     //indexCard'
     indexCard: {}, //this is the single page of a model
