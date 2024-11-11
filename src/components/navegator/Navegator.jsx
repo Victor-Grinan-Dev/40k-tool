@@ -4,11 +4,12 @@ import { useLocation } from 'react-router-dom';
 import logo from "../../assets/icon-package/meLogo-white-border.png";
 import Menu from "./menu/Menu";
 import { useSelector } from "react-redux";
+import SelectedGACard from "../selectedGACard/SelectedGACard";
 
 const Navegator = () => {
   const location = useLocation();
-  const totalPts = useSelector(state => state.app.army.totalPts)
-
+  const totalPts = useSelector(state => state.app.army.totalPts);
+  const selectedUnit = useSelector(state => state.app.selectedUnit);
   
   return (
     <div className="navegator">
@@ -37,19 +38,22 @@ const Navegator = () => {
           <div className="utility-bar__container">
             <input type="text" placeholder="Search" className="utility-bar__search" />
             <div className="utility-bar__select">
-              <p>Order by: </p>
               <select className="utility-bar__order">
-                <option value="pts">name</option>
-                <option value="pts">cheapest</option>
-                <option value="pts">expensier</option>
-                <option value="pts">movement</option>
+                <option value="default" selected>No filtered</option>
+                <option value="pts">Battleline</option>
+                <option value="pts">Character</option>
+                <option value="pts">Transport</option>
+                <option value="pts">Fast</option>
+                <option value="pts">Heavy</option>
+                <option value="pts">Vehicle</option>
+                <option value="pts">Infantry</option>
               </select>
             </div>
           </div>
         }
         {location.pathname === "/grapharmy" &&
           <div className="grapharmy__selected-container">
-            {/* { && <Card props={} />} */}
+            {selectedUnit && <SelectedGACard props={selectedUnit} />}
           </div>
         }
 

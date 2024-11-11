@@ -1,28 +1,28 @@
 import React, { useState } from "react";
-import Card from "../../components/card/Card";
-import CardModel from "../../components/cardModel/CardModel";
-import { useSelector } from "react-redux";
+import UnitCard from "../../components/unitCard/UnitCard";
+import { useDispatch, useSelector } from "react-redux";
+import { setSelectedUnit } from "../../app/appSlice";
 
 const Grapharmy = () => {
+  const dispatch = useDispatch();
   const army = useSelector((state) => state.app.army);
   const [data, setData] = useState(false);
+
   const selectModel = (modelsProps) => {
-    setData(modelsProps);
+    dispatch(setSelectedUnit(modelsProps))
   };
 
   return (
     <div className="grapharmy">
-      <div className="grapharmy__selected-container">
-        {data && <Card props={data} />}
-      </div>
+
       <div className="grapharmy__units-container">
         {army.armyList &&
           army.armyList.map((unit, i) => (
-            <CardModel
+            <UnitCard
               props={unit}
               key={`${i}-${unit.name}`}
               fx={() => selectModel(unit)}
-            /> //onClick={() => selectModel(unit)}
+            />
           ))}
       </div>
     </div>

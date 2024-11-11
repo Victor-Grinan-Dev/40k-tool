@@ -7,7 +7,8 @@
 
   height: fit-content;
 
-  &__card {
+
+  &__card, &__card-disabled{
     width: 95vw;
     height: 5rem;
     border-radius: 0.5rem;
@@ -15,7 +16,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
-    // font-size: 1rem;
+  }
+
+  &__card {
     background-color: $primary-2;
 
     &-text {
@@ -34,7 +37,13 @@
     &:focus {
       animation: shine 0s linear;
     }
+
+    &-disabled{
+      background-color: $primary-4;
+    }
   }
+
+
 }
 
 .modelName {
