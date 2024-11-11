@@ -4,11 +4,12 @@ import { useLocation } from 'react-router-dom';
 import logo from "../../assets/icon-package/meLogo-white-border.png";
 import Menu from "./menu/Menu";
 import { useSelector } from "react-redux";
+import SelectedGACard from "../selectedGACard/SelectedGACard";
 
 const Navegator = () => {
   const location = useLocation();
-  const totalPts = useSelector(state => state.app.army.totalPts)
-
+  const totalPts = useSelector(state => state.app.army.totalPts);
+  const selectedUnit = useSelector(state => state.app.selectedUnit);
   
   return (
     <div className="navegator">
@@ -49,7 +50,7 @@ const Navegator = () => {
         }
         {location.pathname === "/grapharmy" &&
           <div className="grapharmy__selected-container">
-            {/* { && <Card props={} />} */}
+            {selectedUnit && <SelectedGACard props={selectedUnit} />}
           </div>
         }
 

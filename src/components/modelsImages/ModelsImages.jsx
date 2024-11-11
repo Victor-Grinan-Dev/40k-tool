@@ -100,7 +100,7 @@ const ModelsImages = ({ imgName, type }) => {
   };
   const imagesTypes = {
     listedModel: "my-models__card-image",
-    unit: "model-card__image",
+    unit: "unit-card__image",
     selected: "modelCard__model-image",
     index: "indexCard__model-image",
   };

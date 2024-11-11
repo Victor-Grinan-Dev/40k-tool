@@ -14,26 +14,18 @@ const MyModelsCard = ({modelData}, key) => {
 
 
     const handleSelectModel = (unit) => {
-        
         if (unitCount < maxAmount){
-            console.log(unit, armyList)
-            // console.log(isUnitInArmyList(unit, armyList))
-            if(!isUnitInArmyList(unit, armyList)){
-                dispatch(addToArmyList({name:unit.name, count:1}))
-            }else{
-
-                const foundUnit = armyList.find(item => item.name === unit.name);
-                console.log(foundUnit)
-                // dispatch(addToArmyList({name:unit.name, count:1}))
-
-            }
             dispatch(addToTotalPts(modelData.point_cost[0].cost))
-            setUnitCount((prev)=>prev + 1)
+            dispatch(addToArmyList(unit))
         }
     }
-    
     useEffect(() => {
-        // console.log(modelData.name)
+        if(modelData){
+            setUnitCount(isUnitInArmyList(modelData.name, armyList));
+        }
+    }, [armyList]) 
+      
+    useEffect(() => {
         if(modelData){
             modelData.keywords.includes("Epic Hero") ? setMaxAmount(1) : modelData.keywords.includes("Battleline") ? setMaxAmount(6) : setMaxAmount(3);
         }
@@ -60,7 +52,7 @@ const MyModelsCard = ({modelData}, key) => {
                 </p>
                 
                 <p className="my-models__card-text amount">
-                {unitCount}/{maxAmount}
+                {unitCount||0}/{maxAmount}
                 </p>
             </div>
         }   

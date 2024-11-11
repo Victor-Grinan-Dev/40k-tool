@@ -12,14 +12,14 @@ export const appSlice = createSlice({
     view: "home",// my models, grapharmy
 
     //army
+    selectedUnit:null,
     army: {
       totalPts:0,
-      armyList: [],
+      armyList: [], //count of unique units
+      unitList:[], //
       characters:[],
       battleline:[],
-      units:[
-
-      ], //unit_leader: unit:
+      otherUnits:[], //unit_leader: unit:
     },
 
 
@@ -46,6 +46,9 @@ export const appSlice = createSlice({
     },
 
     //army
+    setSelectedUnit(state, action){
+      state.selectedUnit = action.payload;
+    },
     addToArmyList(state, action) {
       state.army.armyList.push(action.payload);
     },
@@ -75,6 +78,7 @@ export const {
   setImageUrl,
 
   //army
+  setSelectedUnit,
   addToArmyList,
   addToTotalPts,
   delFromArmyList,
