@@ -9,23 +9,23 @@ const UnitCard = ({ props, fx }) => {
   /** show image, name, points sum of both */
 
   const {
-    stats,
+    // stats,
     point_cost,
     name,
     image,
     wargear_options,
   } = props;
  
-    const {
-      // armor_save,
-      // balistic_skill,
-      // leadership,
-      // movement,
-      // objective_control,
-      // toughness,
-      // weapon_skill,
-      // wounds,
-    } = stats;
+    // const {
+    //   armor_save,
+    //   balistic_skill,
+    //   leadership,
+    //   movement,
+    //   objective_control,
+    //   toughness,
+    //   weapon_skill,
+    //   wounds,
+    // } = stats;
 
   const points = point_cost[0].cost;
   const models = point_cost[0].amount;

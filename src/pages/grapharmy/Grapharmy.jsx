@@ -17,6 +17,7 @@ const Grapharmy = () => {
     if(army.armyList.length === 0){
       navigate('/mymodels')
     }
+    // eslint-disable-next-line
   }, [army.armyList]);
   
   return (

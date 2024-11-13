@@ -23,12 +23,15 @@ const MyModelsCard = ({modelData}, key) => {
         if(modelData){
             setUnitCount(isUnitInArmyList(modelData.name, armyList));
         }
+        // eslint-disable-next-line
     }, [armyList]) 
       
     useEffect(() => {
         if(modelData){
             modelData.keywords.includes("Epic Hero") ? setMaxAmount(1) : modelData.keywords.includes("Battleline") ? setMaxAmount(6) : setMaxAmount(3);
         }
+
+    // eslint-disable-next-line
     }, [modelData])
     
   return (
