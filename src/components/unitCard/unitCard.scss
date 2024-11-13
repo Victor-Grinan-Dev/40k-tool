@@ -31,3 +31,21 @@
     }
   }
   
+  .radio-option{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    // background-color: aqua;
+    height: 80%;
+
+    &_item{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      height: 20px;
+      width: 100%;
+    }
+  }

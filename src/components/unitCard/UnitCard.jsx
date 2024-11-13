@@ -9,23 +9,24 @@ const UnitCard = ({ props, fx }) => {
   /** show image, name, points sum of both */
 
   const {
-     stats,
+    stats,
     point_cost,
     name,
     image,
     wargear_options,
   } = props;
-    console.log(props);
+ 
     const {
-      armor_save,
-      balistic_skill,
-      leadership,
-      movement,
-      objective_control,
-      toughness,
-      weapon_skill,
-      wounds,
+      // armor_save,
+      // balistic_skill,
+      // leadership,
+      // movement,
+      // objective_control,
+      // toughness,
+      // weapon_skill,
+      // wounds,
     } = stats;
+
   const points = point_cost[0].cost;
   const models = point_cost[0].amount;
 
@@ -39,24 +40,24 @@ const UnitCard = ({ props, fx }) => {
 
   return (
     <div className="unit-card" onClick={() => fx()}>
-      {/* <p className="unit-card__name">{points}pts</p> */}
+      <p className="unit-card__name">{points}pts</p>
       <p className="unit-card__name">
-        {/* {models > 1 ? `${models}x` : ""} */}
+        {models > 1 ? `${models}x` : ""}
          {name}
       </p>
 
       <ModelsImages imgName={image} type={"unit"} />
       {wargear_options || point_cost.length > 1 ? (
         <p className="unit-card__name" onClick={toggleSettings}>
-          settings
+          wargear option
         </p>
       ) : (
         <p className="unit-card__name">no options</p>
       )}
 
-      {/* <div className="unit-card__settings" style={{ display: isDisplay }}>
+      <div className="unit-card__settings" style={{ display: isDisplay }}>
         <p className="unit-card__name" onClick={toggleSettings}>
-          settings
+          show card
         </p>
         {point_cost.length > 1 && (
           <div>
@@ -66,12 +67,16 @@ const UnitCard = ({ props, fx }) => {
           </div>
         )}
         {wargear_options && (
-          <select className="unit-card__settings--select unit-card__name">
-            <option value="">weapon 1</option>
-            <option value="">weapon 2</option>
-          </select>
+          <div className='radio-option'>
+            <div className='radio-option_item' >
+              <input type="radio" name="weapon 1" id="1" /><label className="unit-card__name">weapon 1</label>
+            </div>
+            <div className='radio-option_item' >
+              <input type="radio" name="weapon 2" id="2" /><label className="unit-card__name">weapon 2</label>
+            </div>
+          </div>
         )}
-      </div> */}
+      </div>
       <p className="unit-card__name">select</p>
     </div>
   );
