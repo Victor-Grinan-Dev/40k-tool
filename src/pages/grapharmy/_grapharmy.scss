@@ -13,12 +13,13 @@
     border-radius: 1rem;
     border-style: solid;
     border-color: $primary-3;
+    margin: auto;
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
   }
 
   &__units-container {
@@ -28,4 +29,5 @@
     align-items: flex-start;
     gap: 0.5rem;
   }
+
 }

@@ -1,10 +1,9 @@
 import React from "react";
 
-const WeaponEntry = (props) => {
+const WeaponEntry = (props, key) => {
   const { weapon } = props;
   return (
-    <div>
-      {" "}
+    <div key={key}>
       <div className="indexCard__content-item">
         <div className="indexCard__content-item-data-icon"></div>
         <div className="indexCard__content-item-data-name">{weapon}</div>

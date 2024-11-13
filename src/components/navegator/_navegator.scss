@@ -1,14 +1,22 @@
+@import "../../styles/sass/abstracts/variables";
+
 .navegator {
   min-height: 7vh;
-  margin-right: 3.5rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  padding:1rem;
+
+  &__header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   &__logo {
     height: 4rem;
     width: 4rem;
-    // animation: spin linear 5s infinite;
     margin: 1rem;
   }
 
@@ -28,6 +36,61 @@
     &:hover {
       color: rgb(222, 246, 249);
       text-shadow: 0 0 15px rgb(191, 242, 250);
+    }
+  }
+
+  &__disabled-link{
+    padding: 0 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+    color: grey;
+
+    &:hover{
+      cursor: default;
+    }
+  }
+
+  .utility-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding:1rem;
+    padding-bottom: 0;
+
+    &__container{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__search{
+      @include input-style();
+    }
+
+    &__select{
+      display: flex;
+      gap: 10px;
+
+      & select{
+        @include input-style();
+
+        & option{
+          background-color: $background; /* background color for each option */
+
+          & :hover {
+            background-color: $primary-2; /* Highlight color */
+          }
+        }
+      }
+    }
+
+    &__order{
+      border-radius: 10px;
+      background-color: var($primary-5);
     }
   }
 }

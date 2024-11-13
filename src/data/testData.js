@@ -45,7 +45,7 @@ export const testData = [
     transport: ``,
     invulnerable: 4,
     wargear_options: [],
-    unit_composition: ["1 Arjac Rockfist – Epic Hero"],
+    unit_composition: ["1 Arjac Rockfist - Epic Hero"],
     equiped: ["foehammer"],
     leader: [
       "Relic Terminator Squad",
@@ -74,8 +74,8 @@ export const testData = [
 
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
     lore: `Arjac Rockfist is a towering mass of muscle and a taciturn anvil
-        of endurance. Wielding the enormous Foehammer – recalling his
-        former role as an Iron Priest of the forge – Arjac crushes his foes with
+        of endurance. Wielding the enormous Foehammer - recalling his
+        former role as an Iron Priest of the forge - Arjac crushes his foes with
         pulverising strength. As personal champion of the Great Wolf, Arjac
         upholds the honour of the Chapter`,
   },
@@ -115,7 +115,7 @@ export const testData = [
           title: "Ancient Tactician",
           rule: `Once per battle, after your opponent uses
               a Stratagem, this model can use this ability. If it does, until
-              the end of the battle, increase that Stratagem’s cost to your
+              the end of the battle, increase that Stratagem's cost to your
               opponent by 1CP`,
         },
       ],
@@ -123,12 +123,12 @@ export const testData = [
 
     transport: ``,
     invulnerable: null,
-    unit_composition: ["1 Bjorn the Fell-Handed– Epic Hero"],
+    unit_composition: ["1 Bjorn the Fell-Handed- Epic Hero"],
     equiped: ["assault_cannon", "heavy_flamer", "trueclaw"],
     wargear_options: [
       {
         title:
-          "This model’s assault_cannon can be replaced with one of the following",
+          "This model's assault_cannon can be replaced with one of the following",
         options: [
           "heavy plasma_cannon",
           "helfrost cannon",
@@ -157,10 +157,10 @@ export const testData = [
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
     lore: `Most ancient of all Space Marines and last of the Company of Russ,
-        Bjorn the Fell-Handed has fought for millennia within a Dreadnought’s
+        Bjorn the Fell-Handed has fought for millennia within a Dreadnought's
         sarcophagus. The Space Wolves revere Bjorn as a living link to their
         deepest past, waking him only in times of dire need, and he still fights
-        as furiously as he did at Russ’ side`,
+        as furiously as he did at Russ' side`,
   },
   {
     id: "",
@@ -210,11 +210,11 @@ export const testData = [
     wargear_options: [
       {
         title:
-          "The Blood Claw Pack Leader’s astartes_chainsword can be replaced with one of the following",
+          "The Blood Claw Pack Leader's astartes_chainsword can be replaced with one of the following",
         options: ["1 power_weapon", "1 power_fist"],
       },
       {
-        title: "The Blood Claw Pack Leader’s bolt_pistol can be replaced with",
+        title: "The Blood Claw Pack Leader's bolt_pistol can be replaced with",
         options: ["1 plasma_pistol"],
       },
       {
@@ -244,7 +244,7 @@ export const testData = [
     Claws hunger to prove themselves in savage battle. With relentless
     exuberance they plunge headlong into the foe, straddling the line
     between sheer heroism and recklessness. Many great sagas start
-    with the Blood Claws’ glory hunts`,
+    with the Blood Claws' glory hunts`,
   },
   {
     id: "",
@@ -292,7 +292,7 @@ export const testData = [
 
     transport: ``,
     invulnerable: null,
-    unit_composition: ["1 Canis Wolfborn – Epic Hero"],
+    unit_composition: ["1 Canis Wolfborn - Epic Hero"],
     equiped: ["crushing_teeth_and_jaws", "wolf_claws"],
     wargear_options: [],
     leader: ["Fenrisian Wolves", "Thunderwolf Cavalry"],
@@ -311,10 +311,10 @@ export const testData = [
     ],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-    lore: `The most feral of Harald Deathwolf’s veterans, Canis Wolfborn moves
+    lore: `The most feral of Harald Deathwolf's veterans, Canis Wolfborn moves
     with animalistic assurance. Believed to have been raised by a
     she-wolf, Canis speaks to his brothers in snarls and growls, and on the
-    battlefield his frenzied rages, slashing claws and Thunderwolf’s jaws
+    battlefield his frenzied rages, slashing claws and Thunderwolf's jaws
     are all the communication he needs`,
   },
   {
@@ -495,7 +495,7 @@ export const testData = [
       },
       {
         title:
-          "The Grey Hunter Pack Leader’s close combat weapon can be replaced with one of the following",
+          "The Grey Hunter Pack Leader's close combat weapon can be replaced with one of the following",
         options: ["1 power_fist", "1 power_weapon"],
       },
       {
@@ -522,8 +522,8 @@ export const testData = [
     ],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-    lore: `With their instinctive raw aggression tempered – but never quashed
-    – by countless battlefield victories, Grey Hunters are patient, cunning
+    lore: `With their instinctive raw aggression tempered - but never quashed
+    - by countless battlefield victories, Grey Hunters are patient, cunning
     and adaptable. Some packs take and hold ground, unleashing volleys
     of disciplined firepower, while others stalk the flanks. When the trap is
     set, Grey Hunters leap in for the kill`,
@@ -574,7 +574,7 @@ export const testData = [
 
     transport: ``,
     invulnerable: 4,
-    unit_composition: ["1 Harald Deathwolf – Epic Hero"],
+    unit_composition: ["1 Harald Deathwolf - Epic Hero"],
     equiped: ["bolt_pistol", "crushing_teeth_and_claws", "glacius"],
     wargear_options: [],
     leader: ["Thunderwolf Cavalry"],
@@ -647,7 +647,7 @@ export const testData = [
           title: "Vengeance of the Omnissiah",
           rule: `If a friendly Adeptus Astartes
           Vehicle model is destroyed within 12" of this model, until
-          the end of the battle, this model’s tempest hammer has an
+          the end of the battle, this model's tempest hammer has an
           Attacks characteristic of 6`,
         },
       ],
@@ -675,8 +675,8 @@ export const testData = [
     ],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-    lore: `Space Wolves Techmarines – the Iron Priests – are holders of arcane
-    technological lore that they use to repair the Chapter’s damaged war
+    lore: `Space Wolves Techmarines - the Iron Priests - are holders of arcane
+    technological lore that they use to repair the Chapter's damaged war
     engines and soothe their affronted machine spirits. Warriors of Fenris
     first and foremost, Iron Priests will not hesitate to bring their own
     esoteric weapons to bear on the foe if needed`,
@@ -799,7 +799,7 @@ export const testData = [
 
     transport: ``,
     invulnerable: 4,
-    unit_composition: ["Logan Grimnar – Epic Hero"],
+    unit_composition: ["Logan Grimnar - Epic Hero"],
     equiped: ["storm_bolter", "the_axe_morkai"],
     wargear_options: [],
     leader: [
@@ -829,9 +829,9 @@ export const testData = [
     ],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-    lore: `Logan Grimnar – Great Wolf and High King of Fenris – is one of the
+    lore: `Logan Grimnar - Great Wolf and High King of Fenris - is one of the
     longest serving Chapter Masters. Waging war against any who
-    threaten the Space Wolves or the Imperium, Grimnar’s charisma and
+    threaten the Space Wolves or the Imperium, Grimnar's charisma and
     centuries of heroic victories have immortalised him as one of the most
     lauded warriors in the galaxy`,
   },
@@ -881,7 +881,7 @@ export const testData = [
 
     transport: ``,
     invulnerable: 4,
-    unit_composition: ["1 Logan Grimnar on Stormrider – Epic Hero"],
+    unit_composition: ["1 Logan Grimnar on Stormrider - Epic Hero"],
     equiped: ["storm_bolter", "the_axe_morkai", "flurry_of_teeth_and_claws"],
     wargear_options: [],
     leader: ["Thunderwolf Cavalry"],
@@ -903,7 +903,7 @@ export const testData = [
 
     lore: `When riding to battle upon his ornate anti-grav chariot, Stormrider,
     Logan Grimnar is a destructive and swift tempest of war. Drawn by a
-    pair of giant and ferocious Thunderwolves, Stormrider’s saga-inscribed
+    pair of giant and ferocious Thunderwolves, Stormrider's saga-inscribed
     hull bears the grizzled leader into the heart of the enemy, there to reap
     a fell tally with the Axe Morkai`,
   },
@@ -975,12 +975,12 @@ export const testData = [
       },
       {
         title:
-          "The Long Fang Pack Leader’s close combat weapon can be replaced with one of the following",
+          "The Long Fang Pack Leader's close combat weapon can be replaced with one of the following",
         options: ["1 astartes_chainsword", "1 power_fist", "1 power_weapon"],
       },
       {
         title:
-          "The Long Fang Pack Leader’s boltgun can be replace with one of the following",
+          "The Long Fang Pack Leader's boltgun can be replace with one of the following",
         options: [
           "1 grav_gun",
           "1 flamer",
@@ -1004,7 +1004,7 @@ export const testData = [
 
     lore: `Dour and grizzled veterans, Long Fangs are steady of hand and
     temperament, hoary with wisdom and literally long of fang. To these
-    patient warriors are granted some of the Great Company’s most
+    patient warriors are granted some of the Great Company's most
     devastating ranged weapons. Keen of eye, Long Fangs hunt the
     monstrous beasts and battle tanks of the foe`,
   },
@@ -1053,7 +1053,7 @@ export const testData = [
 
     transport: ``,
     invulnerable: null,
-    unit_composition: ["1 Lukas the Trickster – Epic Hero"],
+    unit_composition: ["1 Lukas the Trickster - Epic Hero"],
     equiped: ["plasma_pistol", "claw_of_the_jackalwolf"],
     wargear_options: [],
     leader: ["Blood Claws"],
@@ -1076,11 +1076,11 @@ export const testData = [
     ],
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
-    lore: `A legend amongst impulsive warriors, Lukas – called the Trickster by
-    his many detractors – is synonymous with the irreverence and spirit
+    lore: `A legend amongst impulsive warriors, Lukas - called the Trickster by
+    his many detractors - is synonymous with the irreverence and spirit
     of youth. His inventive sabotages and murderous jests rank him as
     one of the most cunning in the Chapter. A dirty fighter, rebel and rogue,
-    Lukas’ skills are as deadly as they are mischievous`,
+    Lukas' skills are as deadly as they are mischievous`,
   },
   {
     id: "",
@@ -1121,7 +1121,7 @@ export const testData = [
 
     transport: ``,
     invulnerable: null,
-    unit_composition: ["Murderfang – Epic Hero"],
+    unit_composition: ["Murderfang - Epic Hero"],
     equiped: ["heavy_flamer", "storm_bolter", "the_murderclaws"],
     wargear_options: [],
     leader: [],
@@ -1187,7 +1187,7 @@ export const testData = [
         },
         {
           title: "Runic Armour",
-          rule: `Each time a Psychic Attack targets this model’s
+          rule: `Each time a Psychic Attack targets this model's
           unit, subtract 1 from the Wound roll`,
         },
       ],
@@ -1195,7 +1195,7 @@ export const testData = [
 
     transport: ``,
     invulnerable: 4,
-    unit_composition: ["1 Njal Stormcaller – Epic Hero"],
+    unit_composition: ["1 Njal Stormcaller - Epic Hero"],
     equiped: ["bolt_pistol", "Living Lightning", "Staff of the Stormcaller"],
     wargear_options: [],
     leader: [
@@ -1262,14 +1262,14 @@ export const testData = [
           title: "Battle-lust",
           rule: `Each time this model ends a Charge move,
           until the end of the turn, add 2 to the Attacks and Strength
-          characteristics of this model’s Frostfang`,
+          characteristics of this model's Frostfang`,
         },
       ],
     },
 
     transport: ``,
     invulnerable: 4,
-    unit_composition: ["1 Ragnar Blackmane – Epic Hero"],
+    unit_composition: ["1 Ragnar Blackmane - Epic Hero"],
     equiped: ["bolt_pistol", "Frostfang"],
     wargear_options: [],
     leader: [
@@ -1301,7 +1301,7 @@ export const testData = [
     lore: `Supremely confident and eager always to be first into the fray,
     Wolf Lord Ragnar Blackmane regularly leads his Great Company in
     devastating planetary invasions. No longer as headstrong as in his
-    youth, Ragnar’s berserk rages are still furious hurricanes of violence,
+    youth, Ragnar's berserk rages are still furious hurricanes of violence,
     and his terrifying howls freeze the blood of his foes`,
   },
   {
@@ -1353,8 +1353,8 @@ export const testData = [
     invulnerable: null,
     unit_composition: ["1 Skyclaw Pack Leader", "4-14 Skyclaws"],
     equiped: ["bolt_pistol", "astartes_chainsword"],
-    wargear_options: `■ The Skyclaw Pack Leader’s bolt_pistol can be replaced with 1 plasma_pistol.
-    ■ The Skyclaw Pack Leader’s astartes_chainsword can be replaced with one of the following:
+    wargear_options: `■ The Skyclaw Pack Leader's bolt_pistol can be replaced with 1 plasma_pistol.
+    ■ The Skyclaw Pack Leader's astartes_chainsword can be replaced with one of the following:
     ◦ 1 power_fist
     ◦ 1 power_weapon
     ■ Up to 2 Skyclaws can each have their bolt_pistol and astartes_chainsword replaced with one of
@@ -1387,7 +1387,7 @@ export const testData = [
     wearing Skyclaw packs. Rebellious and free-spirited, Skyclaws seize
     any opportunity to push their luck. They rocket forward fearlessly in
     great loping bounds, chainswords roaring as they slay, plunging into
-    the enemy’s heart with reckless fury`,
+    the enemy's heart with reckless fury`,
   },
 
   {
@@ -1456,7 +1456,7 @@ export const testData = [
     lore: `Venerable Dreadnoughts are priceless relics steeped in centuries of
     battle. The ancient warriors at the heart of each are living legends of
     the Space Wolves, with wisdom as deep as the ocean and intuition as
-    sharp as krakens’ teeth. Awoken from dormancy, they fight as lords of
+    sharp as krakens' teeth. Awoken from dormancy, they fight as lords of
     id:"",battle, seemingly stepping from the sagas to kill in the 
     name of Russ`,
   },
@@ -1492,10 +1492,10 @@ export const testData = [
           title: "Frozen Prey",
           rule: `In your Shooting phase, after this model has
           shot, if an enemy Monster or Vehicle unit was hit by one
-          or more of those attacks made with this model’s helfrost
-          destructor, until the end of your opponent’s next turn, that
+          or more of those attacks made with this model's helfrost
+          destructor, until the end of your opponent's next turn, that
           enemy unit is Frozen. While a unit is Frozen, subtract 2 from
-          that unit’s Move characteristic, and subtract 2 from Advance
+          that unit's Move characteristic, and subtract 2 from Advance
           and Charge rolls made for that unit`,
         },
       ],
@@ -1527,12 +1527,12 @@ export const testData = [
     wargear_options: [
       {
         title:
-          "This model’s 2 skyhammer_missile_launchers can be replaced with one of the following",
+          "This model's 2 skyhammer_missile_launchers can be replaced with one of the following",
         options: ["2 twin multi_meltas", "2 twin heavy_bolters"],
       },
       {
         title:
-          "This model’s twin_stormstrike_missile_launcher can be replaced with",
+          "This model's twin_stormstrike_missile_launcher can be replaced with",
         options: ["1 twin lascannon"],
       },
     ],
@@ -1619,7 +1619,7 @@ export const testData = [
     wargear_options: [
       {
         title:
-          "This model’s 2 skyhammer_missile_launchers can be replaced with one of the following",
+          "This model's 2 skyhammer_missile_launchers can be replaced with one of the following",
         options: ["2 twin multi_meltas", "2 twin heavy_bolters"],
       },
     ],
@@ -1640,7 +1640,7 @@ export const testData = [
 
     lore: `Stormwolves enable the sons of Russ to bring the fight to the enemy
     wherever they hide. Within their wide hold, packs of warriors are borne
-    with incredible speed into the foe’s midst. As the packs leap out to
+    with incredible speed into the foe's midst. As the packs leap out to
     attack, Stormwolves saturate the area with an array of heavy fire,
     before rising to hunt for yet more targets`,
   },
@@ -1715,7 +1715,7 @@ export const testData = [
     the most dauntless elite within the Wolf Guard have the dominance
     to ride them to war. When they charge, crushing jaws tear through
     armoured plates, flesh and bone with feral butchery, while the
-    Thunderwolves’ riders hack down the foe with heroic ferocity.`,
+    Thunderwolves' riders hack down the foe with heroic ferocity.`,
   },
   {
     id: "",
@@ -1745,15 +1745,15 @@ export const testData = [
       faction: "Oath of Moment",
       other: [
         {
-          title: "Slayer’s Oath",
+          title: "Slayer's Oath",
           rule: `While this model is leading a unit, at the start
           of the Fight phase, select one enemy unit within Engagement
-          Range of this model’s unit. Until the end of the phase, each
-          time a model in this model’s unit makes a melee attack that
+          Range of this model's unit. Until the end of the phase, each
+          time a model in this model's unit makes a melee attack that
           targets that enemy unit, re-roll a Hit roll of 1 and re-roll a
           Wound roll of 1. If that enemy unit is a Character, Vehicle or
           Monster unit, until the end of the phase, each time a model
-          in this model’s unit makes a melee attack that targets that
+          in this model's unit makes a melee attack that targets that
           enemy unit, you can re-roll the Hit roll and you can re-roll the
           Wound roll`,
         },
@@ -1768,7 +1768,7 @@ export const testData = [
 
     transport: ``,
     invulnerable: 4,
-    unit_composition: ["1 Ulrik the Slayer – Epic Hero"],
+    unit_composition: ["1 Ulrik the Slayer - Epic Hero"],
     equiped: ["plasma_pistol", "artificer crozius"],
     wargear_options: [],
     leader: ["Blood Claws", "Grey Hunters", "Long Fangs", "Wolf Guard"],
@@ -1789,7 +1789,7 @@ export const testData = [
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
     lore: `A paragon of wisdom and experience, Ulrik the Slayer has mentored
-    many of the Space Wolves’ greatest champions. He is the Wolf High
+    many of the Space Wolves' greatest champions. He is the Wolf High
     Priest, inspiring all who fight alongside him with his aggression and
     martial prowess. Turning his fearsome gaze upon mighty foes, Ulrik
     swears weighty oaths to cut them down`,
@@ -1920,7 +1920,7 @@ export const testData = [
     equiped: ["storm_bolter", "power_weapon"],
     wargear_options: [
       {
-        title: `This model’s power_weapon can be replaced with one of the following`,
+        title: `This model's power_weapon can be replaced with one of the following`,
         options: [
           "1 chainfist",
           "1 power_fist",
@@ -1929,7 +1929,7 @@ export const testData = [
         ],
       },
       {
-        title: `This model’s storm_bolter can be replaced with one of the following`,
+        title: `This model's storm_bolter can be replaced with one of the following`,
         options: [
           "1 chainfist",
           "1 power_fist",
@@ -1938,7 +1938,7 @@ export const testData = [
         ],
       },
       {
-        title: `This model’s storm_bolter and power_weapon can be replaced with`,
+        title: `This model's storm_bolter and power_weapon can be replaced with`,
         options: ["1 twin_lightning_claws"],
       },
     ],
@@ -2003,7 +2003,7 @@ export const testData = [
         {
           title: "Wolf Guard:",
           rule: `Each time a model in this unit makes an attack,
-          you can ignore any or all modifiers to that attack’s Ballistic
+          you can ignore any or all modifiers to that attack's Ballistic
           Skill or Weapon Skill characteristic and/or to the Hit roll. In
           addition, each time a model in this unit makes an attack that
           targets the enemy unit you selected for the Oath of Moment
@@ -2079,7 +2079,7 @@ export const testData = [
     lore: `Wolf Guard Battle Leaders possess vast experience and dominant
     personalities, using them to guide others in the art of war. Each
     combines preternatural combat prowess with the greatest relics
-    from their lord’s armouries, the most prized of which are suits of
+    from their lord's armouries, the most prized of which are suits of
     fearsome Terminator armour`,
   },
   {
@@ -2117,13 +2117,13 @@ export const testData = [
         },
         {
           title: "Aggressive Hunter:",
-          rule: `Once per battle, in your opponent’s
+          rule: `Once per battle, in your opponent's
           Shooting phase, after an enemy unit has finished making
-          its attacks, if this model’s unit was targeted by one or more
-          of those attacks, this model’s unit can make a Normal move
+          its attacks, if this model's unit was targeted by one or more
+          of those attacks, this model's unit can make a Normal move
           of up to D6", but must end that move as close as possible
           to the closest enemy unit. When doing so, models in this
-          model’s unit can be moved within Engagement Range of that
+          model's unit can be moved within Engagement Range of that
           enemy unit`,
         },
       ],
@@ -2136,7 +2136,7 @@ export const testData = [
     wargear_options: [
       {
         title:
-          "This model’s relic_weapon can be replaced with one of the following",
+          "This model's relic_weapon can be replaced with one of the following",
         options: [
           "1 plasma_pistol",
           "1 power_fist",
@@ -2146,7 +2146,7 @@ export const testData = [
       },
       {
         title:
-          "This model’s bolt_pistol can be replaced with one of the following",
+          "This model's bolt_pistol can be replaced with one of the following",
         options: [
           "1 combi_weapon",
           "1 master-crafted boltgun",
@@ -2158,7 +2158,7 @@ export const testData = [
         ],
       },
       {
-        title: "This model’s bolt_pistol and relic_weapon can be replaced with",
+        title: "This model's bolt_pistol and relic_weapon can be replaced with",
         options: ["1 twin_lightning_claws"],
       },
     ],
@@ -2237,7 +2237,7 @@ export const testData = [
     equiped: ["bolt_pistol", "boltgun ", "close combat weapon"],
     wargear_options: [
       {
-        title: `This model’s bolt_pistol and boltgun can be replaced with two different weapons from the following
+        title: `This model's bolt_pistol and boltgun can be replaced with two different weapons from the following
       list*`,
         options: [
           "1 bolt_pistol",
@@ -2253,7 +2253,7 @@ export const testData = [
         ],
       },
       {
-        title: "This model’s bolt_pistol and boltgun can be replaced with",
+        title: "This model's bolt_pistol and boltgun can be replaced with",
         options: ["1 twin_lightning_claws"],
       },
     ],
@@ -2285,7 +2285,7 @@ export const testData = [
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
 
     lore: `Wolf Guard of proven leadership ability and bellicose charisma may be
-    assigned to lead packs of battle-brothers. These warriors’ extensive
+    assigned to lead packs of battle-brothers. These warriors' extensive
     battlefield wisdom and saga-worthy combat prowess are inspirational
     to the Space Wolves under their charge, and fighting alongside them is
     seen as a great honour`,
@@ -2337,7 +2337,7 @@ export const testData = [
     equiped: ["storm_bolter", "power_weapon"],
     wargear_options: [
       {
-        title: `This model’s storm_bolter and power_weapon can be replaced with two different options from the
+        title: `This model's storm_bolter and power_weapon can be replaced with two different options from the
       following list*`,
         options: [
           "1 assault_cannon",
@@ -2352,11 +2352,11 @@ export const testData = [
       },
       {
         title:
-          "This model’s storm_bolter and power_weapon can be replaced with",
+          "This model's storm_bolter and power_weapon can be replaced with",
         options: ["1 twin_lightning_claws"],
       },
       {
-        title: "This model’s storm_bolter can be replaced with",
+        title: "This model's storm_bolter can be replaced with",
         options: ["1 combi_weapon"],
       },
     ],
@@ -2391,7 +2391,7 @@ export const testData = [
     lore: `Those Wolf Guard granted the raw power afforded by Terminator
     armour bestride the battlefield as nigh-invulnerable champions.
     Amongst the packs they lead, they serve as indomitable anvils,
-    anchoring their battle-brothers’ lines with their intimidating bulk and
+    anchoring their battle-brothers' lines with their intimidating bulk and
     unleashing the power of their ornate weapons to destructive effect`,
   },
 
@@ -2442,7 +2442,7 @@ export const testData = [
     equiped: ["bolt_pistol", "astartes_chainsword"],
     wargear_options: [
       {
-        title: `This model’s bolt_pistol and astartes_chainsword can be replaced with two different weapons from the
+        title: `This model's bolt_pistol and astartes_chainsword can be replaced with two different weapons from the
     following list*`,
         options: [
           "1 bolt_pistol",
@@ -2457,7 +2457,7 @@ export const testData = [
         ],
       },
       {
-        title: `This model’s bolt_pistol and astartes_chainsword can be replaced with`,
+        title: `This model's bolt_pistol and astartes_chainsword can be replaced with`,
         options: ["1 twin_lightning_claws."],
       },
     ],
@@ -2533,7 +2533,7 @@ export const testData = [
         {
           title: "Speed of the Hunter",
           rule: `Add 1 to Advance and Charge rolls made
-          for this model’s unit`,
+          for this model's unit`,
         },
       ],
     },
@@ -2545,7 +2545,7 @@ export const testData = [
     wargear_options: [
       {
         title:
-          "This model’s relic_weapon can be replaced with one of the following",
+          "This model's relic_weapon can be replaced with one of the following",
         options: [
           "1 plasma_pistol",
           "1 power_fist",
@@ -2555,7 +2555,7 @@ export const testData = [
       },
       {
         title:
-          "This model’s bolt_pistol can be replaced with one of the following",
+          "This model's bolt_pistol can be replaced with one of the following",
         options: [
           "1 combi_weapon",
           "1 master-crafted boltgun",
@@ -2567,7 +2567,7 @@ export const testData = [
         ],
       },
       {
-        title: "This model’s bolt_pistol and relic_weapon can be replaced with",
+        title: "This model's bolt_pistol and relic_weapon can be replaced with",
         options: ["1 twin_lightning_claws"],
       },
     ],
@@ -2633,7 +2633,7 @@ export const testData = [
           rule: `Each time a model in this unit is destroyed by a
           melee attack, if that model has not fought this phase, roll one
           D6. On a 4+, do not remove it from play; that destroyed model
-          can fight after the attacking model’s unit has finished making
+          can fight after the attacking model's unit has finished making
           its attacks, and is then removed from play.`,
         },
       ],
@@ -2719,12 +2719,12 @@ export const testData = [
     wargear_options: [
       {
         title:
-          "This model’s Fenrisian great axe or great wolf claw and storm_bolter can be replaced with",
+          "This model's Fenrisian great axe or great wolf claw and storm_bolter can be replaced with",
         options: ["1 blizzard_shield and 1 storm_bolter"],
       },
       {
         title:
-          "Any number of this model’s storm_bolters can each be replaced with",
+          "Any number of this model's storm_bolters can each be replaced with",
         options: ["1 heavy_flamer"],
       },
     ],
@@ -2748,7 +2748,7 @@ export const testData = [
     faction_keywords: ["Adeptus Astartes", "Space Wolves"],
     lore: `Even near death and interred in a Dreadnought sarcophagus, a warrior
     may yet succumb to the Curse of the Wulfen. Joints and servos twitch
-    and spasm like a crazed animal’s muscles as a Wulfen Dreadnought
+    and spasm like a crazed animal's muscles as a Wulfen Dreadnought
     seeks to maul and eviscerate. From emitters, baleful howls blare its
     mindless hunger for violence`,
   },

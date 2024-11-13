@@ -9,9 +9,18 @@ export const appSlice = createSlice({
     error: "",
     message: "",
     darkMode: false,
+    view: "home",// my models, grapharmy
 
     //army
-    army: [],
+    selectedUnit:null,
+    army: {
+      totalPts:0,
+      armyList: [], //count of unique units
+      unitList:[], //
+      characters:[],
+      units:[],
+      transports:[],
+    },
 
     //indexCard'
     indexCard: {}, //this is the single page of a model
@@ -36,11 +45,19 @@ export const appSlice = createSlice({
     },
 
     //army
-    addToArmy(state, action) {
-      state.army.push(action.payload);
+    setSelectedUnit(state, action){
+      state.selectedUnit = action.payload;
     },
-    delFromArmy(state, action) {
-      state.army = state.army.filter((item) => item !== action.payload);
+    addToArmyList(state, action) {
+      state.army.armyList.push(action.payload);
+    },
+
+    addToTotalPts(state, action) {
+      state.army.totalPts = state.army.totalPts + action.payload;
+    },
+
+    delFromArmyList(state, action) {
+      state.army = state.army.armyList.filter((item) => item.name !== action.payload);
     },
 
     //indexCard
@@ -60,8 +77,10 @@ export const {
   setImageUrl,
 
   //army
-  addToArmy,
-  delFromArmy,
+  setSelectedUnit,
+  addToArmyList,
+  addToTotalPts,
+  delFromArmyList,
 
   //indexCard
   setIndexCard,
