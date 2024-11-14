@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          {/* <Route path="icard" element={<IndexCard />} /> */}
+          <Route path="icard" element={<IndexCard />} />
           <Route path="grapharmy" element={<Grapharmy />} />
           <Route path="grapharmy/:index" element={<IndexCard />} />
           <Route path="mymodels" element={<MyModels />} />

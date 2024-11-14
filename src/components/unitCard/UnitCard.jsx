@@ -16,6 +16,7 @@ const UnitCard = ({ props, fx }) => {
     wargear_options,
   } = props;
  
+  console.log(image)
     // const {
     //   armor_save,
     //   balistic_skill,
@@ -40,44 +41,28 @@ const UnitCard = ({ props, fx }) => {
 
   return (
     <div className="unit-card" onClick={() => fx()}>
-      <p className="unit-card__name">{points}pts</p>
-      <p className="unit-card__name">
-        {models > 1 ? `${models}x` : ""}
-         {name}
-      </p>
 
-      <ModelsImages imgName={image} type={"unit"} />
-      {wargear_options || point_cost.length > 1 ? (
-        <p className="unit-card__name" onClick={toggleSettings}>
-          wargear option
-        </p>
-      ) : (
-        <p className="unit-card__name">no options</p>
-      )}
+      <div className="unit-card_header">
 
-      <div className="unit-card__settings" style={{ display: isDisplay }}>
-        <p className="unit-card__name" onClick={toggleSettings}>
-          show card
-        </p>
-        {point_cost.length > 1 && (
-          <div>
-            <button className="unit-card__name">+</button>
-            <span className="unit-card__name"> size </span>
-            <button className="unit-card__name">-</button>
-          </div>
-        )}
-        {wargear_options && (
-          <div className='radio-option'>
-            <div className='radio-option_item' >
-              <input type="radio" name="weapon 1" id="1" /><label className="unit-card__name">weapon 1</label>
-            </div>
-            <div className='radio-option_item' >
-              <input type="radio" name="weapon 2" id="2" /><label className="unit-card__name">weapon 2</label>
-            </div>
-          </div>
-        )}
+          <div className="icon">icon-1</div>
+          <div className="center-icon">center</div>
+          <div className="icon">icon-2</div>
+
       </div>
-      <p className="unit-card__name">select</p>
+      <div className="unit-card_image-container">
+        <ModelsImages imgName={image} type={"unit"} />
+        {/* <img src={ModelsImages[image]} className='unit-card_image' alt="unit img" /> */}
+      </div>
+      <div className="unit-card_data-container">
+        <div className='unit-name'>{name}</div>
+      </div>
+      <div className="unit-card_action-container">
+        <button>_1_</button>
+        <button>_2_</button>
+        <button>_3_</button>
+        <button>_4_</button>
+      </div>
+
     </div>
   );
 };

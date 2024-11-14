@@ -55,6 +55,12 @@ code {
   animation: spin infinite 20s linear;
 }
 
+img{
+  max-width: 100%;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: spin infinite 20s linear;

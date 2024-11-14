@@ -14,7 +14,7 @@ const Card = ({ props }) => {
   const points = point_cost[0].cost || 100;
   const models = point_cost[0].amount || 1;
 
-  console.log(equiped);
+  // console.log(equiped);
   return (
     <div className="modelCard__header">
       <div className="modelCard__container-left">
