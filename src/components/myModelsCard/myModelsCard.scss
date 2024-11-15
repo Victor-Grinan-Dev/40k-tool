@@ -6,9 +6,9 @@
   flex-direction: column;
 
   &__header {
-    height: 15rem;
+    height: 23.5rem;
     width: 97vw;
-    max-width: 35rem;
+    max-width: 38rem;
     background-color: $primary-4;
     border-radius: 1rem;
     position: relative;
@@ -86,8 +86,7 @@
   &__image-container {
     position: relative;
     min-width: 60%;
-    // background-color: azure;
-    overflow: hidden;
+
     border-radius: 0 1rem 0 0;
     left: -4rem;
   }
@@ -99,14 +98,13 @@
   }
 
   &__model-image {
-    height: 40rem;
+    height: 100%;
     position: relative;
     object-fit: contain;
-    top: -12rem;
-    width: 20rem;
+
 
     @media only screen and (max-width: $bp-phone) {
-      left: -2rem;
+      left: -3rem;
     }
   }
 

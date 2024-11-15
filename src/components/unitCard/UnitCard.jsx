@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ModelsImages from "../modelsImages/ModelsImages";
-
+import marines from "../../assets/icon_marine.png";
+import IconImages from '../iconImages/IconImages';
+import spacewolves from  '../../assets/space_wolves/spacewolves_logo.png'
 
 const UnitCard = ({ props, fx }) => {
   /**this is mapped from army units array */
@@ -13,10 +15,11 @@ const UnitCard = ({ props, fx }) => {
     point_cost,
     name,
     image,
+    unit_type,
     wargear_options,
   } = props;
- 
-  console.log(image)
+
+  // console.log(image)
     // const {
     //   armor_save,
     //   balistic_skill,
@@ -27,6 +30,7 @@ const UnitCard = ({ props, fx }) => {
     //   weapon_skill,
     //   wounds,
     // } = stats;
+
 
   const points = point_cost[0].cost;
   const models = point_cost[0].amount;
@@ -44,14 +48,21 @@ const UnitCard = ({ props, fx }) => {
 
       <div className="unit-card_header">
 
-          <div className="icon">icon-1</div>
-          <div className="center-icon">center</div>
-          <div className="icon">icon-2</div>
+          <div className="icon-faction">
+            <img src={spacewolves} alt="sw icon" />
+          </div>
+          <div className="center-icon">
+            <img src={marines} alt="" />
+          </div>
+          <div className="icon">
+            <IconImages imgName={unit_type === "flyer" ? "heavy" : unit_type}/>
+          </div>
 
       </div>
       <div className="unit-card_image-container">
-        <ModelsImages imgName={image} type={"unit"} />
-        {/* <img src={ModelsImages[image]} className='unit-card_image' alt="unit img" /> */}
+        <div className="unit-card_overflow-effect">
+         <ModelsImages imgName={image} type={"unit"} />
+        </div>
       </div>
       <div className="unit-card_data-container">
         <div className='unit-name'>{name}</div>

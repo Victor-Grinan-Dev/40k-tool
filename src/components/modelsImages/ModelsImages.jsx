@@ -98,12 +98,14 @@ const ModelsImages = ({ imgName, type }) => {
     wulfens: wulfens,
     wulfen_dread: wulfen_dread,
   };
+
   const imagesTypes = {
-    listedModel: "my-models__card-image",
-    unit: "unit-card__image",
+    listedModel: "my-models__card-image my-army-model",
+    unit: "unit-card_image",
     selected: "modelCard__model-image",
     index: "indexCard__model-image",
   };
+  
   return (
     <img src={images[imgName]} alt={imgName} className={imagesTypes[type]} />
   );
