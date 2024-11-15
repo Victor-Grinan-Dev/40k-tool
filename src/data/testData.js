@@ -3,6 +3,7 @@ export const testData = [
     id: "",
     name: "Arjac Rockfist",
     nickname: "",
+    unit_type:"character",
     image: "arjac",
     point_cost: [
       {
@@ -83,6 +84,7 @@ export const testData = [
     id: "",
     name: "Bjorn the Fell-Handed",
     nickname: "",
+    unit_type:"character",
     image: "bjorn",
     point_cost: [
       {
@@ -166,6 +168,7 @@ export const testData = [
     id: "",
     name: "Blood Claws",
     nickname: "",
+    unit_type:"battleline",
     image: "bloodClaws",
     point_cost: [
       {
@@ -250,6 +253,7 @@ export const testData = [
     id: "",
     name: "Canis Wolfborn ",
     nickname: "",
+    unit_type:"character",
     image: "canis_wolfborn",
     point_cost: [
       {
@@ -321,6 +325,7 @@ export const testData = [
     id: "",
     name: "Cyberwolf",
     nickname: "",
+    unit_type:"fast",
     image: "cyberwolf",
     point_cost: [
       {
@@ -389,6 +394,7 @@ export const testData = [
     id: "",
     name: "Fenrisian Wolves",
     nickname: "",
+    unit_type:"fast",
     image: "fenrisianWolf",
     point_cost: [
       {
@@ -449,6 +455,7 @@ export const testData = [
     id: "",
     name: "Grey Hunters",
     nickname: "",
+    unit_type:"battleline",
     image: "greyHunters",
     point_cost: [
       {
@@ -532,6 +539,7 @@ export const testData = [
     id: "",
     name: "Harald Deathwolf",
     nickname: "",
+    unit_type:"character",
     image: "haraldDeathwolf",
     point_cost: [
       {
@@ -605,6 +613,7 @@ export const testData = [
     id: "",
     name: "Iron Priest",
     nickname: "",
+    unit_type:"character",
     image: "ironPriest",
     point_cost: [
       {
@@ -685,6 +694,7 @@ export const testData = [
     id: "",
     name: "Krom Dragongaze",
     nickname: "",
+    unit_type:"character",
     image: "kromDragongaze",
     point_cost: [
       {
@@ -757,6 +767,7 @@ export const testData = [
     id: "",
     name: "Logan Grimnar",
     nickname: "",
+    unit_type:"character",
     image: "loganGrimnar",
     point_cost: [
       {
@@ -839,6 +850,7 @@ export const testData = [
     id: "",
     name: "Grimnar on Stormrider",
     nickname: "",
+    unit_type:"character",
     image: "loganStormrider",
     point_cost: [
       {
@@ -911,6 +923,7 @@ export const testData = [
     id: "",
     name: "Long Fangs",
     nickname: "",
+    unit_type:"heavy",
     image: "longFangs",
     point_cost: [
       {
@@ -1012,6 +1025,7 @@ export const testData = [
     id: "",
     name: "Lukas the Trickster",
     nickname: "",
+    unit_type:"elite",
     image: "lucas",
     point_cost: [
       {
@@ -1086,6 +1100,7 @@ export const testData = [
     id: "",
     name: "Murderfang",
     nickname: "",
+    unit_type:"elite",
     image: "murderfang",
     point_cost: [
       {
@@ -1147,16 +1162,13 @@ export const testData = [
 
     lore: `A stampeding mechanical beast is unleashed from beneath the Fang
     in times of need, its massively brutal claws tearing its foes limb from
-    id:"",bloody limb. The Chapter 
-    names it Murderfang. Its true identity is
-    nickname:"",
-    unknown for its insensate snarling rages are bereft of speech; it is
-    known now only as a force of untamed destruction`,
+    id:"",bloody limb. The Chapter names it Murderfang. Its true identity is unknown for its insensate snarling rages are bereft of speech; it is known now only as a force of untamed destruction`,
   },
   {
     id: "",
     name: "Njal Stormcaller",
     nickname: "",
+    unit_type:"character",
     image: "njal",
     point_cost: [
       {
@@ -1230,6 +1242,7 @@ export const testData = [
     id: "",
     name: "Ragnar Blackmane",
     nickname: "",
+    unit_type:"character",
     image: "ragnar",
     point_cost: [
       {
@@ -1308,6 +1321,7 @@ export const testData = [
     id: "",
     name: "Skyclaws",
     nickname: "",
+    unit_type:"fast",
     image: "skyclaws",
     point_cost: [
       {
@@ -1394,6 +1408,7 @@ export const testData = [
     id: "",
     name: "Venerable Dreadnought",
     nickname: "",
+    unit_type:"elite",
     image: "vendread",
     point_cost: [
       {
@@ -1465,6 +1480,7 @@ export const testData = [
     id: "",
     name: "Stormfang Gunship",
     nickname: "",
+    unit_type:"flyer",
     image: "stormfang",
     point_cost: [
       {
@@ -1561,6 +1577,7 @@ export const testData = [
     id: "",
     name: "Stormwolf",
     nickname: "",
+    unit_type:"flyer",
     image: "stromwolf",
     point_cost: [
       {
@@ -1648,6 +1665,7 @@ export const testData = [
     id: "",
     name: "Thunderwolf Cavalry",
     nickname: "",
+    unit_type:"fast",
     image: "thunderwolfCavalry",
     point_cost: [
       {
@@ -1721,6 +1739,7 @@ export const testData = [
     id: "",
     name: "Ulrik the Slayer",
     nickname: "",
+    unit_type:"character",
     image: "ulrik",
     point_cost: [
       {
@@ -1798,6 +1817,7 @@ export const testData = [
     id: "",
     name: "Wolf Guards",
     nickname: "",
+    unit_type:"elite",
     image: "wolfguards",
     point_cost: [
       {
@@ -1876,6 +1896,7 @@ export const testData = [
     id: "",
     name: "Wolf Guard Battle Leader in Terminator Armour",
     nickname: "",
+    unit_type:"character",
     image: "wolfguard__terminator_hammer",
     point_cost: [
       {
@@ -1973,6 +1994,7 @@ export const testData = [
     id: "",
     name: "Wolf Guard Terminators",
     nickname: "",
+    unit_type:"elite",
     image: "terminators",
     point_cost: [
       {
@@ -2086,6 +2108,7 @@ export const testData = [
     id: "",
     name: "Wolf Guard Battle Leader on Thunderwolf",
     nickname: "",
+    unit_type:"character",
     image: "wolfguard_battle_leader_on_thunderwolf",
     point_cost: [
       {
@@ -2194,6 +2217,7 @@ export const testData = [
     id: "",
     name: "Wolf Guard Pack Leader",
     nickname: "",
+    unit_type:"elite",
     image: "wolfguard",
     point_cost: [
       {
@@ -2294,6 +2318,7 @@ export const testData = [
     id: "",
     name: "Wolf Guard Pack Leader in Terminator Armour",
     nickname: "",
+    unit_type:"elite",
     image: "wolfguard_terminator_claws",
     point_cost: [
       {
@@ -2399,6 +2424,7 @@ export const testData = [
     id: "",
     name: "Wolf Guard Pack Leader with Jump Pack",
     nickname: "",
+    unit_type:"fast",
     image: "wolfguard_jumppack",
     point_cost: [
       {
@@ -2500,6 +2526,7 @@ export const testData = [
     id: "",
     name: "Wolf Lord on Thunderwolf",
     nickname: "",
+    unit_type:"character",
     image: "wolflord_thunderwolf",
     point_cost: [
       {
@@ -2601,6 +2628,7 @@ export const testData = [
     id: "",
     name: "Wulfen",
     nickname: "",
+    unit_type:"elite",
     image: "wulfens",
     point_cost: [
       {
@@ -2678,6 +2706,7 @@ export const testData = [
     id: "",
     name: "Wulfen Dreadnought",
     nickname: "",
+    unit_type:"elite",
     image: "wulfen_dread",
     point_cost: [
       {
@@ -2759,6 +2788,7 @@ export const testData = [
         id:"",
         name: "Hounds of Morkai",
         nickname:"",
+        unit_type:"",
         image: "",
         point_cost: [
           {
@@ -2819,6 +2849,7 @@ export const testData = [
         id:"",
         name: "Wolf Scouts",
         nickname:"",
+        unit_type:"",
         image: "",
         point_cost: [
           {
