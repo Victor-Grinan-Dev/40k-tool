@@ -1,0 +1,160 @@
+[b]++ Army Roster (Imperium - Adeptus Astartes - Space Wolves) [26,975pts] ++[/b]
+
+[b]+ Configuration +[/b]
+
+
+[b]Battle Size:[/b] 3. Onslaught (3000 Point limit)
+
+[b]Detachment:[/b] Champions of Russ
+
+[b]Show/Hide Options:[/b] Agents of the Imperium are visible, Imperial Knights are visible, Legends are visible, Titans are visible, Unaligned Forces are visible, Unaligned Fortifications are visible
+
+[b]+ Epic Hero +[/b]
+
+
+[b]Arjac Rockfist [95pts][/b]
+
+[b]Bjorn the Fell-Handed [180pts]:[/b] Helfrost cannon
+
+[b]Canis Wolfborn [75pts][/b]
+
+[b]Carab Culln the Risen [Legends] [250pts][/b]
+
+[b]Harald Deathwolf [85pts][/b]
+
+[b]Krom Dragongaze [65pts][/b]
+
+[b]Logan Grimnar [100pts][/b]
+
+[b]Logan Grimnar on Stormrider [180pts]:[/b] Warlord
+
+[b]Lukas the Trickster [50pts][/b]
+
+[b]Murderfang [170pts][/b]
+
+[b]Njal Stormcaller [85pts][/b]
+
+[b]Ragnar Blackmane [90pts][/b]
+
+[b]Ulric the Slayer [70pts][/b]
+
+[b]+ Character +[/b]
+
+
+[b]Ancient [50pts]:[/b] Power Weapon
+
+[b]Ancient in Terminator Armor [75pts][/b]
+
+. Storm Bolter and Melee Weapon: Power Fist
+
+[b]Ancient on Bike [Legends] [90pts][/b]
+
+[b]Apothecary [50pts][/b]
+
+[b]Apothecary Biologis [55pts][/b]
+
+[b]Apothecary on Bike [Legends] [65pts][/b]
+
+[b]Bladeguard Ancient [45pts][/b]
+
+[b]Captain [80pts][/b]
+
+. Bolt Pistol, Master-crafted Bolt Rifle, Melee Weapon: Close Combat Weapon
+
+[b]Captain in Gravis Armour [80pts][/b]
+
+. Master-crafted Heavy Bolt Rifle and Master-crafted Power Weapon
+
+[b]Captain in Phobos Armour [80pts][/b]
+
+[b]Captain in Terminator Armour [95pts]:[/b] Relic Weapon, Storm Bolter
+
+[b]Captain on Bike [Legends] [95pts]:[/b] Astartes Chainsword, Bolt Pistol
+
+[b]Captain with Jump Pack [85pts][/b]
+
+. Melee and Pistol: Astartes Chainsword, Heavy Bolt Pistol
+
+[b]Chaplain [60pts][/b]
+
+[b]Chaplain in Terminator Armour [75pts]:[/b] Storm Bolter
+
+[b]Chaplain on Bike [75pts][/b]
+
+[b]Chaplain with Jump Pack [75pts][/b]
+
+[b]Company Champion on Bike [Legends] [60pts][/b]
+
+[b]Cyberwolf [20pts][/b]
+
+[b]Imperial Space Marine [Legends] [40pts][/b]
+
+[b]Iron Priest [60pts][/b]
+
+[b]Iron Priest on Thunderwolf [Legends] [95pts][/b]
+
+[b]Judiciar [70pts][/b]
+
+[b]Librarian [65pts][/b]
+
+[b]Librarian in Phobos Armour [70pts][/b]
+
+[b]Librarian in Terminator Armour [75pts][/b]
+
+[b]Librarian on Bike [Legends] [80pts][/b]
+
+[b]Librarian with Jump Pack [Legends] [75pts]:[/b] Bolt Pistol
+
+[b]Lieutenant [65pts][/b]
+
+. Pistol, Master-crafted Bolt Rifle & Melee Weapon: Bolt Pistol, Close Combat Weapon, Master-crafted Bolt Rifle
+
+[b]Lieutenant in Phobos Armour [55pts][/b]
+
+[b]Lieutenant in Reiver Armour [55pts][/b]
+
+[b]Lieutenant with Combi-weapon [70pts][/b]
+
+[b]Primaris Company Champion [Legends] [55pts][/b]
+
+[b]Techmarine [55pts][/b]
+
+[b]Techmarine on Bike [Legends] [110pts][/b]
+
+[b]Wolf Guard Battle Leader in Terminator Armour [75pts]:[/b] Power weapon, Storm bolter
+
+[b]Wolf Guard Battle Leader on Thunderwolf [80pts]:[/b] Bolt Pistol, Relic weapon
+
+[b]Wolf Guard Pack Leader [30pts]:[/b] Bolt Pistol, Boltgun
+
+[b]Wolf Guard Pack Leader in Terminator Armour [40pts]:[/b] Power Weapon, Storm bolter
+
+[b]Wolf Guard Pack Leader with Jump Pack [35pts]:[/b] Astartes Chainsword, Bolt Pistol
+
+[b]Wolf Lord on Thunderwolf [100pts]:[/b] Bolt Pistol, Relic Weapon
+
+[b]+ Battleline +[/b]
+
+
+[b]Assault Intercessor Squad [75pts][/b]
+
+. Assault Intercessor Sergeant: Astartes Chainsword, Heavy Bolt Pistol
+. 4x Assault Intercessors: 4x Astartes Chainsword, 4x Heavy Bolt Pistol
+
+[b]Blood Claws [140pts][/b]
+
+. 9x Blood Claw: 9x Astartes chainsword, 9x Bolt Pistol
+. Blood Claw Pack Leader: Astartes chainsword, Bolt Pistol
+
+[b]Grey Hunters [170pts][/b]
+
+. Grey Hunter Pack Leader: Astartes chainsword, Power Weapon
+. 6x Grey Hunter w/ chainsword: 6x Astartes chainsword, 6x Bolt Pistol, 6x Boltgun, 6x Close combat weapon
+. Grey Hunter w/Plasma Pistol: Astartes chainsword
+. Grey Hunter w/Special Weapon: Astartes chainsword, Plasma Gun
+. Grey Hunter w/Special Weapon: Astartes chainsword, Plasma Gun
+
+[b]Heavy Intercessor Squad [100pts][/b]
+
+. Heavy Intercessor Sergeant
+. 4x Heavy Intercessors: 4x Bolt Pistol, 4x Close Combat Weapon,

@@ -1,0 +1,27 @@
+.models-images {
+    position: absolute;
+    bottom: 0;
+    vertical-align: bottom;
+
+    &_model-card{
+      width: 5rem;
+      margin: 0 1rem;
+    }
+    
+    &_selected-card{
+        height: 100%;
+    }
+
+    &_unit-card{
+
+    }
+
+    &_combined-unit-card{
+        //the image containen several model of different images
+    }
+
+    &_detailed-card{
+
+    }
+
+  }

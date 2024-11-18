@@ -6,9 +6,10 @@
   gap: 0.5rem;
 
   height: fit-content;
-
+  transition: all .3s;
 
   &__card, &__card-disabled{
+    overflow: hidden;
     width: 95vw;
     height: 5rem;
     border-radius: 0.5rem;
@@ -16,6 +17,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
+    transition: all .5s;
   }
 
   &__card {
@@ -24,9 +26,10 @@
     &-text {
       font-size: 1rem;
     }
-    &-image {
-      width: 5rem;
-      margin: 0 1rem;
+
+    &:hover img{
+      transition: all .5s;
+      transform: scale(1.3);
     }
 
     &:hover {

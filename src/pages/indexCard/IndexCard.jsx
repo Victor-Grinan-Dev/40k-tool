@@ -20,6 +20,7 @@ import Transport from "./subcomponents/Transport";
 const IndexCard = () => {
   const location = useLocation();
   const dispatch = useDispatch();
+  
   const indexCard = useSelector((state) => state.app.indexCard);
   useEffect(() => {
     dispatch(setIndexCard(location.state));
@@ -31,6 +32,7 @@ const IndexCard = () => {
     stats,
     point_cost,
     image,
+
     // equiped,
     wargear_options,
     abilities,

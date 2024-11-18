@@ -12,6 +12,19 @@ const MyModelsCard = ({modelData}, key) => {
     const armyList = useSelector(state=>state.app.army.armyList);
     const [maxAmount, setMaxAmount] = useState(null);
 
+    useEffect(() => {
+        if(modelData){
+            setUnitCount(isUnitInArmyList(modelData.name, armyList));
+        }
+    // eslint-disable-next-line
+    }, [armyList]) 
+      
+    useEffect(() => {
+        if(modelData){
+            modelData.keywords.includes("Epic Hero") ? setMaxAmount(1) : modelData.keywords.includes("Battleline") ? setMaxAmount(6) : setMaxAmount(3);
+        }
+    // eslint-disable-next-line
+    }, [modelData])
 
     const handleSelectModel = (unit) => {
         if (unitCount < maxAmount){
@@ -19,21 +32,7 @@ const MyModelsCard = ({modelData}, key) => {
             dispatch(addToArmyList(unit))
         }
     }
-    useEffect(() => {
-        if(modelData){
-            setUnitCount(isUnitInArmyList(modelData.name, armyList));
-        }
-        // eslint-disable-next-line
-    }, [armyList]) 
-      
-    useEffect(() => {
-        if(modelData){
-            modelData.keywords.includes("Epic Hero") ? setMaxAmount(1) : modelData.keywords.includes("Battleline") ? setMaxAmount(6) : setMaxAmount(3);
-        }
 
-    // eslint-disable-next-line
-    }, [modelData])
-    
   return (
       <>
         {modelData && 
@@ -43,7 +42,7 @@ const MyModelsCard = ({modelData}, key) => {
                 onClick={ ()=>handleSelectModel(modelData) }
                 tabIndex={0}
             >
-                <ModelsImages imgName={modelData?.image} type={"listedModel"} />
+                <ModelsImages imgName={modelData?.image} type={"model"} />
                 <p className="my-models__card-text pts">
                 {modelData?.point_cost[0].cost}pts
                 </p>

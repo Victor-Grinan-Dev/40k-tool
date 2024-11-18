@@ -5,6 +5,11 @@
   display: flex;
   flex-direction: column;
 
+  transition: all .3s;
+  &:hover > img{
+      transform: scale(1.2);
+  }
+
   &__header {
     height: 23.5rem;
     width: 97vw;
@@ -91,22 +96,22 @@
     left: -4rem;
   }
 
-  @media only screen and (max-width: $bp-phone) {
-    &__image-container {
-      left: 0;
-    }
-  }
+  // @media only screen and (max-width: $bp-phone) {
+  //   &__image-container {
+  //     left: 0;
+  //   }
+  // }
 
-  &__model-image {
-    height: 100%;
-    position: relative;
-    object-fit: contain;
+  // &__model-image {
+  //   height: 100%;
+  //   position: relative;
+  //   object-fit: contain;
 
 
-    @media only screen and (max-width: $bp-phone) {
-      left: -3rem;
-    }
-  }
+  //   @media only screen and (max-width: $bp-phone) {
+  //     left: -3rem;
+    // }
+  // }
 
   &__wargear-container {
     display: flex;
