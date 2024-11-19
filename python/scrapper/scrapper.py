@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import re
 
 def scrape_content(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -40,14 +41,23 @@ def scrape_summary(html_content):
     for summary in summary_selections:
         content = summary.find_all('p')
         for p in content:
-           span_tag = p.find('span', class_='bold')
-           key = span_tag.text.replace(':', '').strip().lower()
-           span_tag.extract()
-           value = p.text.strip()
+            span_tag = p.find('span', class_='bold')
+            key = span_tag.text.replace(':', '').strip().lower()
+            span_tag.extract()
+            value = p.text.strip()
 
-           result[key] = value
+            # Remove newline characters
+            value = value.replace("\n", "")
+
+            # Remove text inside parentheses, including parentheses
+            value = re.sub(r'\s*\(.*?\)\s*', '', value)
+
+            # Remove extra spaces
+            value = re.sub(r'\s+', ' ', value).strip()
+
+            result[key] = value
     
-    print(result)
+    return result
     
 
 

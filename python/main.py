@@ -9,8 +9,12 @@ import os
 def main(filename):
 
     list_filename = filename.split("/")
+    file_name = list_filename[-1].split('.')[0] + ".json"
+
+    cwd = find_cwd()
+    save_directory = cwd + "\\" + "src/data/prod"
     full_path = os.path.join(*list_filename)
-    html_file_path = find_cwd() + "\\" + full_path
+    html_file_path = cwd + "\\" + full_path
 
     html_content = read_html_file(html_file_path)
 
@@ -21,9 +25,9 @@ def main(filename):
     # scraped_data = scrape_content(html_content)
     scraped_data = scrape_summary(html_content)
 
-    print(scraped_data)
+    # print(scraped_data)
    
-    # create_json(json_file_name, scraped_data, save_directory)
+    create_json(file_name, scraped_data, save_directory)
 
 if __name__ == "__main__":
     main("src/data/bs/wolves_app_test.html")
